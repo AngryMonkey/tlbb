@@ -1,0 +1,135 @@
+-- 珍兽还童卷轴
+
+
+-- 宠物通用功能脚本
+x334834_g_petCommonId = PETCOMMON
+
+--******************************************************************************
+-- 以下部分需要是需要修改的部分
+--******************************************************************************
+
+--脚本号 （改成正确脚本号）
+x334834_g_scriptId = 334834
+
+--标准效果ID （改成宠物使用驯养道具的特效）
+--g_ImpactID = 0
+
+--******************************************************************************
+-- 以上部分需要是需要修改的部分
+--******************************************************************************
+
+--脚本
+
+--**********************************
+--必须返回 1 才能正确执行以下流程
+--**********************************
+function x334834_IsSkillLikeScript( sceneId, selfId)
+	return 1
+end
+
+--**********************************
+--条件检测入口：
+--系统会在技能检测的时间点调用这个接口，并根据这个函数的返回值确定以后的流程是否执行。
+--返回1：条件检测通过，可以继续执行；返回0：条件检测失败，中断后续执行。
+--**********************************
+function x334834_OnConditionCheck( sceneId, selfId )
+	--校验使用的物品
+	if(1~=LuaFnVerifyUsedItem(sceneId, selfId)) then
+		return 0
+	end
+
+	petGUID_H = LuaFnGetHighSectionOfTargetPetGuid( sceneId, selfId )
+	petGUID_L = LuaFnGetLowSectionOfTargetPetGuid( sceneId, selfId )
+
+	if LuaFnGetPetLevelByGUID( sceneId, selfId, petGUID_H, petGUID_L ) >= 70 then
+		BeginEvent( sceneId )
+			AddText( sceneId, "您的宠物超过 70 级，请使用高级还童丹进行还童。" )
+		EndEvent( sceneId )
+		DispatchMissionTips( sceneId, selfId )
+		return 0
+	end
+	
+	local petDataID = LuaFnGetPetDataIDByGUID(sceneId, selfId, petGUID_H, petGUID_L);
+	if not petDataID or petDataID < 0 then
+		BeginEvent( sceneId )
+			AddText( sceneId, "无法对指定珍兽进行还童。" )
+		EndEvent( sceneId )
+		DispatchMissionTips( sceneId, selfId )
+		return 0
+	end
+	
+	local petTakeLevel = GetPetTakeLevel(petDataID);
+	if not petTakeLevel or petTakeLevel < 1 then
+		BeginEvent( sceneId )
+			AddText( sceneId, "无法识别珍兽的携带等级。" )
+		EndEvent( sceneId )
+		DispatchMissionTips( sceneId, selfId )
+		return 0
+	end
+	
+	if petTakeLevel > 85 then
+		BeginEvent( sceneId )
+			AddText( sceneId, "#{95ZSH_081121_01}" )
+		EndEvent( sceneId )
+		DispatchMissionTips( sceneId, selfId )
+		return 0
+	end
+
+	if LuaFnPetCanReturnToChild( sceneId, selfId, petGUID_H, petGUID_L, 0, -1) == 0 then
+		return 0
+	end
+
+	return 1
+end
+
+--**********************************
+--消耗检测及处理入口：
+--系统会在技能消耗的时间点调用这个接口，并根据这个函数的返回值确定以后的流程是否执行。
+--返回1：消耗处理通过，可以继续执行；返回0：消耗检测失败，中断后续执行。
+--注意：这不光负责消耗的检测也负责消耗的执行。
+--**********************************
+function x334834_OnDeplete( sceneId, selfId )
+	if(0<LuaFnDepletingUsedItem(sceneId, selfId)) then
+		return 1
+	end
+	return 0
+end
+
+--**********************************
+--只会执行一次入口：
+--聚气和瞬发技能会在消耗完成后调用这个接口（聚气结束并且各种条件都满足的时候），而引导
+--技能也会在消耗完成后调用这个接口（技能的一开始，消耗成功执行之后）。
+--返回1：处理成功；返回0：处理失败。
+--注：这里是技能生效一次的入口
+--**********************************
+function x334834_OnActivateOnce( sceneId, selfId )
+	petGUID_H = LuaFnGetHighSectionOfTargetPetGuid( sceneId, selfId )
+	petGUID_L = LuaFnGetLowSectionOfTargetPetGuid( sceneId, selfId )
+
+	local ret,curLevel = LuaFnPetReturnToChild( sceneId, selfId, petGUID_H, petGUID_L, 0, -1)	--modify by xindefeng
+	
+	--还童成功要有醒目提示--add by xindefeng
+	if((ret ~= nil) or (ret == 1))then
+		BeginEvent( sceneId )
+			AddText( sceneId, "珍兽还童成功！" )
+		EndEvent( sceneId )
+		DispatchMissionTips( sceneId, selfId )	
+	end
+
+	return 1
+end
+
+--**********************************
+--引导心跳处理入口：
+--引导技能会在每次心跳结束时调用这个接口。
+--返回：1继续下次心跳；0：中断引导。
+--注：这里是技能生效一次的入口
+--**********************************
+function x334834_OnActivateEachTick( sceneId, selfId )
+	return 1
+end
+
+-- 这个函数没有什么用，但是必须有
+function x334834_CancelImpacts( sceneId, selfId )
+	return 0
+end

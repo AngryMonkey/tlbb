@@ -1,0 +1,21 @@
+;圣兽山年兽：40%机率群体嘲讽（630），血少于30%时以30%机率释放群体破绽（631） 玄雷咒(555)好了就放
+[common]
+[commonend]
+
+[skill]
+0:if(AIS_IsCanSkill(614)=1){AIS_ToSkill(614);AIS_SetTimes(-1);AIS_SetPRI(29);};如果能使用614号技能则释放，次数不限（普通远程)
+1:if(AIS_GetAIState()=SATTACK&AIS_Rand()<40&AIS_IsCanSkill(630)=1){AIS_ToSkill(630);AIS_SetTimes(-1);AIS_SetPRI(31);};40％机率释放630号技能（群体嘲讽），次数不限
+2:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<70&AIS_Rand()<50&AIS_IsCanSkill(631)=1){AIS_ToSkill(631);AIS_SetTimes(-1);AIS_SetPRI(32);};在血少于70%时以50%几率释放631号技能（群体破绽），次数不限
+3:if(AIS_IsCanSkill(555)=1){AIS_ToSkill(555);AIS_SetTimes(-1);AIS_SetPRI(33);};如果能使用555号技能（玄雷咒）则释放，次数不限
+[skillend]
+
+[beskill]
+[beskillend]
+
+[damage]
+[damageend]
+
+[dead]
+
+[deadend]
+

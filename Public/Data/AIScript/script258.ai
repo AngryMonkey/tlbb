@@ -1,0 +1,20 @@
+;圣兽山暴走野猪：进入战斗后释放拼命（1021） 烈爪狂击(588)好了就放
+[common]
+[commonend]
+
+[skill]
+0:if(AIS_IsCanSkill(0)=1){AIS_ToSkill(0);AIS_SetTimes(-1);AIS_SetPRI(30);};如果能使用0号技能（普通攻击）则释放，次数不限
+1:if(AIS_GetAIState()=SATTACK&AIS_IsCanSkill(1021)=1){AIS_ToSkill(1021);AIS_SetTimes(1);AIS_SetPRI(31);};进入战斗后释放1021号技能（拼命），次数1次
+2:if(AIS_IsCanSkill(588)=1){AIS_ToSkill(588);AIS_SetTimes(-1);AIS_SetPRI(32);};如果能使用588号技能（烈爪狂击）则释放，次数不限
+[skillend]
+
+[beskill]
+[beskillend]
+
+[damage]
+[damageend]
+
+[dead]
+
+[deadend]
+

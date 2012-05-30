@@ -1,0 +1,29 @@
+;远古棋魂 主动攻击，施放技能1584 技能2群魔乱舞559
+;刷新时：泡泡内容“本山人已经很长时间没有出手了，既然你们来了也好，帮我活动活动筋骨”[58]
+;当损失的HP第一次大于等于“1/3”时：泡泡内容“咦……看来你们几个还不一般啊，我得认真对待了”[59]。施放技能1，一次性施放。
+;当损失的HP第一次大于等于“2/3”时：：泡泡内容“是你们逼我的……看掌”[60]，施放技能2，一次性施放。
+;当死亡时，泡泡内容“呃……就这样结束了吗？不，我还会在珍珑棋局中再生的！哈哈 ！”[61]。
+[common]
+0:if(AIS_GetAIState()=SATTACK&AIS_IsHasEnemy()=1){AIS_ToSpeak(58,1);AIS_SetTimes(1);AIS_SetPRI(31);};
+[commonend]
+
+[skill]
+0:if(AIS_IsCanSkill(614)=1){AIS_ToSkill(614);AIS_SetTimes(-1);AIS_SetPRI(30);};如果能使用614号技能（痛击）则释放，次数不限（普通攻击）
+1:if(AIS_GetAIState()=SATTACK&AIS_Rand()<20&AIS_IsCanSkill(555)=1){AIS_ToSkill(555);AIS_SetTimes(-1);AIS_SetPRI(33);};20％机率释放555号技能（玄雷咒），次数不限
+2:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<70&AIS_IsCanSkill(559)=1){AIS_ToSkill(559);AIS_SetTimes(3);AIS_SetPRI(34);};在血少于70%时释放559号技能(玄爆)，次数3
+3:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<30&AIS_IsCanSkill(615)=1){AIS_ToSkill(615);AIS_SetTimes(1);AIS_SetPRI(38);};在血少于30%时释放615号技能(狂雷天牢)，次数1
+4:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<70){AIS_ToSpeak(59,1);AIS_SetTimes(1);AIS_SetPRI(31);};
+5:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<30){AIS_ToSpeak(60,1);AIS_SetTimes(1);AIS_SetPRI(31);};
+6:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<1){AIS_ToSpeak(61,1);AIS_SetTimes(1);AIS_SetPRI(31);};
+[skillend]
+
+[beskill]
+[beskillend]
+
+[damage]
+[damageend]
+
+[dead]
+
+[deadend]
+

@@ -1,0 +1,25 @@
+;圣兽山尖牙野猪王：1.攻击中30%令敌人减速（573）
+;                  2.血少于50%时 加防（585）
+;                  3.血少于20%时 暴走（628）
+;									 4.利牙咆哮（590），50%机率放；
+[common]
+[commonend]
+
+[skill]
+0:if(AIS_GetAIState()=SATTACK&AIS_IsCanSkill(0)=1){AIS_ToSkill(0);AIS_SetTimes(-1);AIS_SetPRI(30);};如果能使用0号技能（普通攻击）则释放，次数不限
+1:if(AIS_GetAIState()=SATTACK&AIS_Rand()<30&AIS_IsCanSkill(573)=1){AIS_ToSkill(573);AIS_SetTimes(-1);AIS_SetPRI(31);};攻击中30%时几率释放573号技能（死缠烂打），次数不限
+2:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<50&AIS_IsCanSkill(585)=1){AIS_ToSkill(585);AIS_SetTimes(1);AIS_SetPRI(32);};血少于50%时释放585号技能（加防），次数1次
+3:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<20&AIS_IsCanSkill(628)=1){AIS_ToSkill(628);AIS_SetTimes(1);AIS_SetPRI(33);};血少于20%时释放628号技能（加攻击加会心），次数1次
+4:if(AIS_GetAIState()=SATTACK&AIS_IsCanSkill(590)=1&AIS_Rand()<50){AIS_ToSkill(590);AIS_SetTimes(-1);AIS_SetPRI(34);};利牙咆哮（590），50%机率；
+[skillend]
+
+[beskill]
+[beskillend]
+
+[damage]
+[damageend]
+
+[dead]
+
+[deadend]
+

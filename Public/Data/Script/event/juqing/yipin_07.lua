@@ -1,0 +1,279 @@
+-- 200056 一生有你 
+-- 护送虚竹找到梦姑
+
+-- 一生有你
+
+--MisDescBegin
+--脚本号
+x200056_g_ScriptId = 200056
+
+--任务号
+x200056_g_MissionId = 45
+
+--前续任务号
+x200056_g_PreMissionId = 44
+
+--目标NPC
+x200056_g_Name	="虚竹"
+
+-- 
+x200056_g_Name1 = "李清露"
+
+--任务归类
+x200056_g_MissionKind = 49
+
+--任务等级
+x200056_g_MissionLevel = 70
+
+--是否是精英任务
+x200056_g_IfMissionElite = 0
+
+--任务名
+x200056_g_MissionName="一生有你"
+--任务描述
+x200056_g_MissionInfo="#{Mis_juqing_0045}"
+--任务目标
+x200056_g_MissionTarget="#{Mis_juqing_Tar_0045}"		
+--提交时npc的话
+x200056_g_MissionComplete="  谢谢你，$N。我和梦郎以后就在这里幸福的生活下去了。"		
+
+x200056_g_MoneyBonus=48600
+x200056_g_exp=86400
+
+x200056_g_RadioItemBonus={{id=10423016 ,num=1},{id=10423017,num=1},{id=10423018,num=1},{id=10423019,num=1}}
+
+x200056_g_Custom	= { {id="已护送虚竹",num=1} }
+
+--MisDescEnd
+
+--**********************************
+--任务入口函数
+--**********************************
+function x200056_OnDefaultEvent( sceneId, selfId, targetId )	--点击该任务后执行此脚本
+	
+	if IsHaveMission(sceneId,selfId,x200056_g_MissionId) > 0 then
+		if GetName(sceneId, targetId) == x200056_g_Name1  then
+			--需要任务完成才可以
+			local misIndex = GetMissionIndexByID(sceneId, selfId, x200056_g_MissionId)--得到任务在20个任务中的序列号
+			if GetMissionParam(sceneId, selfId, misIndex, 0) == 1	then   --如果护送完成
+				x200056_OnContinue( sceneId, selfId, targetId )
+			end
+		end
+		
+	elseif x200056_CheckAccept(sceneId,selfId) > 0 then
+
+		BeginEvent(sceneId)
+			AddText(sceneId, x200056_g_MissionName)
+			AddText(sceneId, x200056_g_MissionInfo)
+			AddText(sceneId,"#{M_MUBIAO}#r")
+			AddText(sceneId, x200056_g_MissionTarget)
+			AddText(sceneId,"#{M_SHOUHUO}#r")
+			AddMoneyBonus( sceneId, x200056_g_MoneyBonus )
+			for i, item in x200056_g_RadioItemBonus do
+				AddRadioItemBonus( sceneId, item.id, item.num )
+			end
+		EndEvent( )
+		DispatchMissionInfo(sceneId,selfId,targetId,x200056_g_ScriptId,x200056_g_MissionId)
+	end	
+end
+
+--**********************************
+--列举事件
+--**********************************
+function x200056_OnEnumerate( sceneId, selfId, targetId )
+
+	if 0 > GetLevel(sceneId, selfId)  then
+		return
+	end
+	
+	-- 如果前续任务1没有完成，就返回
+	if IsMissionHaveDone(sceneId, selfId, x200056_g_PreMissionId) <= 0   then
+		return
+	end
+	-- 如果本任务已经完成，就返回
+	if IsMissionHaveDone(sceneId, selfId, x200056_g_MissionId) > 0 then
+   	return
+	--满足任务接收条件
+	elseif IsHaveMission(sceneId, selfId, x200056_g_MissionId) > 0 then
+		if GetName(sceneId, targetId) == x200056_g_Name1  then
+			local misIndex = GetMissionIndexByID(sceneId, selfId, x200056_g_MissionId)--得到任务在20个任务中的序列号
+			if GetMissionParam(sceneId, selfId, misIndex, 0) == 1	then   --如果护送完成
+				AddNumText(sceneId, x200056_g_ScriptId, x200056_g_MissionName,2,0);
+			end
+		end
+		
+	--满足任务接收条件
+  elseif x200056_CheckAccept(sceneId, selfId) > 0 then
+		if GetName(sceneId, targetId) == x200056_g_Name then
+			AddNumText(sceneId, x200056_g_ScriptId, x200056_g_MissionName,1,-1);
+		end
+  end
+end
+
+--**********************************
+-- 
+--**********************************
+function x200056_OnLockedTarget( sceneId, selfId, targetId )
+
+end
+
+--**********************************
+--检测接受条件
+--**********************************
+function x200056_CheckAccept( sceneId, selfId )
+	-- 接任务的条件是，人物达到20级以上，并且完成了前续任务
+	if GetLevel(sceneId, selfId) < 20   then
+		return 0
+	end
+	
+	if IsMissionHaveDone(sceneId, selfId, x200056_g_PreMissionId ) < 1   then
+		return 0
+	end
+	
+	return 1
+end
+
+--**********************************
+--接受
+--**********************************
+function x200056_OnAccept( sceneId, selfId, targetId )
+
+	-- 检测玩家是不是已经完成过这个任务
+	if IsMissionHaveDone(sceneId, selfId, x200056_g_MissionId) > 0   then
+		return
+	end
+
+	--加入任务到玩家列表
+	local ret = AddMission( sceneId,selfId, x200056_g_MissionId, x200056_g_ScriptId, 0, 0, 0 )
+	if ret <= 0 then
+		Msg2Player(  sceneId, selfId,"#Y你的任务日志已经满了" , MSG2PLAYER_PARA )
+		return
+	end
+	
+	--设置任务变量宝物的场景编号和坐标位置
+	local misIndex = GetMissionIndexByID(sceneId, selfId, x200056_g_MissionId)--得到任务在20个任务中的序列号
+	SetMissionByIndex(sceneId,selfId,misIndex,0,0)					--根据序列号把任务变量的第一位置0	第一位是完成/失败情况
+
+	-- 在这里设置护送开始
+	if LuaFnGetCopySceneData_Param(sceneId, 8) < 3  then
+		LuaFnSetCopySceneData_Param(sceneId, 8, 3)
+		LuaFnSetCopySceneData_Param(sceneId, 11, 1)
+		LuaFnSetCopySceneData_Param(sceneId, 15, targetId)
+	end
+	
+end
+
+--**********************************
+--放弃
+--**********************************
+function x200056_OnAbandon( sceneId, selfId )
+  --将护送npc瞬移回原来位置
+  DelMission(sceneId, selfId, x200056_g_MissionId)
+  
+end
+
+--**********************************
+--继续
+--**********************************
+function x200056_OnContinue( sceneId, selfId, targetId )
+
+	BeginEvent(sceneId)
+		AddText(sceneId,x200056_g_Name)
+		AddText(sceneId,x200056_g_MissionComplete)
+		AddText(sceneId,"#{M_MUBIAO}#r")
+		AddText(sceneId,x200056_g_MissionTarget)
+		AddMoneyBonus( sceneId, x200056_g_MoneyBonus )
+		for i, item in x200056_g_RadioItemBonus do
+			AddRadioItemBonus( sceneId, item.id, item.num )
+		end
+	EndEvent( )
+	
+	DispatchMissionContinueInfo(sceneId, selfId, targetId, x200056_g_ScriptId, x200056_g_MissionId)
+
+end
+
+--**********************************
+--检测是否可以提交
+--**********************************
+function x200056_CheckSubmit( sceneId, selfId )
+	
+	local misIndex = GetMissionIndexByID(sceneId, selfId, x200056_g_MissionId)
+	
+	local bComplete = GetMissionParam(sceneId, selfId, misIndex, 0)	
+	if bComplete > 0 then
+		return 1
+	else
+		return 0
+	end
+	
+end
+
+--**********************************
+--提交
+--**********************************
+function x200056_OnSubmit( sceneId, selfId, targetId, selectRadioId )
+	
+	-- 检测是不是满足完成任务的条件
+	if x200056_CheckSubmit(sceneId, selfId) < 1 then 
+		return
+	end
+
+	BeginAddItem(sceneId)
+	for i, item in x200056_g_RadioItemBonus do
+		if item.id == selectRadioId then
+			AddItem( sceneId,item.id, item.num )
+		end
+	end
+	ret = EndAddItem(sceneId,selfId)
+	--添加任务奖励
+	if ret < 1 then
+		--任务奖励没有加成功
+		BeginEvent(sceneId)
+			strText = "背包已满,无法完成任务"
+			AddText(sceneId,strText);
+		EndEvent(sceneId)
+		DispatchMissionTips(sceneId,selfId)
+		return
+	end
+	AddItemListToHuman(sceneId,selfId)
+	
+	--添加任务奖励
+	AddMoney(sceneId,selfId, x200056_g_MoneyBonus );
+	LuaFnAddExp( sceneId, selfId, x200056_g_exp)
+	
+	DelMission( sceneId,selfId, x200056_g_MissionId )
+	--设置任务已经被完成过
+	MissionCom( sceneId,selfId, x200056_g_MissionId )
+	Msg2Player( sceneId, selfId, "#Y完成任务：一生有你", MSG2PLAYER_PARA )
+
+	Msg2Player( sceneId, selfId,"你已经完成了#G一品堂#W系列任务",MSG2PLAYER_PARA )
+	local selfGuid = LuaFnObjId2Guid(sceneId, selfId)
+	LuaFnSendMailToGUID(sceneId, selfGuid, "你已经完成了#G一品堂#W系列任务。")
+
+	-- 完成一品堂剧情，给10点剧情点
+	local nPoint = GetHumanJuqingPoint(sceneId, selfId)
+	SetHumanJuqingPoint(sceneId, selfId, nPoint+10)
+	
+	-- 通知玩家，可以做剧情循环任务了
+	-- 您现在可以去AA城的[bb，cc]找到DD，接受DD循环任务。
+	local strText1 = "#{LOOTMISSION_MAIL_13}"
+	LuaFnSendSystemMail(sceneId, GetName(sceneId,selfId), strText1)
+	
+	BeginEvent(sceneId)
+		AddText(sceneId,"#{LOOTMISSION_INFO_06}");
+	EndEvent(sceneId)
+	DispatchMissionTips(sceneId,selfId)
+	
+end
+
+function x200056_OnHumanDie(sceneId, selfId)
+
+end
+
+--**********************************
+--定时事件
+--**********************************
+function x200056_OnTimer(sceneId,selfId)
+
+end
+

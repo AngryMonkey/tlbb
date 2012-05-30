@@ -1,0 +1,239 @@
+--Ôª±¦ NPC
+--×¢Òâ±¾½Å±¾º¬ÓÐËæÉíÔª±¦Ïà¹Ø¹¦ÄÜ£¬ÇëÒ»¶¨²ÎÕÕÏÖÓÐµÄÀý×Ó½øÐÐÐÞ¸Ä¡£
+
+x181000_g_scriptId 	= 181000
+x181000_g_buyrate 	= 0.5
+
+x181000_g_shoptableindex=120
+x181000_g_zengdianshop=121
+
+x181000_g_goodact		= 1		--Ôª±¦ÉÌµê
+x181000_g_buyact	 	= 2		--¶Ò»»Ôª±¦
+x181000_g_ticketact = 3		--¶Ò»»Ôª±¦Æ±
+x181000_g_zdianact	= 4		--ÔùµãÉÌµê
+x181000_g_gotodali	= 5		--·µ»ØÂåÑô
+
+x181000_g_normalzdianshop	= 6		--ÆÕÍ¨ÔöµãÉÌµê
+x181000_g_lv1zdianshop	= 7			--Ò»¼¶²ÄÁÏ
+x181000_g_lv2zdianshop	= 8			--¶þ¼¶²ÄÁÏ
+x181000_g_lv3zdianshop	= 9			--Èý¼¶²ÄÁÏ
+x181000_g_lv4zdianshop	= 10		--ËÄ¼¶²ÄÁÏ
+x181000_g_lv5zdianshop	= 11		--Îå¼¶²ÄÁÏ
+x181000_g_lv6zdianshop	= 12		--Áù¼¶²ÄÁÏ
+x181000_g_lv7zdianshop	= 13		--Æß¼¶²ÄÁÏ
+x181000_g_lv8zdianshop	= 14		--°Ë¼¶²ÄÁÏ
+x181000_g_lv9zdianshop	= 15		--¾Å¼¶²ÄÁÏ
+x181000_g_lv10zdianshop	= 16		--Ê®¼¶²ÄÁÏ
+x181000_g_newprize	= 17		--²é¿´ÖÐ½±
+x181000_g_YuanBaoIntro	= 18	--Ôª±¦½éÉÜ
+
+x181000_g_leave			= 20	--Àë¿ª
+x181000_g_return		= 21	--·µ»Ø(Ö÷²Ëµ¥)
+x181000_g_return1		= 22	--·µ»Ø(Ôª±¦ÉÌµê)
+x181000_g_DZYBact		= 23	--´òÔìÍ¼Ôª±¦ÉÌµê
+
+--Ôª±¦ÉÌµê
+x181000_g_YBShop		=
+{
+	--Ë÷Òý£¨Ë³ÐòµÝÔö 1-N£©£¬name = ÉÌµêÃû³Æ£¬id = ÉÌµêID£¬key = GetNumText£¨Ë³ÐòµÝÔö 101-N£©
+	[1]	= { name = "Ti®m Trân thú Phi Phi", id = 152, key = 101 },
+	[2]	= { name = "M­ Lan th¶i trang ðiªm", id = 120, key = 102 },
+	[3]	= { name = "Lßu Dß½ng hoa pháo ðiªm", id = 132, key = 103 },
+	[4]	= { name = "Xuân Thành bách hoa cung", id = 133, key = 104 },
+	[5]	= { name = "Thiên cung ngñ mã giám", id = 134, key = 105 },
+	[6]	= { name = "Bi¬n Thß¾c linh dßþc ðiªm", id = 136, key = 106 },
+	[7]	= { name = "Ðào bäo kÏ v§t ðiªm", id = 137, key = 107 },
+	[8]= { name = "Thiên Dß½ng phát ngh® quán", id = 145, key = 108 },
+	[9]	= { name = "Phiêu phiêu trân thú quán", id = 135, key = 109 },
+	[10]	= { name = "Tam Thanh Th¥n Phù Quán", id = 144, key = 110 },
+	[11]	= { name = "Hoàn Th¸ Thüy Các", id = 146, key = 111 },
+	[12]	= { name = "Phòng Bäo thÕch ÐÕi Lý", id = 149, key = 112 },
+	[13]	= { name = "Phòng Bäo thÕch Tô Châu", id = 150, key = 113 },
+}
+
+--´òÔìÍ¼ÉÌµê
+x181000_g_DZYBShop	=
+{
+	--Ë÷Òý£¨Ë³ÐòµÝÔö 1-N£©£¬name = ÉÌµêÃû³Æ£¬id = ÉÌµêID£¬key = GetNumText£¨Ë³ÐòµÝÔö 201-N£©
+	[1]	= { name = "ÐÕi ðao, Trß¶ng thß½ng ðä tÕo ð°", id = 156, key = 201 },
+	[2]	= { name = "Ð½n ðoän, Song ðoän ðä tÕo ð°", id = 157, key = 202 },
+	[3]	= { name = "Phiªn, Hoàn ðä tÕo ð°", id = 158, key = 203 },
+	[4]	= { name = "Mão, Y phøc ðä tÕo ð°", id = 159, key = 204 },
+	[5]	= { name = "Hµ thü, Hài ðä tÕo ð°", id = 160, key = 205 },
+	[6]	= { name = "Hµ uy¬n, Hµ kiên ðä tÕo ð°", id = 161, key = 206 },
+	[7]	= { name = "Yêu ðái ðä tÕo ð°", id = 162, key = 207 },
+	[8]= { name = "HÕng liên ðä tÕo ð°", id = 163, key = 208 },
+	[9]	= { name = "Gi¾i chï ðä tÕo ð°", id = 164, key = 209 },
+	[10]	= { name = "Hµ phù ðä tÕo ð°", id = 165, key = 210 },
+}
+--**********************************
+--ÊÂ¼þ½»»¥Èë¿Ú
+--**********************************
+function x181000_OnDefaultEvent( sceneId, selfId, targetId )
+	if targetId == -1 then
+		x181000_OnEventRequest( sceneId, selfId, targetId, nil )
+	else
+		BeginEvent( sceneId )
+			local strText = "    Có ti«n có th¬ sai khiªn ðßþc cä QuÖ, tuy trên giang h° chú tr÷ng võ lñc, nhßng có kim nguyên bäo r°i có th¬ khiªn nhæng vi®c trß¾c ðây v¯n khó làm tr· nên d­ dàng h½n, các hÕ mu¯n làm gì?"
+			AddText( sceneId, strText )
+
+			--AddNumText( sceneId, x181000_g_scriptId, "ÎÒÏë³é½±", 2, x181000_g_newprize)
+			AddNumText( sceneId, x181000_g_scriptId, "Ta mu¯n mua thß½ng ph¦m", 2, x181000_g_goodact)
+			if targetId >= 0 then
+				AddNumText( sceneId, x181000_g_scriptId, "Ð±i B€C thành Kim Nguyên Bäo", 2, x181000_g_buyact)
+				AddNumText( sceneId, x181000_g_scriptId, "Ð±i phiªu Kim Nguyên Bäo", 2, x181000_g_ticketact)
+			else
+				targetId = -1	--ÎªÁËÄÜÕý³£µ¯³öÑ¡Ïî
+			end
+			AddNumText( sceneId, x181000_g_scriptId, "Thß½ng ðiªm t£ng ði¬m", 2, x181000_g_zdianact)
+			if targetId >= 0 then
+				--AddNumText( sceneId, x181000_g_scriptId, "·µ»ØÂåÑô", 2, x181000_g_gotodali)
+			end
+			AddNumText( sceneId, x181000_g_scriptId, "Gi¾i thi®u Kim Nguyên Bäo", 11, x181000_g_YuanBaoIntro)
+			--AddNumText( sceneId, x181000_g_scriptId, "Àë¿ª¡­¡­", -1, x181000_g_leave)
+		EndEvent( sceneId )
+		DispatchEventList( sceneId, selfId, targetId )
+	end
+end
+
+--**********************************
+--ÊÂ¼þÁÐ±íÑ¡ÖÐÒ»Ïî
+--**********************************
+function x181000_OnEventRequest( sceneId, selfId, targetId, eventId )
+	if GetNumText() == x181000_g_buyact then
+		--ÏÈÑ¯ÎÊ×Ô¼ºµÄÊ£ÓàµãÊý
+		CallScriptFunction( PRIZE_SCRIPT_ID, "AskPoint", sceneId, selfId )
+		
+		BeginUICommand( sceneId )
+			UICommand_AddInt( sceneId, targetId )
+			UICommand_AddInt( sceneId, x181000_g_buyrate)
+		EndUICommand( sceneId )
+		DispatchUICommand( sceneId, selfId, 2001 )
+	elseif GetNumText() == x181000_g_newprize then
+		CallScriptFunction( PRIZE_SCRIPT_ID, "AskPrize", sceneId, selfId)
+	elseif GetNumText() == x181000_g_return then
+		local nID = targetId;
+		if nID < 0 then nID = -2 end -- -2ÊÇ²Ëµ¥£¬-1ÊÇÏìÓ¦
+		x181000_OnDefaultEvent( sceneId, selfId, nID )
+	elseif GetNumText() == x181000_g_goodact or GetNumText() == x181000_g_return1 then
+		BeginEvent( sceneId )
+			--local strText = "  Çë¸ù¾ÝÐèÇóÑ¡Ôñ²»Í¬µÄÔª±¦ÉÌµê£º"
+			--AddText( sceneId, strText )
+			AddNumText(sceneId,x181000_g_scriptId, "Chuyên bán ðä tÕo ð° ", 2, x181000_g_DZYBact)
+			for i = 1, getn( x181000_g_YBShop ) do
+				AddNumText( sceneId, x181000_g_scriptId, x181000_g_YBShop[i].name, 7, x181000_g_YBShop[i].key )
+			end
+			AddNumText( sceneId, x181000_g_scriptId, "Tr· v« trang trß¾c", -1, x181000_g_return)
+		EndEvent( sceneId )
+		DispatchEventList( sceneId, selfId, targetId )
+--	x181000_NewDispatchShopItem( sceneId, selfId,targetId, x181000_g_shoptableindex )
+	elseif GetNumText() == x181000_g_DZYBact then
+		BeginEvent( sceneId )
+			local strText = "  Ch÷n ðä tÕo ð° thß½ng ðiªm"
+			AddText( sceneId, strText )
+			
+			for i = 1, getn( x181000_g_DZYBShop ) do
+				AddNumText( sceneId, x181000_g_scriptId, x181000_g_DZYBShop[i].name, 7, x181000_g_DZYBShop[i].key )
+			end
+			AddNumText( sceneId, x181000_g_scriptId, "Tr· v« trang trß¾c", -1, x181000_g_return1)
+		EndEvent( sceneId )
+		DispatchEventList( sceneId, selfId, targetId )
+	elseif GetNumText() == x181000_g_zdianact then
+		BeginEvent( sceneId )
+			strText = "  Xin dña theo nhu c¥u lña ch÷n thß½ng ðiªm tång ði¬m khác nhau."
+			AddText( sceneId, strText )
+			AddNumText( sceneId, x181000_g_scriptId, "Thß½ng ph¦m ph± thông t£ng ði¬m", 7, x181000_g_normalzdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 1 ", 7, x181000_g_lv1zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 2 ", 7, x181000_g_lv2zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 3 ", 7, x181000_g_lv3zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 4 ", 7, x181000_g_lv4zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 5 ", 7, x181000_g_lv5zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 6 ", 7, x181000_g_lv6zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 7 ", 7, x181000_g_lv7zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 8 ", 7, x181000_g_lv8zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 9 ", 7, x181000_g_lv9zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Nguyên li®u c¤p 10 ", 7, x181000_g_lv10zdianshop)
+			AddNumText( sceneId, x181000_g_scriptId, "Tr· v« trang trß¾c", -1, x181000_g_return)
+		EndEvent( sceneId )
+		DispatchEventList( sceneId, selfId, targetId )
+		--x181000_NewDispatchShopItem( sceneId, selfId,targetId, x181000_g_zengdianshop )
+	elseif GetNumText() == x181000_g_gotodali then
+		NewWorld(sceneId,selfId,0,200,177)
+	elseif GetNumText() == x181000_g_ticketact then
+		local nYuanBao = YuanBao(sceneId,selfId,targetId,3,_)
+		BeginUICommand( sceneId )
+			UICommand_AddInt( sceneId, targetId )
+		EndUICommand( sceneId )
+		DispatchUICommand( sceneId, selfId, 2002 )
+	elseif GetNumText() == x181000_g_leave then
+		BeginUICommand( sceneId )
+			UICommand_AddInt( sceneId, targetId )
+		EndUICommand( sceneId )
+		DispatchUICommand( sceneId, selfId, 1000 )
+	elseif GetNumText() == x181000_g_normalzdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 121 )
+	elseif GetNumText() == x181000_g_lv1zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 122 )
+	elseif GetNumText() == x181000_g_lv2zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 123 )
+	elseif GetNumText() == x181000_g_lv3zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 124 )
+	elseif GetNumText() == x181000_g_lv4zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 125 )
+	elseif GetNumText() == x181000_g_lv5zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 126 )
+	elseif GetNumText() == x181000_g_lv6zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 127 )
+	elseif GetNumText() == x181000_g_lv7zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 128 )
+	elseif GetNumText() == x181000_g_lv8zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 129 )
+	elseif GetNumText() == x181000_g_lv9zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 130 )
+	elseif GetNumText() == x181000_g_lv10zdianshop then
+		x181000_NewDispatchShopItem( sceneId, selfId,targetId, 131 )
+	elseif GetNumText() == x181000_g_YuanBaoIntro	then
+		BeginEvent( sceneId )
+			AddText( sceneId, "#{INTRO_YUANBAO}" )
+		EndEvent( sceneId )
+		DispatchEventList( sceneId, selfId, targetId )
+	else
+		--Ôª±¦ÉÌµê
+		for i = 1, getn( x181000_g_YBShop ) do
+			if GetNumText() == x181000_g_YBShop[i].key then
+				x181000_NewDispatchShopItem( sceneId, selfId, targetId, x181000_g_YBShop[i].id )
+				break
+			end
+		end
+		--´òÔìÍ¼×¨Âô
+		for i = 1, getn( x181000_g_DZYBShop ) do
+			if GetNumText() == x181000_g_DZYBShop[i].key then
+				x181000_NewDispatchShopItem( sceneId, selfId, targetId, x181000_g_DZYBShop[i].id )
+				break
+			end
+		end
+	end
+end
+
+--**********************************
+--¿Í»§¶Ë¹ºÂòÔª±¦½Ó¿Ú
+--**********************************
+function x181000_BuyYuanbao( sceneId, selfId, nYuanBao )
+	--¹ºÂòÔª±¦
+	if nYuanBao then
+		if nYuanBao > 0 and nYuanBao <= 10000 then
+			CallScriptFunction( PRIZE_SCRIPT_ID, "AskYuanBao", sceneId, selfId, nYuanBao, nYuanBao*x181000_g_buyrate)
+		end
+	end
+end
+
+--**********************************
+--°´ÐèÀ´µ¯³öÉÌµê£¬·ÖÎªËæÉíÉÌµêºÍNPCÉÌµê
+--**********************************
+function x181000_NewDispatchShopItem(sceneId,selfId,targetId,shopId)
+	if targetId >= 0 then
+		DispatchShopItem( sceneId, selfId,targetId, shopId )
+	else
+		DispatchNoNpcShopItem( sceneId, selfId, shopId )
+	end
+end

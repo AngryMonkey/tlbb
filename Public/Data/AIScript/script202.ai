@@ -1,0 +1,22 @@
+;圣兽山龙龟：50%机率群体嘲讽（630），血少于30%时加血30%（635） 1次 石肤(585)好了就放
+[common]
+[commonend]
+
+[skill]
+0:if(AIS_IsCanSkill(614)=1){AIS_ToSkill(614);AIS_SetTimes(-1);AIS_SetPRI(29);};如果能使用614号技能则释放，次数不限（普通远程)
+1:if(AIS_GetAIState()=SATTACK&AIS_Rand()<50&AIS_IsCanSkill(630)=1){AIS_ToSkill(630);AIS_SetTimes(-1);AIS_SetPRI(31);};50％机率释放630号技能（群体嘲讽），次数不限
+2:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<50&AIS_IsCanSkill(589)=1){AIS_ToSkill(589);AIS_SetTimes(1);AIS_SetPRI(32);};在血少于50%时释放589号技能（补血50%），次数1次
+3:if(AIS_GetAIState()=SATTACK&AIS_GetHP()<30&AIS_IsCanSkill(589)=1){AIS_ToSkill(589);AIS_SetTimes(1);AIS_SetPRI(32);};在血少于30%时释放604号技能（群体补血50%），次数1次
+4:if(AIS_IsCanSkill(585)=1){AIS_ToSkill(585);AIS_SetTimes(-1);AIS_SetPRI(33);};如果能使用585号技能（石肤）则释放，次数不限
+[skillend]
+
+[beskill]
+[beskillend]
+
+[damage]
+[damageend]
+
+[dead]
+
+[deadend]
+
