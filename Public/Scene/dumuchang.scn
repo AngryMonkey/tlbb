@@ -1,0 +1,6 @@
+[System]
+navmapname=dumuchang.nav
+monsterfile=dumuchang_monster.ini
+patrolpoint=dumuchang_patrolpoint.ini
+eventfile=dumuchang_area.ini
+growpointdata=dumuchang_growpoint.txt

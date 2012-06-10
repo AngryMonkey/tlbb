@@ -1,0 +1,5 @@
+[System]
+navmapname=jiujiao_1.nav
+monsterfile=jiujiao_1_monster.ini
+patrolpoint=jiujiao_1_patrolpoint.ini
+eventfile=jiujiao_1_area.ini

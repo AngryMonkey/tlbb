@@ -1,0 +1,9 @@
+[System]
+navmapname=tianshan.nav
+monsterfile=tianshan_monster.ini
+patrolpoint=tianshan_patrolpoint.ini
+growpointdata=tianshan_growpoint.txt
+growpointsetup=tianshan_growpointsetup.txt
+eventfile=tianshan_area.ini
+petfile=tianshan_pet.ini
+platformfile=tianshan_platform.ini

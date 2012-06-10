@@ -1,0 +1,5 @@
+[System]
+navmapname=zhemeifeng_1.nav
+monsterfile=zhemeifeng_1_monster.ini
+patrolpoint=zhemeifeng_1_patrolpoint.ini
+eventfile=zhemeifeng_1_area.ini

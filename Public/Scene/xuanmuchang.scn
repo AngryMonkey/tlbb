@@ -1,0 +1,6 @@
+[System]
+navmapname=xuanmuchang.nav
+monsterfile=xuanmuchang_monster.ini
+patrolpoint=xuanmuchang_patrolpoint.ini
+eventfile=xuanmuchang_area.ini
+growpointdata=xuanmuchang_growpoint.txt

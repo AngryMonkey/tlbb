@@ -1,0 +1,9 @@
+[System]
+navmapname=meiling.nav
+monsterfile=meiling_monster.ini
+patrolpoint=meiling_patrolpoint.ini
+growpointdata=meiling_growpoint.txt
+growpointsetup=meiling_growpointsetup.txt
+eventfile=meiling_area.ini
+petfile=meiling_pet.ini
+platformfile=meiling_platform.ini

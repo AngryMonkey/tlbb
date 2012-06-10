@@ -1,0 +1,8 @@
+[System]
+navmapname=gudi.nav
+monsterfile=gudi_monster.ini
+patrolpoint=gudi_patrolpoint.ini
+growpointdata=gudi_growpoint.txt
+growpointsetup=gudi_growpointsetup.txt
+eventfile=gudi_area.ini
+petfile=gudi_pet.ini

@@ -1,0 +1,5 @@
+[System]
+navmapname=wedding_2.nav
+monsterfile=wedding_2_monster.ini
+patrolpoint=wedding_2_patrolpoint.ini
+eventfile=wedding_2_area.ini

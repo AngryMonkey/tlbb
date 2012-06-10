@@ -1,0 +1,7 @@
+[System]
+navmapname=huoyanshan.nav
+monsterfile=huoyanshan_monster.ini
+patrolpoint=huoyanshan_patrolpoint.ini
+eventfile=huoyanshan_area.ini
+growpointdata=huoyanshan_growpoint.txt
+growpointsetup=huoyanshan_growpointsetup.txt

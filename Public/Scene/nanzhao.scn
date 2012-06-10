@@ -1,0 +1,10 @@
+[System]
+navmapname=nanzhao.nav
+monsterfile=nanzhao_monster.ini
+portalfile=nanzhao_portal.ini
+platformfile=nanzhao_platform.ini
+patrolpoint=nanzhao_patrolpoint.ini
+growpointdata=nanzhao_growpoint.txt
+growpointsetup=nanzhao_growpointsetup.txt
+eventfile=nanzhao_area.ini
+petfile=nanzhao_pet.ini

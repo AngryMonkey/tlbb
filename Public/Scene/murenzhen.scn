@@ -1,0 +1,8 @@
+[System]
+navmapname=murenzhen.nav
+monsterfile=murenzhen_monster.ini
+patrolpoint=murenzhen_patrolpoint.ini
+growpointdata=murenzhen_growpoint.txt
+growpointsetup=murenzhen_growpointsetup.txt
+eventfile=murenzhen_area.ini
+platformfile=murenzhen_platform.ini

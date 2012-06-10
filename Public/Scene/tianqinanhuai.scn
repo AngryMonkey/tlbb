@@ -1,0 +1,8 @@
+[System]
+navmapname=tianqinanhuai.nav
+monsterfile=tianqinanhuai_monster.ini
+patrolpoint=tianqinanhuai_patrolpoint.ini
+growpointdata=tianqinanhuai_growpoint.txt
+growpointsetup=tianqinanhuai_growpointsetup.txt
+eventfile=tianqinanhuai_area.ini
+platformfile=tianqinanhuai_platform.ini

@@ -1,0 +1,7 @@
+[System]
+navmapname=quanzhoushandong.nav
+monsterfile=quanzhoushandong_monster.ini
+patrolpoint=quanzhoushandong_patrolpoint.ini
+growpointdata=quanzhoushandong_growpoint.txt
+growpointsetup=quanzhoushandong_growpointsetup.txt
+eventfile=quanzhoushandong_area.ini

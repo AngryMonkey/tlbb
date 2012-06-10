@@ -1,0 +1,4 @@
+INT	INT	INT	INT	INT	INT	INT	INT
+ID	声音ID	声源位置X	声源位置Z	有效距离			
+0	362	118	51	20			
+1	171	94	90	512			

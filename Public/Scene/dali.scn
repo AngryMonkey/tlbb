@@ -1,0 +1,10 @@
+[System]
+navmapname=dali.nav
+monsterfile=dali_monster.ini
+busfile=dali_bus.ini
+patrolpoint=dali_patrolpoint.ini
+growpointdata=dali_growpoint.txt
+growpointsetup=dali_growpointsetup.txt
+eventfile=dali_area.ini
+petfile=dali_pet.ini
+platformfile=dali_platform.ini

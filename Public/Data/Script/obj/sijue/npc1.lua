@@ -49,7 +49,7 @@ function x910001_OnEventRequest( sceneId, selfId, targetId, eventId )
 --		return
 --	end
         local	lev	= GetLevel( sceneId, selfId )
-		if (lev<=120  	and lev>  110 ) then
+		if (lev>  110 ) then
 		--建立BOSS....
 		CallScriptFunction( x910001_g_FuBenScriptId, "TipAllHuman", sceneId, "战斗开始" )
 		--删除NPC....

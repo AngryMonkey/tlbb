@@ -1,0 +1,5 @@
+[System]
+navmapname=kaochang.nav
+monsterfile=kaochang_monster.ini
+patrolpoint=kaochang_patrolpoint.ini
+eventfile=kaochang_area.ini

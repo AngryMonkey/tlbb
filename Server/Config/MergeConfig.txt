@@ -1,0 +1,9 @@
+INT	STRING	STRING	INT	INT
+索引	KEY	描述	打烊时间（YYMMDDHH）	再次营业时间（YYMMDDHH）
+0	Procreate	珍兽繁殖	7040400	7040400
+1	Guild	建帮	0	0
+2	City	建城	0	0
+3	PShop	玩家商店	0	0
+4	Commision	寄售	0	0
+5	YBCash	元宝票NPC兑换	0	0
+6	YBUse	元宝票使用	0	0

@@ -1,0 +1,8 @@
+[System]
+navmapname=linhaixigu.nav
+monsterfile=linhaixigu_monster.ini
+patrolpoint=linhaixigu_patrolpoint.ini
+growpointdata=linhaixigu_growpoint.txt
+growpointsetup=linhaixigu_growpointsetup.txt
+eventfile=linhaixigu_area.ini
+platformfile=linhaixigu_platform.ini

@@ -1,0 +1,9 @@
+[System]
+navmapname=shilin.nav
+monsterfile=shilin_monster.ini
+patrolpoint=shilin_patrolpoint.ini
+growpointdata=shilin_growpoint.txt
+growpointsetup=shilin_growpointsetup.txt
+eventfile=shilin_area.ini
+petfile=shilin_pet.ini
+platformfile=shilin_platform.ini

@@ -1,0 +1,13 @@
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	STRING
+标识ID的分类ID	分类说明$1$	本类中的ID数量	ID1	ID2	ID3	ID4	ID5	ID6	ID7	ID8	ID9	ID10	ID11	ID12	ID13	ID14	ID15	ID16	ID17	ID18	ID19	ID20	ID21	ID22	ID23	ID24	ID25	ID26	ID27	ID28	ID29	ID30	结尾说明，测试用
+1	持续伤害	20	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19											
+2	防御削弱	8	20	21	22	23	24	25	26	27																							
+3	可部分操作	4	28	29	30	31																											
+4	不可操作	7	32	33	34	35	36	37	38																								
+5	副面状态	28	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27			
+6	控制被限	11	28	29	30	31	32	33	34	35	36	37	38																				
+7	七星落长空免疫	4	29	32	33	35																											
+8	护体状态	2	41	43																													
+9	峨嵋祝福	1	356																														
+10	峨嵋加血（聚气）	2	357	367																													
+11	峨嵋攻击	5	351	352	353	354	365																										

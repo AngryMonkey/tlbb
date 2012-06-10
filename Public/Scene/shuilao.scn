@@ -1,0 +1,8 @@
+[System]
+navmapname=shuilao.nav
+monsterfile=shuilao_monster.ini
+patrolpoint=shuilao_patrolpoint.ini
+growpointdata=shuilao_growpoint.txt
+growpointsetup=shuilao_growpointsetup.txt
+eventfile=shuilao_area.ini
+petfile=shuilao_pet.ini

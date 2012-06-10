@@ -1,0 +1,8 @@
+[System]
+navmapname=zhemeifeng.nav
+monsterfile=zhemeifeng_monster.ini
+patrolpoint=zhemeifeng_patrolpoint.ini
+growpointdata=zhemeifeng_growpoint.txt
+growpointsetup=zhemeifeng_growpointsetup.txt
+eventfile=zhemeifeng_area.ini
+petfile=zhemeifeng_pet.ini

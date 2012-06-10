@@ -1,0 +1,4 @@
+INT	INT	INT	INT	INT	INT	INT	INT
+ID	声音ID	声源位置X	声源位置Z	有效距离	连播次数	间隔时间(ms)	下一次连播间隔时间(ms)
+0	362	56	37	15			
+1	406	30	30	64			

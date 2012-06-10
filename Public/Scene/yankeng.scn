@@ -1,0 +1,5 @@
+[System]
+navmapname=yankeng.nav
+monsterfile=yankeng_monster.ini
+patrolpoint=yankeng_patrolpoint.ini
+eventfile=yankeng_area.ini

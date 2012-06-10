@@ -1,0 +1,7 @@
+[System]
+navmapname=Tianjielou_7.nav
+monsterfile=Tianjielou_7_monster.ini
+patrolpoint=Tianjielou_7_patrolpoint.ini
+growpointdata=Tianjielou_7_growpoint.txt
+growpointsetup=Tianjielou_7_growpointsetup.txt
+eventfile=Tianjielou_7_area.ini

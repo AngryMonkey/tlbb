@@ -1,0 +1,9 @@
+[System]
+navmapname=nanhai.nav
+monsterfile=nanhai_monster.ini
+patrolpoint=nanhai_patrolpoint.ini
+growpointdata=nanhai_growpoint.txt
+growpointsetup=nanhai_growpointsetup.txt
+eventfile=nanhai_area.ini
+petfile=nanhai_pet.ini
+platformfile=nanhai_platform.ini

@@ -1,5 +1,5 @@
 -- 889080 套装兑换NPC
--- 梁师成
+
 --脚本号
 x889080_g_ScriptId = 889080
 
@@ -7,40 +7,44 @@ x889080_g_ScriptId = 889080
 x889080_g_eventList={889070}
 
 x889080_g_EquipList={	
-{n=1100,id=10470060},
-{n=1200,id=10470061},
-{n=1300,id=10470062},
-{n=1400,id=10470063},
-{n=1500,id=10470064},
-{n=1600,id=10470065},
-{n=1700,id=10470066},
-{n=1800,id=10470067},
-{n=1900,id=10470068},
-{n=1901,id=10470069},
-{n=1902,id=10470094},
-{n=1903,id=10470095},
-{n=1904,id=10470096},
-{n=1905,id=10470097}
+-- 少林寂灭套装（战神套装）
+-- 神武套
+	{n=1001,id=10470000},
+	{n=1002,id=10470001},
+	{n=1003,id=10470002},
+	{n=1004,id=10470003},
+	{n=1005,id=10470004},
+	{n=1006,id=10470005},
+	{n=1007,id=10470006},
+	{n=1008,id=10470007},
+	{n=1009,id=10470008},
+	{n=1010,id=10470009},
+	{n=1011,id=10470010},
+	{n=1012,id=10470011},
+	{n=1013,id=10470012},
+	{n=1014,id=10470013},
+	{n=1015,id=10470014},
+	{n=1016,id=10470015},
 }
 
---需要的物品及数量
-x889080_g_StoneList={
-{n=1,id=10470050,num=2,str="#G黄金·戰链#W"},
-{n=2,id=10470051,num=2,str="#G黄金·戰袍#W"},
-{n=3,id=10470052,num=2,str="#G黄金·戰盔#W"},
-{n=4,id=10470053,num=2,str="#G黄金·戰肩#W"},
-{n=5,id=10470054,num=2,str="#G黄金·戰腕#W"},
-{n=6,id=10470055,num=2,str="#G黄金·戰手#W"},
-{n=7,id=10470056,num=2,str="#G黄金·戰带#W"},
-{n=8,id=10470057,num=2,str="#G黄金·戰靴#W"},
-{n=9,id=10470058,num=2,str="#G黄金·戰戒#W"},
-{n=10,id=10470059,num=2,str="#G黄金·戰符#W"},
-{n=11,id=10470090,num=2,str="#cFF0000黄金·戰剑#W"},
-{n=12,id=10470091,num=2,str="#cFF0000黄金·戰刀#W"},
-{n=13,id=10470092,num=2,str="#cFF0000黄金·戰扇#W"},
-{n=14,id=10470093,num=2,str="#cFF0000黄金·戰环#W"},
+ x889080_g_StoneList={
+ {n=1,id=10470021,num=2,str="#e000000#gFFFFE0昊天魔罩"},
+ {n=2,id=10470022,num=2,str="#e000000#gFFFFE0昊天跑靴"},
+ {n=3,id=10470023,num=2,str="#e000000#gFFFFE0昊天护手"},
+ {n=4,id=10470024,num=2,str="#e000000#gFFFFE0昊天逐浪铠"},
+ {n=5,id=10470025,num=2,str="#e000000#gFFFFE0昊天战镯"},
+ {n=6,id=10470026,num=2,str="#e000000#gFFFFE0昊天披肩"},
+ {n=7,id=10470027,num=2,str="#e000000#gFFFFE0昊天邪链"},
+ {n=8,id=10470028,num=2,str="#e000000#gFFFFE0昊天蟒带"},
+ {n=9,id=10470029,num=2,str="#e000000#gFFFFE0昊天绝戒"},
+ {n=10,id=10470030,num=2,str="#e000000#gFFFFE0昊天神符"},
+ {n=11,id=10470031,num=2,str="#e0000ff#gFF00FF昊天斩将刀"},
+ {n=12,id=10470032,num=2,str="#e0000ff#gFF00FF昊天索魂枪"},
+ {n=13,id=10470033,num=2,str="#e0000ff#gFF00FF昊天烈火剑"},
+ {n=14,id=10470034,num=2,str="#e0000ff#gFF00FF昊天姻缘配"},
+ {n=15,id=10470035,num=2,str="#e0000ff#gFF00FF昊天轻羽扇"},
+ {n=16,id=10470036,num=2,str="#e0000ff#gFF00FF昊天明月环"},
 }
-
 --**********************************
 --事件列表
 --**********************************
@@ -50,8 +54,9 @@ function x889080_UpdateEventList( sceneId, selfId,targetId )
 		--for i, eventId in x889080_g_eventList do
 		--	CallScriptFunction( eventId, "OnEnumerate",sceneId, selfId, targetId )
 		--end
-		AddNumText( sceneId, x889080_g_ScriptId, "#cFF0000兑换弑神套【终极套装】", 6, 1000 )
-		--AddNumText( sceneId, x889080_g_ScriptId, "#c00ffff永久币碎片#W兑换#cFF0000【永久币】", 4, 10000 )
+		--AddNumText( sceneId, x889080_g_ScriptId, "#c00ffff永久币碎片#W兑换#gf3ffff【永久币】", 4, 10000 )
+		AddNumText( sceneId, x889080_g_ScriptId, "#g3f3fff合成『神武套』", 6, 1000)
+		AddNumText( sceneId, x889080_g_ScriptId, "#g3f3fff合成『超级大杀器』", 6, 2000)
 		AddNumText( sceneId, x889080_g_ScriptId, "离开……", 0, 0 )
 	EndEvent(sceneId)
 	DispatchEventList(sceneId,selfId,targetId)
@@ -77,56 +82,48 @@ function x889080_OnEventRequest( sceneId, selfId, targetId, eventId )
 		return
 	end
 	
-	--只会选择1000
-	if nNumText == 1000 
-	or nNumText == 2000 
-	or nNumText == 3000 
-	or nNumText == 4000 
-	or nNumText == 5000 
-	or nNumText == 6000 
-	or nNumText == 7000 
-	or nNumText == 8000  
-	or nNumText == 9000 
-	or nNumText == 10000
-	then
+	if nNumText == 2000 then 
 		BeginEvent(sceneId)
-			AddText(sceneId, "  请选择一下你要兑的具体部位")
-			if nNumText < 10000  then
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄链", 6, nNumText+100) --加数值的意义在于
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄袍", 6, nNumText+200)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄盔", 6, nNumText+300)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄肩", 6, nNumText+400)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄腕", 6, nNumText+500)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄手", 6, nNumText+600)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄带", 6, nNumText+700)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄靴", 6, nNumText+800)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄戒", 6, nNumText+900)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·炎黄符", 6, nNumText+901)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·游龙剑", 6, nNumText+902)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·万人斩", 6, nNumText+903)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·无极扇", 6, nNumText+904)
-			AddNumText(sceneId, x889080_g_ScriptId, "#cFF0000弑神·九幽环", 6, nNumText+905)
-			end
---此处没设定事件	if nNumText >= 10000  then
---			AddNumText(sceneId, x889080_g_ScriptId, "兑换#cFF0000永久币", 6, nNumText+100)
---			end
+			AddText(sceneId, "  请选择一下你要合成的装备")
+			if nNumText < 1020  then
+			AddNumText(sceneId, x889080_g_ScriptId, "神武头盔", 6, nNumText+7)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武战靴", 6, nNumText+8)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武护手", 6, nNumText+9)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武天战甲", 6, nNumText+10)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武手镯", 6, nNumText+11)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武护肩", 6, nNumText+12)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武项链", 6, nNumText+13)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武腰带", 6, nNumText+14)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武战戒", 6, nNumText+15)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武破符", 6, nNumText+16)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武☆屠龙刀", 6, nNumText+1)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武☆八荒戟", 6, nNumText+2)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武☆倚天剑", 6, nNumText+3)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武☆离别钩", 6, nNumText+4)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武☆逍遥扇", 6, nNumText+5)
+			AddNumText(sceneId, x889080_g_ScriptId, "神武☆宝相轮", 6, nNumText+6)
+			end                                      
+			--if nNumText >= 10000  then             
+			--AddNumText(sceneId, x889080_g_ScriptId, "兑换#gf3ffff永久币", 6, nNumText+100)
+			--end
 			AddNumText( sceneId, x889080_g_ScriptId, "离开……", 0, 0 )
 		EndEvent(sceneId)
 		DispatchEventList(sceneId,selfId,targetId)
 		return
 	end
 	
-	if nNumText > 1000 and nNumText < 1100  then
+	if nNumText > 1000 and nNumText < 1020  then
 		BeginEvent(sceneId)
-			AddText(sceneId, "  不是白给的，用这个东西来换的哦！！")
-			local nLevel = 0	--nLevel的意义是作为想要兑换装备列表索引
-			if nNumText == 1100 then
+			--AddText(sceneId, "  不是白给的，用这个东西来换的哦！！")
+			
+			local nLevel = 0
+			if nNumText == 1001 then
 				nLevel = 1
 			end
-			if nNumText == 1200 then
+			if nNumText == 1002 then
 				nLevel = 2
 			end
-			if nNumText == 1300 then
+			if nNumText == 1003 then
 				nLevel = 3
 			end
 			if nNumText == 1400 then
@@ -163,8 +160,10 @@ function x889080_OnEventRequest( sceneId, selfId, targetId, eventId )
 				nLevel = 14
 			end
 			
-			local szStr = "  要获得这些装备，你需要给我“" .. x889080_g_StoneList[nLevel].str .. "”“".. tostring(x889080_g_StoneList[nLevel].num) .. "”个  该物品可在#GBOSS或者怪物#W中爆出....#r  #G注意看装备适合什么门派，不要换错了哦#W"
+			local szStr = "  要获得这些装备，你需要给我“" .. x889080_g_StoneList[nLevel].str 
+										.. "”“".. tostring(x889080_g_StoneList[nLevel].num) .. "”个  该物品可在#GBOSS或者怪物#W中爆出....#r  #G注意看装备适合什么门派，不要换错了哦#W"
 			AddText(sceneId, szStr)
+			
 			for i, item in x889080_g_EquipList do
 				if item.n == nNumText  then
 					AddRadioItemBonus( sceneId, item.id, 4 )
@@ -173,6 +172,7 @@ function x889080_OnEventRequest( sceneId, selfId, targetId, eventId )
     EndEvent(sceneId)
     --DispatchMissionDemandInfo(sceneId,selfId,targetId, x889080_g_ScriptId, x210200_g_MissionId)
     DispatchMissionContinueInfo(sceneId,selfId,targetId, x889080_g_ScriptId, 0)
+		
 	end
 	
 	for i, findId in x889080_g_eventList do
@@ -308,7 +308,6 @@ function x889080_OnMissionSubmit( sceneId, selfId, targetId, missionScriptId, se
 		nLevel = 14
 	end
 	
-	--检查包裹里面是否有选定兑换所需要的物品及数量
 	local bStoneOk = 0
 	if GetItemCount(sceneId, selfId, x889080_g_StoneList[nLevel].id) >= x889080_g_StoneList[nLevel].num  then
 		bStoneOk = 1

@@ -1,0 +1,9 @@
+[System]
+navmapname=luoyang_new_snow.nav
+monsterfile=luoyang_new_snow_monster.ini
+patrolpoint=luoyang_new_snow_patrolpoint.ini
+growpointdata=luoyang_new_snow_growpoint.txt
+growpointsetup=luoyang_new_snow_growpointsetup.txt
+eventfile=luoyang_new_snow_area.ini
+platformfile=luoyang_new_snow_platform.ini
+stallinfodata=luoyang_new_snow_StallInfo.stall

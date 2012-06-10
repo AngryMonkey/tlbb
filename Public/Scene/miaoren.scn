@@ -1,0 +1,5 @@
+[System]
+navmapname=miaoren.nav
+monsterfile=miaoren_monster.ini
+patrolpoint=miaoren_patrolpoint.ini
+eventfile=miaoren_area.ini

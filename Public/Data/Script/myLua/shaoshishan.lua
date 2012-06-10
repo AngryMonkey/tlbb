@@ -50,24 +50,25 @@ x002952_g_CopySceneName = "少室山"
 x002952_g_CopySceneType = FUBEN_DAZHAN_SSS	--副本类型，定义在ScriptGlobal.lua里面
 x002952_g_CopySceneMap = "cangjingge_80JQTZ.nav"
 x002952_g_LimitMembers = 1				--可以进副本的最小队伍人数
-x002952_g_TickTime = 1						--回调脚本的时钟时间（单位：秒/次）
-x002952_g_DayTime = 3						--一天内可以进入副本的次数
-x002952_g_LimitTotalHoldTime = 360--副本可以存活的时间（单位：次数）,如果此时间到了，则任务将会失败
-x002952_g_LimitTimeSuccess = 500	--副本时间限制（单位：次数），如果此时间到了，任务完成
-x002952_g_CloseTick = 3						--副本关闭前倒计时（单位：次数）
+x002952_g_TickTime = 1					--回调脚本的时钟时间（单位：秒/次）
+x002952_g_DayTime = 20					--一天内可以进入副本的次数
+x002952_g_LimitTotalHoldTime = 360		--副本可以存活的时间（单位：次数）,如果此时间到了，则任务将会失败
+x002952_g_LimitTimeSuccess = 500		--副本时间限制（单位：次数），如果此时间到了，任务完成
+x002952_g_CloseTick = 3					--副本关闭前倒计时（单位：次数）
 x002952_g_NoUserTime = 300				--副本中没有人后可以继续保存的时间（单位：秒）
-x002952_g_DeadTrans = 0						--死亡转移模式，0：死亡后还可以继续在副本，1：死亡后被强制移出副本
-x002952_g_Fuben_X = 130						--进入副本的位置X
-x002952_g_Fuben_Z = 204						--进入副本的位置Z
-x002952_g_Back_X = 282							--源场景位置X
-x002952_g_Back_Z = 228						--源场景位置Z
+x002952_g_DeadTrans = 0					--死亡转移模式，0：死亡后还可以继续在副本，1：死亡后被强制移出副本
+x002952_g_Fuben_X = 130					--进入副本的位置X
+x002952_g_Fuben_Z = 204					--进入副本的位置Z
+x002952_g_Back_X = 282					--源场景位置X
+x002952_g_Back_Z = 228					--源场景位置Z
 x002952_g_Back_SceneId = 2				--源场景Id
 
 --**********************************
 --任务入口函数
 --**********************************
 function x002952_OnDefaultEvent( sceneId, selfId, targetId )
-	
+
+--下面这个if语句其实不必要	
 	if GetNumText() == 1   then
 		BeginEvent(sceneId)
 			--AddText(sceneId,"#{yanziwu_info}");

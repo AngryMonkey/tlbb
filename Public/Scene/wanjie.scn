@@ -1,0 +1,5 @@
+[System]
+navmapname=wanjie.nav
+monsterfile=wanjie_monster.ini
+patrolpoint=wanjie_patrolpoint.ini
+eventfile=wanjie_area.ini

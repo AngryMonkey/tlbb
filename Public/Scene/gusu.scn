@@ -1,0 +1,8 @@
+[System]
+navmapname=gusu.nav
+monsterfile=gusu_monster.ini
+patrolpoint=gusu_patrolpoint.ini
+growpointdata=gusu_growpoint.txt
+growpointsetup=gusu_growpointsetup.txt
+eventfile=gusu_area.ini
+platformfile=gusu_platform.ini

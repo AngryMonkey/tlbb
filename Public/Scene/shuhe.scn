@@ -1,0 +1,9 @@
+[System]
+navmapname=shuhe.nav
+monsterfile=shuhe_monster.ini
+patrolpoint=shuhe_patrolpoint.ini
+eventfile=shuhe_area.ini
+growpointdata=shuhe_growpoint.txt
+growpointsetup=shuhe_growpointsetup.txt
+platformfile=shuhe_platform.ini
+stallinfodata=shuhe_StallInfo.stall

@@ -1,0 +1,7 @@
+[System]
+navmapname=dawan.nav
+monsterfile=dawan_monster.ini
+patrolpoint=dawan_patrolpoint.ini
+eventfile=dawan_area.ini
+growpointdata=dawan_growpoint.txt
+growpointsetup=dawan_growpointsetup.txt

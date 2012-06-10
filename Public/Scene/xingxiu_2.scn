@@ -1,0 +1,5 @@
+[System]
+navmapname=xingxiu_2.nav
+monsterfile=xingxiu_2_monster.ini
+patrolpoint=xingxiu_2_patrolpoint.ini
+eventfile=xingxiu_2_area.ini

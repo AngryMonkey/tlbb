@@ -1,0 +1,8 @@
+[System]
+navmapname=songliao.nav
+monsterfile=songliao_monster.ini
+patrolpoint=songliao_patrolpoint.ini
+growpointdata=songliao_growpoint.txt
+growpointsetup=songliao_growpointsetup.txt
+eventfile=songliao_area.ini
+petfile=songliao_pet.ini

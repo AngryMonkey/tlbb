@@ -1,0 +1,8 @@
+[System]
+navmapname=tongtianta3.nav
+monsterfile=tongtianta3_monster.ini
+patrolpoint=tongtianta3_patrolpoint.ini
+growpointdata=tongtianta3_growpoint.txt
+growpointsetup=tongtianta3_growpointsetup.txt
+eventfile=tongtianta3_area.ini
+platformfile=tongtianta3_platform.ini

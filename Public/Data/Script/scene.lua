@@ -13,22 +13,23 @@ x888888_g_Jinghu_SceneId = 5   --hongyu
 x888888_g_jingji_SceneId = 414 --hongyu 竞技场
 x888888_g_HanYuBed_SceneId = 194 --寒玉床
 x888888_g_NianShou_SceneId = 6 --年兽
-x888888_g_XinShou_SceneId = 2 --泡点地图号
+x888888_g_XinShou_SceneId = 194 --泡点地图号
 
 --下面定义玩家每个等级发送的邮件数量
 --格式为{2,0},2为等级,0是该等级要发送的邮件数目，在客户端的strdictionary.txt里面有LevelMail_2_1代表2级第一封邮件,添加邮件内容时需同时修改客户端和该结构的内容
-x888888_g_MailNum = {	{1,1},{2,1},{3,1},{4,1},{5,1},{6,1},{7,1},{8,1},{9,1},{10,1},{11,1},
-						{12,1},{13,1},{14,1},{15,1},{16,1},{17,1},{18,1},{19,1},{20,1},{21,1},
-						{22,1},{23,1},{24,1},{25,1},{26,1},{27,1},{28,1},{29,1},{30,1},{31,1},
-						{32,1},{33,1},{34,1},{35,1},{36,1},{37,1},{38,1},{39,1},{40,1},{41,1},
-						{42,1},{43,1},{44,1},{45,1},{46,1},{47,1},{48,1},{49,1},{50,1},{51,1},
-						{52,1},{53,1},{54,1},{55,1},{56,1},{57,1},{58,1},{59,1},{60,1},{61,1},
-						{62,1},{63,1},{64,1},{65,1},{66,1},{67,1},{68,1},{69,1},{70,1},{71,1},
-						{72,1},{73,1},{74,1},{75,1},{76,1},{77,1},{78,1},{79,1},{80,1},{81,1},
-						{82,1},{83,1},{84,1},{85,1},{86,1},{87,1},{88,1},{89,1},{90,1},{91,1},
-						{92,1},{93,1},{94,1},{95,1},{96,1},{97,1},{98,1},{99,1},{100,1},{101,0},
-						{102,1},{103,1},{104,1},{105,1},{106,1},{107,1},{108,1},{109,1},{110,1},
-						{111,1},{112,1},{113,1},{114,1},{115,1},{116,1},{117,1},{118,1},{119,1},{120,1},
+x888888_g_MailNum = {{1,1},{2,1},{3,1},{4,1},{5,1},{6,1},{7,1},{8,1},{9,1},{10,1},{11,1},
+										{12,1},{13,1},{14,1},{15,1},{16,1},{17,1},{18,1},{19,1},{20,1},{21,1},
+										{22,1},{23,1},{24,1},{25,1},{26,1},{27,1},{28,1},{29,1},{30,1},{31,1},
+										{32,1},{33,1},{34,1},{35,1},{36,1},{37,1},{38,1},{39,1},{40,1},{41,1},
+										{42,1},{43,1},{44,1},{45,1},{46,1},{47,1},{48,1},{49,1},{50,1},{51,1},
+										{52,1},{53,1},{54,1},{55,1},{56,1},{57,1},{58,1},{59,1},{60,1},{61,1},
+										{62,1},{63,1},{64,1},{65,1},{66,1},{67,1},{68,1},{69,1},{70,1},{71,1},
+										{72,1},{73,1},{74,1},{75,1},{76,1},{77,1},{78,1},{79,1},{80,1},{81,1},
+										{82,1},{83,1},{84,1},{85,1},{86,1},{87,1},{88,1},{89,1},{90,1},{91,1},
+										{92,1},{93,1},{94,1},{95,1},{96,1},{97,1},{98,1},{99,1},{100,1},{101,0},
+										{102,1},{103,1},{104,1},{105,1},{106,1},{107,1},{108,1},{109,1},{110,1},
+										{111,1},{112,1},{113,1},{114,1},{115,1},{116,1},{117,1},{118,1},{119,1},{120,1},
+										 
 									   }
 
 -- ===============================================
@@ -54,9 +55,9 @@ x888888_MenPaiBroadMsg =
 CopyScene_LevelGap =31
 
 -- 玩家升级时可以完成的任务
-x888888_g_FullLevel_MissionList	=	{}	-- 任务ID,任务索引号,需求等级,任务完成标志在任务参数第几位,任务跟踪标志在任务参数第几位
+x888888_g_FullLevel_MissionList	=	{}
 x888888_g_FullLevel_MissionList[28] = { MissionId = 403, MissionIndex = 500606, LevelLimit = 28, CompleteIdx = 0, RecordIdx = 1, MsgStr = "#{YD_20080421_188}" }
-x888888_g_FullLevel_MissionList[30] = { MissionId = 409, MissionIndex = 500602, LevelLimit = 30, CompleteIdx = 0, RecordIdx = 1, MsgStr = "#{YD_20080421_181}" }
+x888888_g_FullLevel_MissionList[30] = { MissionId = 409, MissionIndex = 500602, LevelLimit = 30, CompleteIdx = 0, RecordIdx = 1, MsgStr = "#{YD_20080421_181}" }												-- 任务ID,任务索引号,需求等级,任务完成标志在任务参数第几位,任务跟踪标志在任务参数第几位
 x888888_g_FullLevel_MissionList[32] = { MissionId = 412, MissionIndex = 500603, LevelLimit = 32, CompleteIdx = 0, RecordIdx = 1, MsgStr = "#{YD_20080421_183}" }
 x888888_g_FullLevel_MissionList[35] = { MissionId = 415, MissionIndex = 500605, LevelLimit = 35, CompleteIdx = 0, RecordIdx = 1, MsgStr = "#{YD_20080421_186}" }
 x888888_g_FullLevel_MissionList[38] = { MissionId = 418, MissionIndex = 500608, LevelLimit = 38, CompleteIdx = 0, RecordIdx = 1, MsgStr = "#{YD_20080421_191}" }
@@ -67,9 +68,9 @@ x888888_g_FullLevel_MissionList[48] = { MissionId = 476, MissionIndex = 500615, 
 x888888_g_FullLevel_MissionList[50] = { MissionId = 480, MissionIndex = 500616, LevelLimit = 50, CompleteIdx = 0, RecordIdx = 1, MsgStr = "#{YD_20080421_204}" }
 
 -- 玩家升级时可以自动添加的任务
-x888888_g_AutoAccept_MissionList = {}	-- 任务ID,任务索引号,前续任务ID,任务类型参数(3),脚本任务时MissionIndex为ScriptId
+x888888_g_AutoAccept_MissionList = {}
 x888888_g_AutoAccept_MissionList[26] = { MissionId = 400, MissionIndex = 1018700, PreMissionId = 0,   pKill = 0, pArea = 0, pItem = 0, EventId = 4 }
-x888888_g_AutoAccept_MissionList[28] = { MissionId = 403, MissionIndex = 500606, PreMissionId = 0, pKill = 0, pArea = 0, pItem = 0, EventId = 0 }		
+x888888_g_AutoAccept_MissionList[28] = { MissionId = 403, MissionIndex = 500606, PreMissionId = 0, pKill = 0, pArea = 0, pItem = 0, EventId = 0 }			-- 任务ID,任务索引号,前续任务ID,任务类型参数(3),脚本任务时MissionIndex为ScriptId
 x888888_g_AutoAccept_MissionList[30] = { MissionId = 409, MissionIndex = 500602, PreMissionId = 0, pKill = 0, pArea = 0, pItem = 0, EventId = 0 }
 x888888_g_AutoAccept_MissionList[32] = { MissionId = 412, MissionIndex = 500603, PreMissionId = 0, pKill = 0, pArea = 0, pItem = 0, EventId = 0 }
 x888888_g_AutoAccept_MissionList[35] = { MissionId = 415, MissionIndex = 500605, PreMissionId = 0, pKill = 0, pArea = 0, pItem = 0, EventId = 0 }
@@ -205,11 +206,11 @@ function x888888_OnScenePlayerEnter( sceneId, playerId, isReconnect )
 		return
 	end
 
-	if GetMenPai( sceneId, playerId) ~=9 then
+	--if GetMenPai( sceneId, playerId) ~=9 then
 		SetPlayerDefaultReliveInfo( sceneId, playerId, "%10", -1, "0", x888888_g_defaultRelive_SceneID_1, 20, 38 );
-	else
-		SetPlayerDefaultReliveInfo( sceneId, playerId, "%100", -1, "0", x888888_g_defaultRelive_SceneID_2, 165, 169 );
-	end
+	--else
+	--	SetPlayerDefaultReliveInfo( sceneId, playerId, "%100", -1, "0", x888888_g_defaultRelive_SceneID_2, 165, 169 );
+	--end
 
 	-- 如果进入了华山论剑的场景，就设置这个人物的阵营号  hongyu
 	if sceneId == x888888_g_HS_PK_SceneId    then
@@ -231,6 +232,22 @@ function x888888_OnScenePlayerEnter( sceneId, playerId, isReconnect )
 			--InitSceneData(sceneId, playerId, 125020, "OnInitScene")
 		end
 	end
+
+	-- 生死夺宝触发
+	if sceneId == 410    then
+		CallScriptFunction((891000), "OnScenePlayerEnter",sceneId, playerId)
+		-- 在这里检测华山论剑的计时器是不是开着，如果没有开就打开，
+		-- 场景计时器的Id = 0
+		if CheckTimer(sceneId, 0) == 0  then
+			SetTimer(sceneId, playerId, 891000, "OnHuashanSceneTimer", 16000)
+		end
+	end
+
+	if sceneId == 410   then
+		if LuaFnGetAvailableItemCount(sceneId, playerId, 39910008) >= 1   then
+			LuaFnDelAvailableItem(sceneId,playerId,39910008,10)--删除物品
+		end
+	end
 	
 	-- 第一个进入镜湖场景的玩家，负责启动镜湖的计时器
 	if sceneId == x888888_g_Jinghu_SceneId   then
@@ -242,7 +259,7 @@ function x888888_OnScenePlayerEnter( sceneId, playerId, isReconnect )
 	--第一个进入泡点场景的玩家，负责启动新手集市的计时器
 	if sceneId == x888888_g_XinShou_SceneId then
 		if CheckTimer(sceneId, 0) == 0  then
-			SetTimer(sceneId, playerId, 898989, "OnSceneTimer",20000)
+			SetTimer(sceneId, playerId, 898989, "OnSceneTimer",2000)
 		end
 	end
 
@@ -308,6 +325,11 @@ function x888888_OnSceneHumanDie( sceneId, selfId, killerId )
 	-- 如果玩家是在 竞技场 被杀
 	if sceneId == x888888_g_jingji_SceneId    then
 		CallScriptFunction((125020), "OnSceneHumanDie",sceneId, selfId, killerId)
+	end
+
+	-- 如果玩家是在 竞技场 被杀
+	if sceneId == 410    then
+		CallScriptFunction((891000), "OnSceneHumanDie",sceneId, selfId, killerId)
 	end
 	
 	--帮会战争情况
@@ -550,12 +572,11 @@ function x888888_OnScenePlayerLogin( sceneId, selfId, nowtime )
 	
 	-- 天龙嘉年华
 	-- CallScriptFunction( 889055, "OnPlayerLogin", sceneId, selfId )
-
 	--天龙上线公告
-	CallScriptFunction( 380002, "OnDefaultEvent", sceneId, selfId )
+	--CallScriptFunction( 380002, "OnDefaultEvent", sceneId, selfId )
 	
 	--更新龙纹信息
-	CallScriptFunction( 892001, "GetLWInfo", sceneId, selfId )
+	--CallScriptFunction( 892001, "GetLWInfo", sceneId, selfId )
 end
 
 --玩家创建角色后第一次登陆游戏事件, 此事件会在玩家调用x888888_OnScenePlayerEnter事
@@ -574,7 +595,10 @@ function x888888_OnScenePlayerFirstLogin( sceneId, selfId, nowtime )
 	CallScriptFunction( 808065, "SendMail", sceneId, selfId )
 
 	--新手上线赠送一个新蓝光环
-        LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 8000, 0)
+        LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 3017, 0)
+        LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 3018, 0)
+        LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 3019, 0)
+
 
 	ItemID ={10100100,10101100,10102100,10103100,10104100,10105100}
 	i=random(1,6)
@@ -583,8 +607,8 @@ function x888888_OnScenePlayerFirstLogin( sceneId, selfId, nowtime )
 	--送给玩家一个江湖干坤袋
 	local WorldReferenceID = 10155001
 	local WorldReferenceID1 = 10141030
-	local WorldReferenceID2 = 10141040
-	local WorldReferenceID3 = 30501319
+	local WorldReferenceID2 = 30504124
+	local WorldReferenceID3 = 39901003
 	local DenglongID = 30505162
 	local UniverseBagID = 30008059
 	AddItem( sceneId, WorldReferenceID, 1 )
@@ -831,7 +855,6 @@ function x888888_OnPlayerPickupItemFromDropBox(sceneId, selfId, itemId, bagidx, 
 	if bSend == 1 then
 		return
 	end
-
 
 	--寒玉床宝箱拾取公告....
 	if sceneId == x888888_g_HanYuBed_SceneId and bGem == 3 then

@@ -1,0 +1,5 @@
+[System]
+navmapname=cuju.nav
+monsterfile=cuju_monster.ini
+patrolpoint=cuju_patrolpoint.ini
+eventfile=cuju_area.ini

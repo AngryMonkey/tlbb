@@ -1,0 +1,9 @@
+[System]
+navmapname=songshan.nav
+monsterfile=songshan_monster.ini
+patrolpoint=songshan_patrolpoint.ini
+growpointdata=songshan_growpoint.txt
+growpointsetup=songshan_growpointsetup.txt
+eventfile=songshan_area.ini
+petfile=songshan_pet.ini
+platformfile=songshan_platform.ini

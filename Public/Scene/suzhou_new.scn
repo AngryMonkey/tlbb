@@ -1,0 +1,9 @@
+[System]
+navmapname=suzhou_new.nav
+monsterfile=suzhou_new_monster.ini
+patrolpoint=suzhou_new_patrolpoint.ini
+growpointdata=suzhou_new_growpoint.txt
+growpointsetup=suzhou_new_growpointsetup.txt
+eventfile=suzhou_new_area.ini
+platformfile=suzhou_new_platform.ini
+stallinfodata=suzhou_new_StallInfo.stall

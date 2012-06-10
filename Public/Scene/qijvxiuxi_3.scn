@@ -1,0 +1,5 @@
+[System]
+navmapname=qijvxiuxi_3.nav
+monsterfile=qijvxiuxi_3_monster.ini
+patrolpoint=qijvxiuxi_3_patrolpoint.ini
+eventfile=qijvxiuxi_3_area.ini

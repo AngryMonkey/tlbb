@@ -1,0 +1,6 @@
+[System]
+navmapname=gaochangmigong.nav
+monsterfile=gaochangmigong_monster.ini
+patrolpoint=gaochangmigong_patrolpoint.ini
+eventfile=gaochangmigong_area.ini
+

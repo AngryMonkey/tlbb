@@ -1,0 +1,5 @@
+[System]
+navmapname=jiaofei.nav
+monsterfile=jiaofei_monster.ini
+patrolpoint=jiaofei_patrolpoint.ini
+eventfile=jiaofei_area.ini

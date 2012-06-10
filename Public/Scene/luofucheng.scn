@@ -1,0 +1,8 @@
+[System]
+navmapname=luofucheng.nav
+monsterfile=luofucheng_monster.ini
+patrolpoint=luofucheng_patrolpoint.ini
+growpointdata=luofucheng_growpoint.txt
+growpointsetup=luofucheng_growpointsetup.txt
+eventfile=luofucheng_area.ini
+platformfile=luofucheng_platform.ini

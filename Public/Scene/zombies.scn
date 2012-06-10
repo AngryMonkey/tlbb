@@ -1,0 +1,7 @@
+[System]
+navmapname=zombies.nav
+monsterfile=zombies_monster.ini
+patrolpoint=zombies_patrolpoint.ini
+growpointdata=zombies_growpoint.txt
+growpointsetup=zombies_growpointsetup.txt
+eventfile=zombies_area.ini

@@ -1,0 +1,5 @@
+[System]
+navmapname=zuqiuchang.nav
+monsterfile=zuqiuchang_monster.ini
+patrolpoint=zuqiuchang_patrolpoint.ini
+eventfile=zuqiuchang_area.ini

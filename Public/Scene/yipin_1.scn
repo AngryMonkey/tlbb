@@ -1,0 +1,5 @@
+[System]
+navmapname=yipin_1.nav
+monsterfile=yipin_1_monster.ini
+patrolpoint=yipin_1_patrolpoint.ini
+eventfile=yipin_1_area.ini

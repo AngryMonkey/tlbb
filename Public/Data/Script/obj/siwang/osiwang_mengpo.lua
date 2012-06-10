@@ -49,7 +49,7 @@ function x077001_OnEventRequest( sceneId, selfId, targetId, eventId )
 	
 	-- ´óÀí
 	elseif	GetNumText()==2	then
-		CallScriptFunction((400900), "TransferFunc", sceneId, selfId, 2,375,227)
+		CallScriptFunction((400900), "TransferFunc", sceneId, selfId, 2,252,123)
 
 	-- Â¥À¼
 	elseif	GetNumText()==5	then

@@ -1,0 +1,5 @@
+[System]
+navmapname=homezhong.nav
+monsterfile=homezhong_monster.ini
+patrolpoint=homezhong_patrolpoint.ini
+eventfile=homezhong_area.ini

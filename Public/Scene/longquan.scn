@@ -1,0 +1,9 @@
+[System]
+navmapname=longquan.nav
+monsterfile=longquan_monster.ini
+patrolpoint=longquan_patrolpoint.ini
+growpointdata=longquan_growpoint.txt
+growpointsetup=longquan_growpointsetup.txt
+eventfile=longquan_area.ini
+petfile=longquan_pet.ini
+platformfile=longquan_platform.ini

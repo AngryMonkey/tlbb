@@ -1,0 +1,8 @@
+[System]
+navmapname=kuafuzhengbasai.nav
+monsterfile=kuafuzhengbasai_monster.ini
+patrolpoint=kuafuzhengbasai_patrolpoint.ini
+growpointdata=kuafuzhengbasai_growpoint.txt
+growpointsetup=kuafuzhengbasai_growpointsetup.txt
+eventfile=kuafuzhengbasai_area.ini
+platformfile=kuafuzhengbasai_platform.ini

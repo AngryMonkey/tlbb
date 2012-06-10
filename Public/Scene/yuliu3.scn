@@ -1,0 +1,8 @@
+[System]
+navmapname=yuliu3.nav
+monsterfile=yuliu3_monster.ini
+patrolpoint=yuliu3_patrolpoint.ini
+growpointdata=yuliu3_growpoint.txt
+growpointsetup=yuliu3_growpointsetup.txt
+eventfile=yuliu3_area.ini
+petfile=yuliu3_pet.ini

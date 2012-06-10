@@ -1,0 +1,3 @@
+INT	INT	INT	INT	INT	INT	INT	INT
+ID	声音ID	声源位置X	声源位置Z	有效距离	重复次数	间隔时间	一组后的间隔时间
+0	161	30	30	128	2	20000	16000

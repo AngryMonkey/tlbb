@@ -1,0 +1,78 @@
+INT	INT	INT	STRING	STRING	FLOAT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+ID	轨迹类型	预留	子弹飞行特效ID	飞行音效ID	速度(m/s)	子弹爆炸特效ID	爆炸音效ID	击中特效的绑定点	预留1	预留2	预留3	预留4	预留5	描述
+1	0	0	npc_anqi_zd		15	npc_anqi_zdo		身体受击点						月落西山
+2	0	0	g01_zd_huanpeiguihun		15	g01_zdo_huanpeiguihun		身体受击点						环佩归魂
+3	2	0			15	g01_zdo_tiesuohengjiang	Skills\Wd\Wd_三环套月.wav	身体受击点						铁索横江
+6	1	0	g01_zd_baihongguanri		15	g01_zdo_baihongguanri		脚下光圈点						白虹贯日
+7	0	0	g01_zd_dakuixing		15	all_bj07		身体受击点						大魁星
+8	0	0	g01_zd_danfengchaoyang		15	g01_dl_zdo_shaozejian		身体受击点						丹凤朝阳
+9	0	0	g01_zd_gaotanma		15	all_bj06		身体受击点						高探马
+10	0	0	g01_zd_haoyueqianli		15	g01_zdo_huanpeiguihun		身体受击点						皓月千里
+11	0	0	g01_zd_huifengbiliu		15	g01_dl_zdo_yiyangzhi		身体受击点						回风拂柳
+13	0	0	g01_zd_kuaihuosan		15	all_bj06		身体受击点						快活三
+14	1	0			15									揽雀尾
+15	0	0	g01_zd_lanshadu		15	g01_zdo_lanshadu		身体受击点						蓝砂毒
+16	0	0	g01_zd_lvshuangbingzhi	Skills\Common\bullet_fly_by2.wav	15	all_bj04	Skills\Xy\Xy_潇湘夜雨.wav	身体受击点						履霜冰至
+18	0	0	g01_zd_sanhuantaoyue		15	all_bj06		身体受击点						三环套月
+19	0	0	秘籍_xy_zd		15	秘籍_xy_zdo		身体受击点						鲲跃北溟
+20	0	0	g01_zd_shaungfengguaner		15	g01_zdo_shuangfengguaner		身体受击点						双峰灌耳
+22	0	0	g01_zd_tuonidaishui		15	g01_zdo_tuonidaishui		身体受击点						拖泥带水
+23	0	0	g01_zd_wangyangxingtan		15	all_bj06		身体受击点						望洋兴叹
+24	0	0	g01_zd_xianrenzhilu		15	g01_zdo_xianrenzhilu		身体受击点						仙人指路
+25	0	0	g01_zd_xiaokouchangkai		15	g01_zdo_xiaokouchangkai		身体受击点						笑口常开
+26	0	0	g01_zd_yanaimangmang		15	g01_zdo_shuangfengguaner		身体受击点						烟霭茫茫
+27	0	0												野马分鬃
+28	2	0			15	g01_zdo_fushidu		脚下光圈点						腐尸毒
+29	2	0			15	g01_zdo_eguangmanying		身体受击点						恶贯满盈
+30	2	0			15	g01_zdo_lianzhufushidu		脚下光圈点						连珠腐尸毒
+35	0	0	g01_zd_lvshuangbingzhi		15	npc_all_danbing_zdo	Skills\Common\ice_explode_1.wav	身体受击点						寒冰咒
+36	0	0	g01_zd_gaotanma		15	npc_all_danhuo_zdo	Skills\Common\fire_explode_1.wav	身体受击点						烈火咒
+37	0	0	npc_all_dandu_zd		15	g01_zdo_jiuyinbaiguzhua	Skills\Common\poison_3.wav	身体受击点						血毒咒
+38	0	0	npc_all_danxuan_zd		15	npc_all_danxuan_zdo	Skills\Common\lighting_1.wav	身体受击点						霹雷咒
+39	2	0			15	cw_zd_jibingningsha		身体受击点						极冰凝杀
+40	2	0			15	cw_zd_jiehuofensha		身体受击点						劫火焚杀
+41	2	0			15	cw_zd_jiuleijisha		身体受击点						九雷击杀
+42	2	0			15	cw_zd_fudushisha		身体受击点						腐毒蚀杀
+43	0	0	npc_yuancheng		15	all_bj06		身体受击点						NPC远程
+80	0	0	g01_ts_zd_shengsifu		15	g01_ts_zdo_shengsifu		身体受击点						生死符
+81	0	0	g01_wd_zd_pikongzhang		15	all_bj00030		身体受击点						劈空掌
+82	0	0	g01_wd_zd_tianmafeipu		15	g01_wd_zdo_tianmafeipu	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点						天马飞瀑
+83	0	0	g01_wd_zd_xianrenzhilu		15	g01_wd_zdo_xianrenzhilu		身体受击点						仙人指路
+84	0	0	g01_wd_zd_rufengsibi		15	g01_wd_zdo_rufengsibi		身体受击点						玉女穿梭
+85	0	0	g01_zd_jiuyinbaiguzhua		15	g01_em_zdo_jiuyinbaiguzhua		身体受击点						西子捧心
+86	0	0	g01_em_zd_jindingmianzhang		15	g01_em_zdo_jindingmianzhang		身体受击点						障眼法
+87	0	0			15	g01_em_zd_jiuyingshehun		身体受击点						九影摄魂
+88	0	0	g01_xx_zd_bingcanzhang		15	g01_xx_zdo_bingcanzhang		身体受击点						冰蚕掌
+89	0	0			15	g01_dl_zdo_yuqinguzong		身体受击点						金玉拳
+90	0	0	g01_zd_kuaihuosan		15	g01_dl_zdo_kuxinzhi		身体受击点						雪拥蓝关
+91	0	0	g01_xy_zd_lingyanshibagong	Skills\Common\bullet_fly_by1.wav	15	g01_xy_zdo_lingyanshibagong	Skills\Common\bullet_explode1.wav	身体受击点						溪山行旅
+92	0	0	a_y_wudang_zd		10	a_y_wudang_zdo	Skills\Wd\Wd_八卦掌_击中.wav	身体受击点						八卦掌
+93	0	0	a_y_emei_zd		10	a_y_emei_zdo	Skills\Em\Em_貂蝉拜月_击中.wav	身体受击点						貂蝉拜月
+94	0	0	a_y_xingxiu_zd		10	a_y_xingxiu_zdo	Skills\Xx\Xx_蓝砂手_击中.wav	身体受击点						蓝砂手
+95	0	0	a_y_dali_zd		10	a_y_dali_zdo	Skills\Common\bullet_explode1.wav	身体受击点						正阳手
+96	0	0	a_y_xiaoyao_zd		10	a_y_xiaoyao_zdo	Skills\Weapon\sword_hit_light_4.wav	身体受击点						落英剑
+97	0	0	g01_xy_zd_beimingshenquan	Skills\Common\bullet_fly_by4.wav	15	g01_xy_zdo_beimingshenquan	Skills\Xy\Xy_惊涛骇浪.wav	身体受击点						北冥神拳
+98	0	0	g01_wd_zd_sanweizhenhuo		15	g01_wd_zdo_sanweizhenhuo		身体受击点						三味真火
+99	0	0	g01_zd_yemafenzong		15	g01_dl_zdo_wanyuechaozong		身体受击点						万岳朝宗
+100	0	0	g01_xy_sf_zd_高山留水		15	g01_xy_sf_zdo_高山留水		头顶状态点						高山流水
+101	0	0	g01_xy_sf_zd_花开縻荼		15	g01_xy_sf_zdo_花开縻荼		身体受击点						花开縻荼
+102	0	0	g01_xx_jq_zd_玄冥神掌		15	g01_xx_jq_zdo_玄冥神掌		身体受击点						玄冥神掌
+103	0	0	g01_xx_sf_zd_化骨绵掌		15	g01_xx_sf_zdo_化骨绵掌		身体受击点						化骨绵掌
+104	0	0	g01_wd_zd_yinyangjue	Skills\Common\item_flyby_1.wav	15	g01_wd_zdo_yinyangjue		身体受击点						揽雀尾
+105	0	0	g01_xx_sf_zd_青蛇掌		15	g01_xx_zdo_qingshezhang		身体受击点						青蛇毒掌
+106	0	0	g01_xx_jq_zt_蛤蟆功		15	g01_xx_zdo_蛤蟆功		身体受击点						蛤蟆功
+107	0	0	g01_xy_sf_zd_高山留水		15	g01_xy_sf_zdo_高山留水		身体受击点						潇湘夜雨
+108	0	0	秘籍_ts_zd		15	秘籍_ts_zdo		身体受击点						同生共死
+109	0	0	秘籍_wd_zd		15	秘籍_wd_zdo		身体受击点						天外飞仙
+110	0	0	秘籍_em_zd		15	秘籍_em_mj_zdo		身体受击点						九阴白骨爪
+111	0	0	秘籍_xx_zd		15	秘籍_xx_zdo		身体受击点						化骨绵掌
+112	0	0	cw_danbing_zd		15	cw_danbing_zdo		身体受击点						宠冰
+113	0	0	cw_danhuo_zd		15	cw_danhuo_zdo		身体受击点						宠火
+114	0	0	cw_danxuan_zd		15	cw_danxuan_zdo		身体受击点						宠玄
+115	0	0	cw_dandu_zd		15	cw_dandu_zdo		身体受击点						宠毒
+116	0	0	特效雪球		12	特效雪球_zdo	Skills\interface\sound_jiaru.wav	身体受击点						雪球
+117	0	0	落马技能_zd		15	落马技能_zdo		身体受击点						落马技
+118	0	0	go1_爱神之箭_zd_01		10	go1_爱神之箭_zdo_01		身体受击点						爱神之箭
+119	0	0	g01_zd_斩妖剑01		10	g01_zdo_斩妖剑01	Skills\Common\Zyj_爆炸雷电.wav	身体受击点						斩妖剑
+120	0	0	g01_暗器投掷01		15	g01_zdo_暗器投掷01		身体受击点						暗器投掷
+121	0	0	g01_暗器打穴01		15	g01_zdo_暗器打穴01		身体受击点						暗器打穴

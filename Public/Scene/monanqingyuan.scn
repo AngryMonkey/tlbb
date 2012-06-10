@@ -1,0 +1,8 @@
+[System]
+navmapname=monanqingyuan.nav
+monsterfile=monanqingyuan_monster.ini
+patrolpoint=monanqingyuan_patrolpoint.ini
+growpointdata=monanqingyuan_growpoint.txt
+growpointsetup=monanqingyuan_growpointsetup.txt
+eventfile=monanqingyuan_area.ini
+platformfile=monanqingyuan_platform.ini

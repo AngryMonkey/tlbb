@@ -1,0 +1,5 @@
+[System]
+navmapname=newbie_1.nav
+monsterfile=newbie_1_monster.ini
+patrolpoint=newbie_1_patrolpoint.ini
+eventfile=newbie_1_area.ini

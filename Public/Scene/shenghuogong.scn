@@ -1,0 +1,8 @@
+[System]
+navmapname=shenghuogong.nav
+monsterfile=shenghuogong_monster.ini
+patrolpoint=shenghuogong_patrolpoint.ini
+growpointdata=shenghuogong_growpoint.txt
+growpointsetup=shenghuogong_growpointsetup.txt
+eventfile=shenghuogong_area.ini
+platformfile=shenghuogong_platform.ini

@@ -1,0 +1,5 @@
+[System]
+navmapname=tianshan_2.nav
+monsterfile=tianshan_2_monster.ini
+patrolpoint=tianshan_2_patrolpoint.ini
+eventfile=tianshan_2_area.ini

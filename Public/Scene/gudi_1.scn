@@ -1,0 +1,5 @@
+[System]
+navmapname=gudi_1.nav
+monsterfile=gudi_1_monster.ini
+patrolpoint=gudi_1_patrolpoint.ini
+eventfile=gudi_1_area.ini

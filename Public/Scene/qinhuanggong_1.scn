@@ -1,0 +1,7 @@
+[System]
+navmapname=qinhuanggong_1.nav
+monsterfile=qinhuanggong_1_monster.ini
+patrolpoint=qinhuanggong_1_patrolpoint.ini
+eventfile=qinhuanggong_1_area.ini
+growpointdata=qinhuanggong_1_growpoint.txt
+growpointsetup=qinhuanggong_1_growpointsetup.txt

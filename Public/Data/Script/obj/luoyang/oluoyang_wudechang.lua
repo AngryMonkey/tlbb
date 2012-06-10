@@ -123,7 +123,7 @@ function x000082_OnEventRequest( sceneId, selfId, targetId, eventId )
 		return
 	end
 	if arg == 1002 then		--大理
-		CallScriptFunction( (400900), "TransferFunc", sceneId, selfId, 2, 375, 227 )
+		CallScriptFunction( (400900), "TransferFunc", sceneId, selfId, 2, 253, 123 )
 		return
 	end
 	if arg == 1006 then		--洛阳商会

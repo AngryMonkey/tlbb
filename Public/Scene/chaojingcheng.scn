@@ -1,0 +1,8 @@
+[System]
+navmapname=chaojingcheng.nav
+monsterfile=chaojingcheng_monster.ini
+patrolpoint=chaojingcheng_patrolpoint.ini
+growpointdata=chaojingcheng_growpoint.txt
+growpointsetup=chaojingcheng_growpointsetup.txt
+eventfile=chaojingcheng_area.ini
+platformfile=chaojingcheng_platform.ini

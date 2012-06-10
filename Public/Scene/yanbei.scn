@@ -1,0 +1,10 @@
+[System]
+navmapname=yanbei.nav
+monsterfile=yanbei_monster.ini
+portalfile=yanbei_portal.ini
+patrolpoint=yanbei_patrolpoint.ini
+growpointdata=yanbei_growpoint.txt
+growpointsetup=yanbei_growpointsetup.txt
+eventfile=yanbei_area.ini
+petfile=yanbei_pet.ini
+platformfile=yanbei_platform.ini

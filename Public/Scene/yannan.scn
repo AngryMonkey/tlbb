@@ -1,0 +1,10 @@
+[System]
+navmapname=yannan.nav
+monsterfile=yannan_monster.ini
+portalfile=yannan_portal.ini
+platformfile=yannan_platform.ini
+patrolpoint=yannan_patrolpoint.ini
+growpointdata=yannan_growpoint.txt
+growpointsetup=yannan_growpointsetup.txt
+eventfile=yannan_area.ini
+petfile=yannan_pet.ini

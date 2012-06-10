@@ -1,0 +1,9 @@
+[System]
+navmapname=dunhuang.nav
+monsterfile=dunhuang_monster.ini
+patrolpoint=dunhuang_patrolpoint.ini
+growpointdata=dunhuang_growpoint.txt
+growpointsetup=dunhuang_growpointsetup.txt
+eventfile=dunhuang_area.ini
+petfile=dunhuang_pet.ini
+platformfile=dunhuang_platform.ini

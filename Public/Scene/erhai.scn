@@ -1,0 +1,9 @@
+[System]
+navmapname=erhai.nav
+monsterfile=erhai_monster.ini
+patrolpoint=erhai_patrolpoint.ini
+growpointdata=erhai_growpoint.txt
+growpointsetup=erhai_growpointsetup.txt
+eventfile=erhai_area.ini
+petfile=erhai_pet.ini
+platformfile=erhai_platform.ini

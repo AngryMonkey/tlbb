@@ -1,0 +1,8 @@
+[System]
+navmapname=wushendong.nav
+monsterfile=wushendong_monster.ini
+patrolpoint=wushendong_patrolpoint.ini
+growpointdata=wushendong_growpoint.txt
+growpointsetup=wushendong_growpointsetup.txt
+eventfile=wushendong_area.ini
+petfile=wushendong_pet.ini

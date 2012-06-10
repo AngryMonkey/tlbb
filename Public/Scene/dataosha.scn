@@ -1,0 +1,5 @@
+[System]
+navmapname=dataosha.nav
+monsterfile=dataosha_monster.ini
+patrolpoint=dataosha_patrolpoint.ini
+eventfile=dataosha_area.ini

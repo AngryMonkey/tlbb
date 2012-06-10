@@ -1,0 +1,3 @@
+INT	INT	INT	INT	INT	STRING	STRING	STRING	INT	INT	FLOAT	FLOAT	INT	INT	INT
+index	class	quality	type	Mapindex	资源	name$1$	说明文字$1$	等级	适应规则	X坐标	Z坐标	SceneID	生长点类型	脚本编号
+60000001	6	0	0	1	Ability_Creature_Cursed_01	太湖宝藏图	这是个藏宝图	1	6	10	10	4	10	5000

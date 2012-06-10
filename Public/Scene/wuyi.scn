@@ -1,0 +1,9 @@
+[System]
+navmapname=wuyi.nav
+monsterfile=wuyi_monster.ini
+patrolpoint=wuyi_patrolpoint.ini
+growpointdata=wuyi_growpoint.txt
+growpointsetup=wuyi_growpointsetup.txt
+eventfile=wuyi_area.ini
+petfile=wuyi_pet.ini
+platformfile=wuyi_platform.ini

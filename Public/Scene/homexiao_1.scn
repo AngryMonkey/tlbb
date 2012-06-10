@@ -1,0 +1,5 @@
+[System]
+navmapname=homexiao_1.nav
+monsterfile=homexiao_1_monster.ini
+patrolpoint=homexiao_1_patrolpoint.ini
+eventfile=homexiao_1_area.ini

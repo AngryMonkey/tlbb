@@ -1,0 +1,8 @@
+[System]
+navmapname=kuafuzongjuesai.nav
+monsterfile=kuafuzongjuesai_monster.ini
+patrolpoint=kuafuzongjuesai_patrolpoint.ini
+growpointdata=kuafuzongjuesai_growpoint.txt
+growpointsetup=kuafuzongjuesai_growpointsetup.txt
+eventfile=kuafuzongjuesai_area.ini
+platformfile=kuafuzongjuesai_platform.ini

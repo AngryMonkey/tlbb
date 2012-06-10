@@ -12,20 +12,21 @@ function x002095_OnDefaultEvent( sceneId, selfId,targetId )
       local	lev	= GetLevel( sceneId, selfId )
 	BeginEvent(sceneId)
 
-		AddText(sceneId,"  #gFF83FA欢迎来到天龙私服，本服同步官方最新楼兰副本，增加9大门派第8本心法，第8本心法技能#W")
+		AddText(sceneId,"　　我是新手小保姆，你将来混得怎么样全看我的了。")
              --AddNumText( sceneId, x002095_g_ScriptId, "#gFF8C00领取七本150级心法",8,14 )
 	if lev >= 120 then
 	     --AddNumText( sceneId, x002095_g_ScriptId, "修复门派技能及150级心法",5,8888 )
 	end	
-             AddNumText( sceneId, x002095_g_ScriptId, "#gFF8C00我要升150级",8,3333 )
-            AddNumText( sceneId, x002095_g_ScriptId, "#b#K#c993366无限领取金币",5,10 )
-	     --AddNumText( sceneId, x002093_g_ScriptId, "#gFF7F00全属性光环",8,100 )
+             AddNumText( sceneId, x002095_g_ScriptId, "#Y无限领取元宝",1,501 )
+             AddNumText( sceneId, x002095_g_ScriptId, "#Y无限领取金币",2,502 )
+             AddNumText( sceneId, x002095_g_ScriptId, "#gFF7F00无限领取赠点",3,503 )
+             AddNumText( sceneId, x002095_g_ScriptId, "#gFF8C00我要升149级",4,3333 )
+	     --AddNumText( sceneId, x002093_g_ScriptId, "#gFF7F00全属性光环",5,100 )
 	     --AddNumText( sceneId, x002093_g_ScriptId, "#b#cFF0000☆金榜题名☆",5,101 )
 	     --AddNumText( sceneId, x002093_g_ScriptId, "#cFF0000领取师徒情深",5,102 )
 	     --AddNumText( sceneId, x002093_g_ScriptId, "#b#cFF0000☆金榜题名☆",5,103 )
-             AddNumText( sceneId, x002095_g_ScriptId, "#gFF7F00无限领取赠点",8,6666 )
-             --AddNumText( sceneId, x002095_g_scriptId, "#31#gffff00领取12个新技能#31", 5, 4242)
-             AddNumText( sceneId, x002095_g_ScriptId, "我要转生",5,5555 )
+             --AddNumText( sceneId, x002095_g_scriptId, "#31#gffff00领取12个新技能#31", 6, 4242)
+             AddNumText( sceneId, x002095_g_ScriptId, "我要转生",8,5555 )
               --AddNumText( sceneId, x002095_g_ScriptId, "#gFAFAD2负经验清零",6,11 )
 	EndEvent(sceneId)
 	DispatchEventList(sceneId,selfId,targetId)
@@ -35,41 +36,43 @@ end
 
 function x002095_OnEventRequest( sceneId, selfId, targetId, eventId )
 local	key	= GetNumText()
-         if key  == 100 then
+         if key  == 501 then
         
                 
-               LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30160, 0)
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 5929, 0)
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 5985, 0) 
-               LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30134, 0)
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30170, 0) 
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30180, 0) 
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30186, 0) 
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30005, 0)
-		LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId,  8051, 0)
-		LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId,  8052, 0)
-                BeginEvent(sceneId)
-	        AddText(sceneId,"领取光环成功,时间结束可以继续领取")
-		EndEvent(sceneId)
-		DispatchEventList(sceneId,selfId,targetId)
+              -- LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30160, 0)
+              -- LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 5929, 0)
+               -- LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 5985, 0) 
+               --LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30134, 0)
+                --LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30170, 0) 
+                --LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30180, 0) 
+                --LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30186, 0) 
+                --LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30005, 0)
+		--LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId,  8051, 0)
+		--LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId,  8052, 0)
+                --BeginEvent(sceneId)
+	        --AddText(sceneId,"领取光环成功,时间结束可以继续领取")
+		--EndEvent(sceneId)
+		--DispatchEventList(sceneId,selfId,targetId)
+	local getYB=500000;
+	   --ZengDian(sceneId,selfId,targetId,1,getYB)
+	   YuanBao(sceneId,selfId,targetId,1,getYB)
+	   x002095_Tips( sceneId, selfId, "恭喜你，成功领取 "..getYB.." 元宝。" )
+	   x002095_CloseMe(sceneId, selfId)
                 end
-	if key == 101 then
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30186, 0)			
-	end
-	if key == 102 then
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 30160, 0)			
-	end
-	if key == 103 then
-                LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 5960, 0)			
-	end
-	 if key  == 10 then
+	 if key  == 502 then
    		AddMoney( sceneId, selfId, 5000000 )
-
 		BeginEvent(sceneId)
 		AddText(sceneId,"领取金币成功，您获得了500金币。谢谢你对天龙的支持。")
 		EndEvent(sceneId)
-		DispatchEventList(sceneId,selfId,targetId)
+		--DispatchEventList(sceneId,selfId,targetId)
 end
+	if key == 503 then 
+	local getZD=500000;
+	   ZengDian(sceneId,selfId,targetId,1,getZD)
+	   --YuanBao(sceneId,selfId,targetId,1,getYB)
+	   x002095_Tips( sceneId, selfId, "恭喜你，成功领取 "..getZD.." 元宝。" )
+	   x002095_CloseMe(sceneId, selfId)
+	end
 	 if key  == 6666 then
    ZengDian(sceneId,selfId,targetId,1,300000)
 
@@ -109,7 +112,7 @@ if key  == 4242 then
 end
 if key == 3333 then
 		BeginEvent( sceneId )
-		AddText( sceneId, "#gF4F4F4你确定有149了吗？升级150，必须确保角色等级#G149#W级。" )
+		AddText( sceneId, "#gF4F4F4你确定是149了吗？" )
 		AddNumText(sceneId, x181003_g_scriptId, "#gF4F4F4是的，我要升级", 7, 4444 )
 		EndEvent( sceneId )
 		DispatchEventList( sceneId, selfId, targetId )
@@ -119,8 +122,8 @@ if key == 4444 then
 end
 if key == 5555 then
 		BeginEvent( sceneId )
-		AddText( sceneId, "#gF4F4F4你确定要转生吗？转生前，必须确保角色等级#G149#W级。转生后属性点保留，#G转生后，不要使用洗髓丹，否则，后果自负！" )
-		AddNumText(sceneId, x181003_g_scriptId, "#gF4F4F4是的，我要转生", 7, 5566 )
+		AddText( sceneId, "#gF4F4F4你确定要升级到149呢！" )
+		AddNumText(sceneId, x181003_g_scriptId, "#gF4F4F4是的，我要", 7, 5566 )
 		EndEvent( sceneId )
 		DispatchEventList( sceneId, selfId, targetId )
 end
@@ -1272,21 +1275,21 @@ end
 
 function x002095_Shengji (sceneId, selfId, targetId)
 	local	lev	= GetLevel( sceneId, selfId )
-	if lev < 148 then
+	if lev < 10 then
 		BeginEvent( sceneId )
 		AddText( sceneId, "等级不足#G149#W级，请#G149#W级后再来找我。" )
 		EndEvent( sceneId )
 		DispatchEventList( sceneId, selfId, targetId )
 		return -1
 	end
-	SetLevel( sceneId, selfId, 150)
+	SetLevel( sceneId, selfId, 149)
 	LuaFnSendSpecificImpactToUnit(sceneId, selfId, selfId, selfId, 147, 0)
 	BeginEvent(sceneId)
 		AddText(sceneId,"恭喜你，升级成功!!!")
 	EndEvent(sceneId)
 	DispatchMissionTips(sceneId,selfId)
 	BeginEvent( sceneId )
-		AddText( sceneId, "恭喜你升级到150级,请带上顶级装备在转生哦！" )
+		AddText( sceneId, "恭喜你升级到149级,请带上顶级装备在转生哦！" )
 	EndEvent( sceneId )
 	DispatchEventList( sceneId, selfId, targetId )
 	local	nam	= LuaFnGetName( sceneId, selfId )

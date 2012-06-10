@@ -1,0 +1,8 @@
+INT	INT	FLOAT	FLOAT	STRING
+ID	生活技能ID	乘法参数	加法参数 	注释（并不读入） 
+1	40	1	0	MAX HP
+2	41	1	0	MAX MP
+3	42	1	0	MAX Vigor
+4	44	1	0	Vigor Regenerate
+5	43	1	0	Max Energy
+6	45	1	0	Energy Regenerate

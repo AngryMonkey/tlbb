@@ -1,0 +1,8 @@
+[System]
+navmapname=yanhu.nav
+monsterfile=yanhu_monster.ini
+patrolpoint=yanhu_patrolpoint.ini
+eventfile=yanhu_area.ini
+growpointdata=yanhu_growpoint.txt
+growpointsetup=yanhu_growpointsetup.txt
+eventfile=yanhu_area.ini

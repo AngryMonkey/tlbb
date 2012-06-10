@@ -1,0 +1,9 @@
+[System]
+navmapname=loulangucheng.nav
+monsterfile=loulangucheng_monster.ini
+patrolpoint=loulangucheng_patrolpoint.ini
+eventfile=loulangucheng_area.ini
+stallinfodata=loulangucheng_StallInfo.stall
+growpointdata=loulangucheng_growpoint.txt
+growpointsetup=loulangucheng_growpointsetup.txt
+platformfile=loulangucheng_platform.ini

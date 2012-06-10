@@ -1,0 +1,9 @@
+[System]
+navmapname=miaojiang.nav
+monsterfile=miaojiang_monster.ini
+patrolpoint=miaojiang_patrolpoint.ini
+growpointdata=miaojiang_growpoint.txt
+growpointsetup=miaojiang_growpointsetup.txt
+eventfile=miaojiang_area.ini
+petfile=miaojiang_pet.ini
+platformfile=miaojiang_platform.ini

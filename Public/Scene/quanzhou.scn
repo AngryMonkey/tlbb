@@ -1,0 +1,8 @@
+[System]
+navmapname=quanzhou.nav
+monsterfile=quanzhou_monster.ini
+patrolpoint=quanzhou_patrolpoint.ini
+growpointdata=quanzhou_growpoint.txt
+growpointsetup=quanzhou_growpointsetup.txt
+eventfile=quanzhou_area.ini
+platformfile=quanzhou_platform.ini

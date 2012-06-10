@@ -1,0 +1,3 @@
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+索引	描述	Element0	Element1	Element2	Element3	Element4	Element5	Element6	Element7	Element8	Element9	Element10	Element11	Element12	Element13	Element14	Element15
+0	银行所在地	0	1	2	186	420	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1

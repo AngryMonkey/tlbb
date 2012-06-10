@@ -1,0 +1,8 @@
+[System]
+navmapname=wangchuanhuahai.nav
+monsterfile=wangchuanhuahai_monster.ini
+patrolpoint=wangchuanhuahai_patrolpoint.ini
+growpointdata=wangchuanhuahai_growpoint.txt
+growpointsetup=wangchuanhuahai_growpointsetup.txt
+eventfile=wangchuanhuahai_area.ini
+platformfile=wangchuanhuahai_platform.ini

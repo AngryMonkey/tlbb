@@ -1,0 +1,8 @@
+[System]
+navmapname=cangjingge_80JQTZ.nav
+monsterfile=cangjingge_80JQTZ_monster.ini
+patrolpoint=cangjingge_80JQTZ_patrolpoint.ini
+growpointdata=cangjingge_80JQTZ_growpoint.txt
+growpointsetup=cangjingge_80JQTZ_growpointsetup.txt
+eventfile=cangjingge_80JQTZ_area.ini
+platformfile=cangjingge_80JQTZ_platform.ini

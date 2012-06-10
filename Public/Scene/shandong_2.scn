@@ -1,0 +1,5 @@
+[System]
+navmapname=shandong_2.nav
+monsterfile=shandong_2_monster.ini
+patrolpoint=shandong_2_patrolpoint.ini
+eventfile=shandong_2_area.ini

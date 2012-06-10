@@ -1,0 +1,9 @@
+[System]
+navmapname=changbai.nav
+monsterfile=changbai_monster.ini
+patrolpoint=changbai_patrolpoint.ini
+growpointdata=changbai_growpoint.txt
+growpointsetup=changbai_growpointsetup.txt
+eventfile=changbai_area.ini
+petfile=changbai_pet.ini
+platformfile=changbai_platform.ini

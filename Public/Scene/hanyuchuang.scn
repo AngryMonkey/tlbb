@@ -1,0 +1,7 @@
+[System]
+navmapname=hanyuchuang.nav
+monsterfile=hanyuchuang_monster.ini
+patrolpoint=hanyuchuang_patrolpoint.ini
+growpointdata=hanyuchuang_growpoint.txt
+growpointsetup=hanyuchuang_growpointsetup.txt
+eventfile=hanyuchuang_area.ini

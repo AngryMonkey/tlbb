@@ -1,0 +1,8 @@
+[System]
+navmapname=city0.nav
+monsterfile=city0_monster.ini
+patrolpoint=city0_patrolpoint.ini
+growpointdata=city0_growpoint.txt
+growpointsetup=city0_growpointsetup.txt
+eventfile=city0_area.ini
+petfile=city0_pet.ini

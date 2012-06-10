@@ -1,0 +1,5 @@
+[System]
+navmapname=chuanwu.nav
+monsterfile=chuanwu_monster.ini
+patrolpoint=chuanwu_patrolpoint.ini
+eventfile=chuanwu_area.ini

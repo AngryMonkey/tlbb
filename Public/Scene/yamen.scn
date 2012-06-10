@@ -1,0 +1,5 @@
+[System]
+navmapname=yamen.nav
+monsterfile=yamen_monster.ini
+patrolpoint=yamen_patrolpoint.ini
+eventfile=yamen_area.ini

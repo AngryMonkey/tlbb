@@ -1,0 +1,202 @@
+INT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+ID	特效ID1	音效ID1	特效的绑定点1	特效ID2	音效ID2	特效的绑定点2	特效ID3	音效ID3	特效的绑定点3	特效ID4	音效ID4	特效的绑定点4	特效ID5	音效ID5	特效的绑定点5	预留1	预留2	效果说明
+0	all_bj0000	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	all_bj0000	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	all_bj0000	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	all_bj0000	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	all_bj0000	Skills\Weapon\fist_hit_middle_2.wav	身体受击点			物理伤害
+1	all_bj02		身体受击点	all_bj02		身体受击点	all_bj02		身体受击点	all_bj02		身体受击点	all_bj02		身体受击点			魔法伤害
+2	all_bj04		身体受击点	all_bj04		身体受击点	all_bj04		身体受击点	all_bj04		身体受击点	all_bj04		身体受击点			冰伤害
+3	all_bj06	Skills\Common\bullet_explode1.wav	身体受击点	all_bj06	Skills\Common\bullet_explode1.wav	身体受击点	all_bj06	Skills\Common\bullet_explode1.wav	身体受击点	all_bj06	Skills\Common\bullet_explode1.wav	身体受击点	all_bj06	Skills\Common\bullet_explode1.wav	身体受击点			火伤害
+4	all_bj05	Skills\Common\lighting_1.wav	身体受击点	all_bj05	Skills\Common\lighting_1.wav	身体受击点	all_bj05	Skills\Common\lighting_1.wav	身体受击点	all_bj05	Skills\Common\lighting_1.wav	身体受击点	all_bj05	Skills\Common\lighting_1.wav	身体受击点			电伤害
+5	all_bj01	Skills\Common\poison_4.wav	身体受击点	all_bj01	Skills\Common\poison_4.wav	身体受击点	all_bj01	Skills\Common\poison_4.wav	身体受击点	all_bj01	Skills\Common\poison_4.wav	身体受击点	all_bj01	Skills\Common\poison_4.wav	身体受击点			毒伤害
+6	all_bj03		身体受击点	all_bj03		身体受击点	all_bj03		身体受击点	all_bj03		身体受击点	all_bj03		身体受击点			直接减HP
+7	all_bj08		身体受击点	all_bj08		身体受击点	all_bj08		身体受击点	all_bj08		身体受击点	all_bj08		身体受击点			直接减MP
+8	all_bj09		身体受击点	all_bj09		身体受击点	all_bj09		身体受击点	all_bj09		身体受击点	all_bj09		身体受击点			直接减SP
+9	all_bj01		身体受击点	all_bj01		身体受击点	all_bj01		身体受击点	all_bj01		身体受击点	all_bj01		身体受击点			空
+10	all_jiaxie	magic_restore.wav	身体受击点	all_jiaxie	magic_restore.wav	身体受击点	all_jiaxie	magic_restore.wav	身体受击点	all_jiaxie	magic_restore.wav	身体受击点	all_jiaxie	magic_restore.wav	身体受击点			加血
+11	all_jiamo	magic_restore.wav	身体受击点	all_jiamo	magic_restore.wav	身体受击点	all_jiamo	magic_restore.wav	身体受击点	all_jiamo	magic_restore.wav	身体受击点	all_jiamo	magic_restore.wav	身体受击点			加魔
+12	all_jianu	magic_restore.wav	身体受击点	all_jianu	magic_restore.wav	身体受击点	all_jianu	magic_restore.wav	身体受击点	all_jianu	magic_restore.wav	身体受击点	all_jianu	magic_restore.wav	身体受击点			加怒
+13	all_jiaqiang	magic_restore.wav	身体受击点	all_jiaqiang	magic_restore.wav	身体受击点	all_jiaqiang	magic_restore.wav	身体受击点	all_jiaqiang	magic_restore.wav	身体受击点	all_jiaqiang	magic_restore.wav	身体受击点			加强
+14	all_jiechuzhuangtai	magic_restore.wav	身体受击点	all_jiechuzhuangtai	magic_restore.wav	身体受击点	all_jiechuzhuangtai	magic_restore.wav	身体受击点	all_jiechuzhuangtai	magic_restore.wav	身体受击点	all_jiechuzhuangtai	magic_restore.wav	身体受击点			解控
+15	yanhuo02	yanhuo02.wav	前置特效点	yanhuo02	yanhuo02.wav	前置特效点	yanhuo02	yanhuo02.wav	前置特效点	yanhuo02	yanhuo02.wav	前置特效点	yanhuo02	yanhuo02.wav	前置特效点			烟花(2)
+16	yanhuo03	yanhuo03.wav	前置特效点	yanhuo03	yanhuo03.wav	前置特效点	yanhuo03	yanhuo03.wav	前置特效点	yanhuo03	yanhuo03.wav	前置特效点	yanhuo03	yanhuo03.wav	前置特效点			烟花(3)
+17	yanhuo04	yanhuo04.wav	前置特效点	yanhuo04	yanhuo04.wav	前置特效点	yanhuo04	yanhuo04.wav	前置特效点	yanhuo04	yanhuo04.wav	前置特效点	yanhuo04	yanhuo04.wav	前置特效点			烟花(4)
+18	g01_em_buff111	interface\sound_shengji.wav	脚下光圈点	g01_em_buff111	interface\sound_shengji.wav	脚下光圈点	g01_em_buff111	interface\sound_shengji.wav	脚下光圈点	g01_em_buff111	interface\sound_shengji.wav	脚下光圈点	g01_em_buff111	interface\sound_shengji.wav	脚下光圈点			复活
+19	g01_buff23		身体受击点	g01_buff23		身体受击点	g01_buff23		身体受击点	g01_buff23		身体受击点	g01_buff23		身体受击点			净化
+20	g01_buff25		头顶状态点	g01_buff25		头顶状态点	g01_buff25		头顶状态点	g01_buff25		头顶状态点	g01_buff25		头顶状态点			驱逐
+21	g01_zdo_danfengchaoyang		身体受击点	g01_zdo_danfengchaoyang		身体受击点	g01_zdo_danfengchaoyang		身体受击点	g01_zdo_danfengchaoyang		身体受击点	g01_zdo_danfengchaoyang		身体受击点			爆炸
+22	g01_zdo_taiyisancai	Skills\Common\explosion_1.wav	身体受击点	g01_zdo_taiyisancai	Skills\Common\explosion_1.wav	身体受击点	g01_zdo_taiyisancai	Skills\Common\explosion_1.wav	身体受击点	g01_zdo_taiyisancai	Skills\Common\explosion_1.wav	身体受击点	g01_zdo_taiyisancai	Skills\Common\explosion_1.wav	身体受击点			开膛
+23	g01_zdo_eguangmanying		身体受击点	g01_zdo_eguangmanying		身体受击点	g01_zdo_eguangmanying		身体受击点	g01_zdo_eguangmanying		身体受击点	g01_zdo_eguangmanying		身体受击点			恶贯满盈爆炸
+24	g01_dd_jingangfumoquan_02		脚下光圈点	g01_dd_jingangfumoquan_02		脚下光圈点	g01_dd_jingangfumoquan_02		脚下光圈点	g01_dd_jingangfumoquan_02		脚下光圈点	g01_dd_jingangfumoquan_02		脚下光圈点			任务特效
+25	all_bj_sd	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点	all_bj_sd	Skills\Weapon\longsword_hit_middle_1.wav	身体受击点	all_bj_sd	Skills\Weapon\sword_hit_light_3.wav	身体受击点	all_bj_sd	Skills\Weapon\sword_hit_light_2.wav	身体受击点	all_bj_sd_01	Skills\Weapon\sword_hit_heavy_2.wav	身体受击点			伏虎拳特效
+26	g01_banruozhang_02		身体受击点	g01_banruozhang_02		身体受击点	g01_banruozhang_02		身体受击点	g01_banruozhang_02		身体受击点	g01_banruozhang_02		身体受击点			般若掌特效
+27	g01_yipailiangsan_05		身体受击点	g01_yipailiangsan_05		身体受击点	g01_yipailiangsan_05		身体受击点	g01_yipailiangsan_05		身体受击点	g01_yipailiangsan_05		身体受击点			一拍两散特效
+28	g01_wanxiangjiezhi_01		身体受击点	g01_wanxiangjiezhi_01		身体受击点	g01_wanxiangjiezhi_01		身体受击点	g01_wanxiangjiezhi_01		身体受击点	g01_wanxiangjiezhi_01		身体受击点			无相截指特效
+29	all_bj_cq	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点	all_bj_cq	Skills\Weapon\longsword_hit_middle_1.wav	身体受击点	all_bj_cq	Skills\Weapon\sword_hit_light_3.wav	身体受击点	all_bj_cq	Skills\Weapon\sword_hit_light_2.wav	身体受击点	all_bj_cq	Skills\Weapon\sword_hit_heavy_2.wav	身体受击点			错骨分筋特效
+30	g01_cuixinliepi		身体受击点	g01_cuixinliepi		身体受击点	g01_cuixinliepi		身体受击点	g01_cuixinliepi		身体受击点	g01_cuixinliepi		身体受击点			摧心裂脾特效
+31	g01_tianditongshou		身体受击点	g01_tianditongshou		身体受击点	g01_tianditongshou		身体受击点	g01_tianditongshou		身体受击点	g01_tianditongshou		身体受击点			天地同寿特效
+32	g01_leitingzhinu		身体受击点	g01_leitingzhinu		身体受击点	g01_leitingzhinu		身体受击点	g01_leitingzhinu		身体受击点	g01_leitingzhinu		身体受击点			雷霆之怒特效
+33	g01_houjibofa_03		身体受击点	g01_houjibofa_03		身体受击点	g01_houjibofa_03		身体受击点	g01_houjibofa_03		身体受击点	g01_houjibofa_03		身体受击点			厚积薄发特效
+34	all_bj_shan	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点	all_bj_shan	Skills\Weapon\longsword_hit_middle_1.wav	身体受击点	all_bj_shan	Skills\Weapon\sword_hit_light_3.wav	身体受击点	all_bj_shan	Skills\Weapon\sword_hit_light_2.wav	身体受击点	all_bj_shan	Skills\Weapon\sword_hit_heavy_2.wav	身体受击点			鲲跃北溟特效
+35	g01_peiranyouyu		身体受击点	g01_peiranyouyu		身体受击点	g01_peiranyouyu		身体受击点	g01_peiranyouyu		身体受击点	g01_peiranyouyu		身体受击点			沛然有雨特效
+36	g01_kanglongyouhui_03		身体受击点	g01_kanglongyouhui_03		身体受击点	g01_kanglongyouhui_03		身体受击点	g01_kanglongyouhui_03		身体受击点	g01_kanglongyouhui_03		身体受击点			亢龙有悔特效
+37	g01_geanguanhuo		身体受击点	g01_geanguanhuo		身体受击点	g01_geanguanhuo		身体受击点	g01_geanguanhuo		身体受击点	g01_geanguanhuo		身体受击点			隔岸观火特效
+38	g01_yabiangoubei		身体受击点	g01_yabiangoubei		身体受击点	g01_yabiangoubei		身体受击点	g01_yabiangoubei		身体受击点	g01_yabiangoubei		身体受击点			压扁狗背特效
+39	g01_wangmeizhike		身体受击点	g01_wangmeizhike		身体受击点	g01_wangmeizhike		身体受击点	g01_wangmeizhike		身体受击点	g01_wangmeizhike		身体受击点			望梅止渴特效
+40	g01_yanggetianjun		身体受击点	g01_yanggetianjun		身体受击点	g01_yanggetianjun		身体受击点	g01_yanggetianjun		身体受击点	g01_yanggetianjun		身体受击点			阳歌天钧特效
+41	g01_yangchunbaixue_01		身体受击点	g01_yangchunbaixue_01		身体受击点	g01_yangchunbaixue_01		身体受击点	g01_yangchunbaixue_01		身体受击点	g01_yangchunbaixue_01		身体受击点			阳春白雪特效
+42	g01_pingxuyufeng_01		身体受击点	g01_pingxuyufeng_01		身体受击点	g01_pingxuyufeng_01		身体受击点	g01_pingxuyufeng_01		身体受击点	g01_pingxuyufeng_01		身体受击点			凭虚御风特效
+43	g01_yihubaiying		身体受击点	g01_yihubaiying		身体受击点	g01_yihubaiying		身体受击点	g01_yihubaiying		身体受击点	g01_yihubaiying		身体受击点			一呼百应特效
+44	g01_zdo_baihongguanri		脚下光圈点	g01_zdo_baihongguanri		脚下光圈点	g01_zdo_baihongguanri		脚下光圈点	g01_zdo_baihongguanri		脚下光圈点	g01_zdo_baihongguanri		脚下光圈点			白虹贯日特效
+58	g01_yuqinguzong		脚下光圈点	g01_yuqinguzong		脚下光圈点	g01_yuqinguzong		脚下光圈点	g01_yuqinguzong		脚下光圈点	g01_yuqinguzong		脚下光圈点			友好特效
+59	yanhuo06	yanhuo02.wav	前置特效点	yanhuo06	yanhuo02.wav	前置特效点	yanhuo06	yanhuo02.wav	前置特效点	yanhuo06	yanhuo02.wav	前置特效点	yanhuo06	yanhuo02.wav	前置特效点			烟花新1
+60	yanhuo07	yanhuo02.wav	前置特效点	yanhuo07	yanhuo02.wav	前置特效点	yanhuo07	yanhuo02.wav	前置特效点	yanhuo07	yanhuo02.wav	前置特效点	yanhuo07	yanhuo02.wav	前置特效点			烟花新2
+61	yanhuo08	yanhuo02.wav	前置特效点	yanhuo08	yanhuo02.wav	前置特效点	yanhuo08	yanhuo02.wav	前置特效点	yanhuo08	yanhuo02.wav	前置特效点	yanhuo08	yanhuo02.wav	前置特效点			烟花新3
+62	yanhuo09	yanhuo02.wav	前置特效点	yanhuo09	yanhuo02.wav	前置特效点	yanhuo09	yanhuo02.wav	前置特效点	yanhuo09	yanhuo02.wav	前置特效点	yanhuo09	yanhuo02.wav	前置特效点			烟花新4
+63	yanhuo10	yanhuo02.wav	前置特效点	yanhuo10	yanhuo02.wav	前置特效点	yanhuo10	yanhuo02.wav	前置特效点	yanhuo10	yanhuo02.wav	前置特效点	yanhuo10	yanhuo02.wav	前置特效点			烟花新5
+64	yanhuo_zhong	yanhuo02.wav	前置特效点	yanhuo_zhong	yanhuo02.wav	前置特效点	yanhuo_zhong	yanhuo02.wav	前置特效点	yanhuo_zhong	yanhuo02.wav	前置特效点	yanhuo_zhong	yanhuo02.wav	前置特效点			中秋特效1
+65	yanhuo_qiu	yanhuo02.wav	前置特效点	yanhuo_qiu	yanhuo02.wav	前置特效点	yanhuo_qiu	yanhuo02.wav	前置特效点	yanhuo_qiu	yanhuo02.wav	前置特效点	yanhuo_qiu	yanhuo02.wav	前置特效点			中秋特效2
+66	yanhuo_kuai	yanhuo02.wav	前置特效点	yanhuo_kuai	yanhuo02.wav	前置特效点	yanhuo_kuai	yanhuo02.wav	前置特效点	yanhuo_kuai	yanhuo02.wav	前置特效点	yanhuo_kuai	yanhuo02.wav	前置特效点			中秋特效3
+67	yanhuo_le	yanhuo02.wav	前置特效点	yanhuo_le	yanhuo02.wav	前置特效点	yanhuo_le	yanhuo02.wav	前置特效点	yanhuo_le	yanhuo02.wav	前置特效点	yanhuo_le	yanhuo02.wav	前置特效点			中秋特效4
+68	少林_2		脚下光圈点	少林_2		脚下光圈点	少林_2		脚下光圈点	少林_2		脚下光圈点	少林_2		脚下光圈点			少林师门动作
+69	明教_2		脚下光圈点	明教_2		脚下光圈点	明教_2		脚下光圈点	明教_2		脚下光圈点	明教_2		脚下光圈点			明教师门动作
+70	丐帮_2		脚下光圈点	丐帮_2		脚下光圈点	丐帮_2		脚下光圈点	丐帮_2		脚下光圈点	丐帮_2		脚下光圈点			丐帮师门动作
+71	武当_2		脚下光圈点	武当_2		脚下光圈点	武当_2		脚下光圈点	武当_2		脚下光圈点	武当_2		脚下光圈点			武当师门动作
+72	峨嵋_2		脚下光圈点	峨嵋_2		脚下光圈点	峨嵋_2		脚下光圈点	峨嵋_2		脚下光圈点	峨嵋_2		脚下光圈点			峨嵋师门动作
+73	星宿_2		脚下光圈点	星宿_2		脚下光圈点	星宿_2		脚下光圈点	星宿_2		脚下光圈点	星宿_2		脚下光圈点			星宿师门动作
+74	天龙_2		脚下光圈点	天龙_2		脚下光圈点	天龙_2		脚下光圈点	天龙_2		脚下光圈点	天龙_2		脚下光圈点			大理师门动作
+75	天山_2		脚下光圈点	天山_2		脚下光圈点	天山_2		脚下光圈点	天山_2		脚下光圈点	天山_2		脚下光圈点			天山师门动作
+76	逍遥_2		头顶状态点	逍遥_2		头顶状态点	逍遥_2		头顶状态点	逍遥_2		头顶状态点	逍遥_2		头顶状态点			逍遥师门动作
+77	接任务	interface\quest_accept.wav	脚下光圈点	接任务	interface\quest_accept.wav	脚下光圈点	接任务	interface\quest_accept.wav	脚下光圈点	接任务	interface\quest_accept.wav	脚下光圈点	接任务	interface\quest_accept.wav	脚下光圈点			接任务特效
+78	交任务	interface\quest_complete.wav	脚下光圈点	交任务	interface\quest_complete.wav	脚下光圈点	交任务	interface\quest_complete.wav	脚下光圈点	交任务	interface\quest_complete.wav	脚下光圈点	交任务	interface\quest_complete.wav	脚下光圈点			交任务特效
+79	shengji_lv	interface\sound_shengji.wav	脚下光圈点	shengji_lv	interface\sound_shengji.wav	脚下光圈点	shengji_lv	interface\sound_shengji.wav	脚下光圈点	shengji_lv	interface\sound_shengji.wav	脚下光圈点	shengji_lv	interface\sound_shengji.wav	脚下光圈点			升级绿特效
+80	shengji_huang	interface\sound_shengji.wav	脚下光圈点	shengji_huang	interface\sound_shengji.wav	脚下光圈点	shengji_huang	interface\sound_shengji.wav	脚下光圈点	shengji_huang	interface\sound_shengji.wav	脚下光圈点	shengji_huang	interface\sound_shengji.wav	脚下光圈点			升级黄特效
+100	all_bj0000a	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点	all_bj0000a	Skills\Weapon\longsword_hit_middle_1.wav	身体受击点	all_bj0000a	Skills\Weapon\sword_hit_light_3.wav	身体受击点	all_bj0000a	Skills\Weapon\sword_hit_light_2.wav	身体受击点	all_bj0004a	Skills\Weapon\sword_hit_heavy_2.wav	身体受击点			雁南飞受击
+101	g01_ts_zdo_meihuasannong		身体受击点	g01_ts_zdo_meihuasannong		身体受击点	g01_ts_zdo_meihuasannong		身体受击点	g01_ts_zdo_meihuasannong		身体受击点	g01_ts_zdo_meihuasannong		身体受击点			鹰击长空受击
+102	g01_ts_zdo_zanghuahun		身体受击点	g01_ts_zdo_zanghuahun		身体受击点	g01_ts_zdo_zanghuahun		身体受击点	g01_ts_zdo_zanghuahun		身体受击点	g01_ts_zdo_zanghuahun		身体受击点			凤舞九天受击
+103	g01_ts_zdo_liuheduzun		身体受击点	g01_ts_zdo_liuheduzun		身体受击点	g01_ts_zdo_liuheduzun		身体受击点	g01_ts_zdo_liuheduzun		身体受击点	g01_ts_zdo_liuheduzun		身体受击点			雪花六出
+104	g01_ts_zdo_bahuangweiwo_01		身体受击点	g01_ts_zdo_bahuangweiwo_01		身体受击点	g01_ts_zdo_bahuangweiwo_01		身体受击点	g01_ts_zdo_bahuangweiwo_01		身体受击点	g01_ts_zdo_bahuangweiwo_01		身体受击点			梅花三弄
+105	g01_ts_zdo_yanggetianjun		身体受击点	g01_ts_zdo_yanggetianjun		身体受击点	g01_ts_zdo_yanggetianjun		身体受击点	g01_ts_zdo_yanggetianjun		身体受击点	g01_ts_zdo_yanggetianjun		身体受击点			阳歌天钧特效
+106	all_bj04		身体受击点	all_bj04		身体受击点	all_bj04		身体受击点	all_bj04		身体受击点	all_bj04		身体受击点			真水无香(移花接木）特效
+107	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点			三阳开泰特效
+108	g01_gb_zdo_tulongzhang		身体受击点	g01_gb_zdo_tulongzhang		身体受击点	g01_gb_zdo_tulongzhang		身体受击点	g01_gb_zdo_tulongzhang		身体受击点	g01_gb_zdo_tulongzhang		身体受击点			震惊百里
+109	g01_houjibofa_03		身体受击点	g01_houjibofa_03		身体受击点	g01_houjibofa_03		身体受击点	g01_houjibofa_03		身体受击点	g01_houjibofa_03		身体受击点			月夜斩（水淹七军）
+110	g01_mj_zdo_monishenghuozhen_01		身体受击点	g01_mj_zdo_monishenghuozhen_01		身体受击点	g01_mj_zdo_monishenghuozhen_01		身体受击点	g01_mj_zdo_monishenghuozhen_01		身体受击点	g01_mj_zdo_monishenghuozhen_01		身体受击点			摩尼圣火阵
+111	g01_sl_zdo_mokewuliang_01	Skills\Weapon\sword_hit_heavy_1.wav	身体受击点	g01_sl_zdo_mokewuliang_01	Skills\Weapon\sword_hit_heavy_1.wav	身体受击点	g01_sl_zdo_mokewuliang_01	Skills\Weapon\sword_hit_heavy_2.wav	身体受击点	g01_sl_zdo_mokewuliang_01	Skills\Weapon\sword_hit_heavy_2.wav	身体受击点	g01_sl_zdo_mokewuliang_01	Skills\Weapon\sword_hit_heavy_3.wav	身体受击点			摩诃无量
+112	g01_sl_zdo_yipailiangsan_01	Skills\Weapon\sword_hit_heavy_1.wav	身体受击点	g01_sl_zdo_yipailiangsan_01	Skills\Weapon\sword_hit_heavy_1.wav	身体受击点	g01_sl_zdo_yipailiangsan_01	Skills\Weapon\sword_hit_heavy_2.wav	身体受击点	g01_sl_zdo_yipailiangsan_01	Skills\Weapon\sword_hit_heavy_2.wav	身体受击点	g01_sl_zdo_yipailiangsan_01	Skills\Weapon\sword_hit_heavy_3.wav	身体受击点			一拍两散特效
+113	all_bj0004	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	all_bj0004	Skills\Weapon\fist_hit_middle_2_late.wav	身体受击点	all_bj0004	Skills\Weapon\fist_hit_middle_2_late.wav	身体受击点	all_bj0004	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	all_bj0004	Skills\Weapon\fist_hit_middle_2.wav	身体受击点			金刚伏魔圈特效
+114	g01_gb_zdo_danfengchaoyang		身体受击点	g01_gb_zdo_danfengchaoyang		身体受击点	g01_gb_zdo_danfengchaoyang		身体受击点	g01_gb_zdo_danfengchaoyang		身体受击点	g01_gb_zdo_danfengchaoyang		身体受击点			化血绵掌特效
+115	g01_mj_zdo_tianrenluan		身体受击点	g01_mj_zdo_tianrenluan		身体受击点	g01_mj_zdo_tianrenluan		身体受击点	g01_mj_zdo_tianrenluan		身体受击点	g01_mj_zdo_tianrenluan		身体受击点			火焰连环斩
+116	g01_sl_zdo_rulaishenzhang_01	Skills\Weapon\fist_hit_heavy_2.wav	身体受击点	g01_sl_zdo_rulaishenzhang_01	Skills\Weapon\fist_hit_heavy_2.wav	身体受击点	g01_sl_zdo_rulaishenzhang_01	Skills\Weapon\fist_hit_heavy_2.wav	身体受击点	g01_sl_zdo_rulaishenzhang_01	Skills\Weapon\fist_hit_heavy_2.wav	身体受击点	g01_sl_zdo_rulaishenzhang_01	Skills\Weapon\fist_hit_heavy_2.wav	身体受击点			如来神掌特效
+117	g01_zdo_danfengchaoyang	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	g01_zdo_danfengchaoyang	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	g01_zdo_danfengchaoyang	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	g01_zdo_danfengchaoyang	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	g01_zdo_danfengchaoyang	Skills\Weapon\fist_hit_middle_2.wav	身体受击点			大力金刚掌
+118	g01_sl_zdo_jiashafumogong_01		身体受击点	g01_sl_zdo_jiashafumogong_01		身体受击点	g01_sl_zdo_jiashafumogong_01		身体受击点	g01_sl_zdo_jiashafumogong_01		身体受击点	g01_sl_zdo_jiashafumogong_01		身体受击点			袈裟伏魔
+119	g01_mj_zdo_yanlongwushuang_01		身体受击点	g01_mj_zdo_yanlongwushuang_01		身体受击点	g01_mj_zdo_yanlongwushuang_01		身体受击点	g01_mj_zdo_yanlongwushuang_01		身体受击点	g01_mj_zdo_yanlongwushuang_01		身体受击点			炎龙无双
+120	all_bj0004_01		身体受击点	all_bj0004_01		身体受击点	all_bj0004_01		身体受击点	all_bj0004_01		身体受击点	all_bj0004_01		身体受击点			移花接木
+121	g01_gb_cuogufenjin_01		身体受击点	g01_gb_cuogufenjin_01		身体受击点	g01_gb_cuogufenjin_01		身体受击点	g01_gb_cuogufenjin_01		身体受击点	g01_gb_cuogufenjin_01		身体受击点			冲阵斩将
+122	g01_gb_zdo_kanglongyouhui		身体受击点	g01_gb_zdo_kanglongyouhui		身体受击点	g01_gb_zdo_kanglongyouhui		身体受击点	g01_gb_zdo_kanglongyouhui		身体受击点	g01_gb_zdo_kanglongyouhui		身体受击点			飞龙在天特效
+123	g01_zdo_eguangmanying		身体受击点	g01_zdo_eguangmanying		身体受击点	g01_zdo_eguangmanying		身体受击点	g01_zdo_eguangmanying		身体受击点	g01_zdo_eguangmanying		身体受击点			亢龙有悔特效
+124	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点			一阳指
+125	g01_dl_zdo_shaozejian		身体受击点	g01_dl_zdo_shaozejian		身体受击点	g01_dl_zdo_shaozejian		身体受击点	g01_dl_zdo_shaozejian		身体受击点	g01_dl_zdo_shaozejian		身体受击点			少泽剑
+126	g01_xy_sf_zdo_排山倒海		身体受击点	g01_xy_sf_zdo_排山倒海		身体受击点	g01_xy_sf_zdo_排山倒海		身体受击点	g01_xy_sf_zdo_排山倒海		身体受击点	g01_xy_sf_zdo_排山倒海		身体受击点			排山倒海
+127	g01_xy_jq_zdo_诛仙阵_2		身体受击点	g01_xy_jq_zdo_诛仙阵_2		身体受击点	g01_xy_jq_zdo_诛仙阵_2		身体受击点	g01_xy_jq_zdo_诛仙阵_2		身体受击点	g01_xy_jq_zdo_诛仙阵_2		身体受击点			诛仙阵
+128	g01_xy_怪物受击	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	g01_xy_怪物受击	Skills\Weapon\fist_hit_middle_2_late.wav	身体受击点	g01_xy_怪物受击	Skills\Weapon\fist_hit_middle_2_late.wav	身体受击点	g01_xy_怪物受击	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	g01_xy_怪物受击	Skills\Weapon\fist_hit_middle_2.wav	身体受击点			八阵图
+129	g01_xy_怪物受击	Skills\Weapon\sword_hit_light_5.wav	身体受击点	g01_xy_怪物受击	Skills\Weapon\sword_hit_light_5.wav	身体受击点	g01_xy_怪物受击	Skills\Weapon\sword_hit_light_5.wav	身体受击点	g01_xy_怪物受击	Skills\Weapon\sword_hit_light_2.wav	身体受击点	g01_xy_怪物受击	Skills\Weapon\sword_hit_light_2.wav	身体受击点			桃花阵
+130	g01_em_sf_zdo_天人合一		身体受击点	g01_em_sf_zdo_天人合一		身体受击点	g01_em_sf_zdo_天人合一		身体受击点	g01_em_sf_zdo_天人合一		身体受击点	g01_em_sf_zdo_天人合一		身体受击点			拖泥带水
+131	g01_em_cihangpudu		身体受击点	g01_em_cihangpudu		身体受击点	g01_em_cihangpudu		身体受击点	g01_em_cihangpudu		身体受击点	g01_em_cihangpudu		身体受击点			冲虚养气
+132	g01_em_jq_zdo_金风玉露		脚下光圈点	g01_em_jq_zdo_金风玉露		脚下光圈点	g01_em_jq_zdo_金风玉露		脚下光圈点	g01_em_jq_zdo_金风玉露		脚下光圈点	g01_em_jq_zdo_金风玉露		脚下光圈点			佛光普照
+133	g01_xy_zdo_凌波微步		脚下光圈点	g01_xy_zdo_凌波微步		脚下光圈点	g01_xy_zdo_凌波微步		脚下光圈点	g01_xy_zdo_凌波微步		脚下光圈点	g01_xy_zdo_凌波微步		脚下光圈点			凌波微步
+134	yanhuo11	yanhuo02.wav	前置特效点	yanhuo11	yanhuo02.wav	前置特效点	yanhuo11	yanhuo02.wav	前置特效点	yanhuo11	yanhuo02.wav	前置特效点	yanhuo11	yanhuo02.wav	前置特效点			新增烟花特效1
+135	yanhuo12	yanhuo02.wav	前置特效点	yanhuo12	yanhuo02.wav	前置特效点	yanhuo12	yanhuo02.wav	前置特效点	yanhuo12	yanhuo02.wav	前置特效点	yanhuo12	yanhuo02.wav	前置特效点			新增烟花特效2
+136	yanhuo13	yanhuo02.wav	前置特效点	yanhuo13	yanhuo02.wav	前置特效点	yanhuo13	yanhuo02.wav	前置特效点	yanhuo13	yanhuo02.wav	前置特效点	yanhuo13	yanhuo02.wav	前置特效点			新增烟花特效3
+137	yanhuo14_02	yanhuo02.wav	前置特效点	yanhuo14_02	yanhuo02.wav	前置特效点	yanhuo14_02	yanhuo02.wav	前置特效点	yanhuo14_02	yanhuo02.wav	前置特效点	yanhuo14_02	yanhuo02.wav	前置特效点			新增烟花特效4
+138	yanhuo15	yanhuo02.wav	前置特效点	yanhuo15	yanhuo02.wav	前置特效点	yanhuo15	yanhuo02.wav	前置特效点	yanhuo15	yanhuo02.wav	前置特效点	yanhuo15	yanhuo02.wav	前置特效点			新增烟花特效5
+139	yanhuo16	yanhuo02.wav	前置特效点	yanhuo16	yanhuo02.wav	前置特效点	yanhuo16	yanhuo02.wav	前置特效点	yanhuo16	yanhuo02.wav	前置特效点	yanhuo16	yanhuo02.wav	前置特效点			新增烟花特效6
+140	yanhuo_hunqing2	yanhuo02.wav	前置特效点	yanhuo_hunqing2	yanhuo02.wav	前置特效点	yanhuo_hunqing2	yanhuo02.wav	前置特效点	yanhuo_hunqing2	yanhuo02.wav	前置特效点	yanhuo_hunqing2	yanhuo02.wav	前置特效点			新增烟花特效7
+141	yanhuo_hunqing3	yanhuo02.wav	前置特效点	yanhuo_hunqing3	yanhuo02.wav	前置特效点	yanhuo_hunqing3	yanhuo02.wav	前置特效点	yanhuo_hunqing3	yanhuo02.wav	前置特效点	yanhuo_hunqing3	yanhuo02.wav	前置特效点			新增烟花特效8
+142	yanhuo_hunqing4	yanhuo02.wav	前置特效点	yanhuo_hunqing4	yanhuo02.wav	前置特效点	yanhuo_hunqing4	yanhuo02.wav	前置特效点	yanhuo_hunqing4	yanhuo02.wav	前置特效点	yanhuo_hunqing4	yanhuo02.wav	前置特效点			新增烟花特效9
+143	yanhuo_hunqing4_1	yanhuo02.wav	前置特效点	yanhuo_hunqing4_1	yanhuo02.wav	前置特效点	yanhuo_hunqing4_1	yanhuo02.wav	前置特效点	yanhuo_hunqing4_1	yanhuo02.wav	前置特效点	yanhuo_hunqing4_1	yanhuo02.wav	前置特效点			新增烟花特效10
+144	g01_wd_zdo_sanweizhenhuo		身体受击点	g01_wd_zdo_sanweizhenhuo		身体受击点	g01_wd_zdo_sanweizhenhuo		身体受击点	g01_wd_zdo_sanweizhenhuo		身体受击点	g01_wd_zdo_sanweizhenhuo		身体受击点			火烧赤壁特效
+145	g01_gb_tianxiawugou_01		身体受击点	g01_gb_tianxiawugou_01		身体受击点	g01_gb_tianxiawugou_01		身体受击点	g01_gb_tianxiawugou_01		身体受击点	g01_gb_tianxiawugou_01		身体受击点			千里横行
+146	g01_gb_tianxiawugou_01		身体受击点	g01_gb_tianxiawugou_01		身体受击点	g01_gb_tianxiawugou_01		身体受击点	g01_gb_tianxiawugou_01		身体受击点	g01_gb_tianxiawugou_01		身体受击点			青龙出水
+147	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点			三味真火
+148	all_em_bj00000		身体受击点	all_em_bj00000		身体受击点	all_em_bj00000		身体受击点	all_em_bj00000		身体受击点	all_em_bj00000		身体受击点			飘雪穿云（金顶绵掌）
+149	g01_dl_zdo_yuqinguzong		身体受击点	g01_dl_zdo_yuqinguzong		身体受击点	g01_dl_zdo_yuqinguzong		身体受击点	g01_dl_zdo_yuqinguzong		身体受击点	g01_dl_zdo_yuqinguzong		身体受击点			欲擒故纵
+150	g01_dl_zdo_wanyuechaozong		身体受击点	g01_dl_zdo_wanyuechaozong		身体受击点	g01_dl_zdo_wanyuechaozong		身体受击点	g01_dl_zdo_wanyuechaozong		身体受击点	g01_dl_zdo_wanyuechaozong		身体受击点			回风扶柳
+151	a_y_xingxiu_zdo	Skills\Xx\Xx_蓝砂手_击中.wav	身体受击点	a_y_xingxiu_zdo	Skills\Xx\Xx_蓝砂手_击中.wav	身体受击点	a_y_xingxiu_zdo	Skills\Xx\Xx_蓝砂手_击中.wav	身体受击点	a_y_xingxiu_zdo	Skills\Xx\Xx_蓝砂手_击中.wav	身体受击点	a_y_xingxiu_zdo	Skills\Xx\Xx_蓝砂手_击中.wav	身体受击点			蓝砂手
+152	a_y_xiaoyao_zdo	Skills\Weapon\sword_hit_light_2.wav	身体受击点	a_y_xiaoyao_zdo	Skills\Weapon\fan_hit_1.wav	身体受击点	a_y_xiaoyao_zdo	Skills\Weapon\sword_hit_light_3.wav	身体受击点	a_y_xiaoyao_zdo	Skills\Weapon\sword_hit_light_4.wav	身体受击点	a_y_xiaoyao_zdo	Skills\Weapon\sword_hit_light_4.wav	身体受击点			落英剑
+153	a_y_emei_zdo	Skills\Em\Em_貂蝉拜月_击中.wav	身体受击点	a_y_emei_zdo	Skills\Em\Em_貂蝉拜月_击中.wav	身体受击点	a_y_emei_zdo	Skills\Em\Em_貂蝉拜月_击中.wav	身体受击点	a_y_emei_zdo	Skills\Em\Em_貂蝉拜月_击中.wav	身体受击点	a_y_emei_zdo	Skills\Em\Em_貂蝉拜月_击中.wav	身体受击点			貂蝉拜月
+154	a_y_dali_zdo	Skills\Common\bullet_explode1.wav	身体受击点	a_y_dali_zdo	Skills\Common\bullet_explode1.wav	身体受击点	a_y_dali_zdo	Skills\Common\bullet_explode1.wav	身体受击点	a_y_dali_zdo	Skills\Common\bullet_explode1.wav	身体受击点	a_y_dali_zdo	Skills\Common\bullet_explode1.wav	身体受击点			正阳手
+155	a_y_wudang_zdo	Skills\Wd\Wd_八卦掌_击中.wav	身体受击点	a_y_wudang_zdo	Skills\Wd\Wd_八卦掌_击中.wav	身体受击点	a_y_wudang_zdo	Skills\Wd\Wd_八卦掌_击中.wav	身体受击点	a_y_wudang_zdo	Skills\Wd\Wd_八卦掌_击中.wav	身体受击点	a_y_wudang_zdo	Skills\Wd\Wd_八卦掌_击中.wav	身体受击点			八卦掌
+156	npc_shou_danwai		身体受击点	npc_shou_danwai		身体受击点	npc_shou_danwai		身体受击点	npc_shou_danwai		身体受击点	npc_shou_danwai		身体受击点			爪击
+157	npc_zhanji_zdo		身体受击点	npc_zhanji_zdo		身体受击点	npc_zhanji_zdo		身体受击点	npc_zhanji_zdo		身体受击点	npc_zhanji_zdo		身体受击点			斩击
+158	npc_zhangji_zdo		身体受击点	npc_zhangji_zdo		身体受击点	npc_zhangji_zdo		身体受击点	npc_zhangji_zdo		身体受击点	npc_zhangji_zdo		身体受击点			掌击
+159	npc_tongji_zdo		身体受击点	npc_tongji_zdo		身体受击点	npc_tongji_zdo		身体受击点	npc_tongji_zdo		身体受击点	npc_tongji_zdo		身体受击点			痛击
+160	g01_yipailiangsan_02		脚下光圈点	g01_yipailiangsan_02		脚下光圈点	g01_yipailiangsan_02		脚下光圈点	g01_yipailiangsan_02		脚下光圈点	g01_yipailiangsan_02		脚下光圈点			剧情攻击特效
+161	隐身		脚下光圈点	隐身		脚下光圈点	隐身		脚下光圈点	隐身		脚下光圈点	隐身		脚下光圈点			剧情消失特效
+162	g01_wd_zdo_tiangangbeidouzhen		身体受击点	g01_wd_zdo_tiangangbeidouzhen		身体受击点	g01_wd_zdo_tiangangbeidouzhen		身体受击点	g01_wd_zdo_tiangangbeidouzhen		身体受击点	g01_wd_zdo_tiangangbeidouzhen		身体受击点			真武七截阵
+163	g01_wd_zdo_tianmafeipu	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点	g01_wd_zdo_tianmafeipu	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点	g01_wd_zdo_tianmafeipu	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点	g01_wd_zdo_tianmafeipu	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点	g01_wd_zdo_tianmafeipu	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点			天马飞瀑
+164	g01_wd_zdo_xianrenzhilu		身体受击点	g01_wd_zdo_xianrenzhilu		身体受击点	g01_wd_zdo_xianrenzhilu		身体受击点	g01_wd_zdo_xianrenzhilu		身体受击点	g01_wd_zdo_xianrenzhilu		身体受击点			仙人指路
+165	g01_wd_zdo_rufengsibi		身体受击点	g01_wd_zdo_rufengsibi		身体受击点	g01_wd_zdo_rufengsibi		身体受击点	g01_wd_zdo_rufengsibi		身体受击点	g01_wd_zdo_rufengsibi		身体受击点			玉女穿梭
+166	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点			神门十三剑
+167	g01_em_zdo_jiuyinbaiguzhua		身体受击点	g01_em_zdo_jiuyinbaiguzhua		身体受击点	g01_em_zdo_jiuyinbaiguzhua		身体受击点	g01_em_zdo_jiuyinbaiguzhua		身体受击点	g01_em_zdo_jiuyinbaiguzhua		身体受击点			西子捧心
+168	g01_em_zdo_jindingmianzhang		身体受击点	g01_em_zdo_jindingmianzhang		身体受击点	g01_em_zdo_jindingmianzhang		身体受击点	g01_em_zdo_jindingmianzhang		身体受击点	g01_em_zdo_jindingmianzhang		身体受击点			障眼法
+169	g01_xx_zdo_lianzhufushidu		身体受击点	g01_xx_zdo_lianzhufushidu		身体受击点	g01_xx_zdo_lianzhufushidu		身体受击点	g01_xx_zdo_lianzhufushidu		身体受击点	g01_xx_zdo_lianzhufushidu		身体受击点			连珠腐尸毒
+170	g01_xx_jq_zdo_玄冥神掌		身体受击点	g01_xx_jq_zdo_玄冥神掌		身体受击点	g01_xx_jq_zdo_玄冥神掌		身体受击点	g01_xx_jq_zdo_玄冥神掌		身体受击点	g01_xx_jq_zdo_玄冥神掌		身体受击点			玄冥神掌
+171	g01_xx_zdo_qingshezhang		身体受击点	g01_xx_zdo_qingshezhang		身体受击点	g01_xx_zdo_qingshezhang		身体受击点	g01_xx_zdo_qingshezhang		身体受击点	g01_xx_zdo_qingshezhang		身体受击点			青蛇掌
+172	g01_xx_zdo_bingcanzhang		身体受击点	g01_xx_zdo_bingcanzhang		身体受击点	g01_xx_zdo_bingcanzhang		身体受击点	g01_xx_zdo_bingcanzhang		身体受击点	g01_xx_zdo_bingcanzhang		身体受击点			冰蚕掌
+173	g01_xx_sf_zdo_化骨绵掌		身体受击点	g01_xx_sf_zdo_化骨绵掌		身体受击点	g01_xx_sf_zdo_化骨绵掌		身体受击点	g01_xx_sf_zdo_化骨绵掌		身体受击点	g01_xx_sf_zdo_化骨绵掌		身体受击点			化骨绵掌
+174	g01_dl_zdo_kuxinzhi		身体受击点	g01_dl_zdo_kuxinzhi		身体受击点	g01_dl_zdo_kuxinzhi		身体受击点	g01_dl_zdo_kuxinzhi		身体受击点	g01_dl_zdo_kuxinzhi		身体受击点			雪拥蓝关
+175	g01_dl_zdo_wanyuechaozong		身体受击点	g01_dl_zdo_wanyuechaozong		身体受击点	g01_dl_zdo_wanyuechaozong		身体受击点	g01_dl_zdo_wanyuechaozong		身体受击点	g01_dl_zdo_wanyuechaozong		身体受击点			万岳朝宗
+176	g01_ts_zdo_shengsifu		身体受击点	g01_ts_zdo_shengsifu		身体受击点	g01_ts_zdo_shengsifu		身体受击点	g01_ts_zdo_shengsifu		身体受击点	g01_ts_zdo_shengsifu		身体受击点			寒梅怒放
+177	g01_xy_sf_zdo_花开縻荼		身体受击点	g01_xy_sf_zdo_花开縻荼		身体受击点	g01_xy_sf_zdo_花开縻荼		身体受击点	g01_xy_sf_zdo_花开縻荼		身体受击点	g01_xy_sf_zdo_花开縻荼		身体受击点			弹指神通
+178	g01_xy_sf_zdo_高山留水		身体受击点	g01_xy_sf_zdo_高山留水		身体受击点	g01_xy_sf_zdo_高山留水		身体受击点	g01_xy_sf_zdo_高山留水		身体受击点	g01_xy_sf_zdo_高山留水		身体受击点			潇湘夜雨
+179	g01_xy_zdo_lingyanshibagong	Skills\Common\bullet_explode1.wav	身体受击点	g01_xy_zdo_lingyanshibagong	Skills\Common\bullet_explode1.wav	身体受击点	g01_xy_zdo_lingyanshibagong	Skills\Common\bullet_explode1.wav	身体受击点	g01_xy_zdo_lingyanshibagong	Skills\Common\bullet_explode1.wav	身体受击点	g01_xy_zdo_lingyanshibagong	Skills\Common\bullet_explode1.wav	身体受击点			溪山行旅
+180	g01_xy_zdo_beimingshenquan		身体受击点	g01_xy_zdo_beimingshenquan		身体受击点	g01_xy_zdo_beimingshenquan		身体受击点	g01_xy_zdo_beimingshenquan		身体受击点	g01_xy_zdo_beimingshenquan		身体受击点			惊涛骇浪
+181	npc_ren_danwai_zdo	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	npc_ren_danwai_zdo	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	npc_ren_danwai_zdo	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	npc_ren_danwai_zdo	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	npc_ren_danwai_zdo	Skills\Weapon\fist_hit_middle_2.wav	身体受击点			高级打击
+182	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点			连击
+183	npc_all_dubao_zdo	Skills\Common\poison_4.wav	身体受击点	npc_all_dubao_zdo	Skills\Common\poison_4.wav	身体受击点	npc_all_dubao_zdo	Skills\Common\poison_4.wav	身体受击点	npc_all_dubao_zdo	Skills\Common\poison_4.wav	身体受击点	npc_all_dubao_zdo	Skills\Common\poison_4.wav	身体受击点			毒爆
+184	npc_all_danxuan_zdo	Skills\Common\lighting_1.wav	身体受击点	npc_all_danxuan_zdo	Skills\Common\lighting_1.wav	身体受击点	npc_all_danxuan_zdo	Skills\Common\lighting_1.wav	身体受击点	npc_all_danxuan_zdo	Skills\Common\lighting_1.wav	身体受击点	npc_all_danxuan_zdo	Skills\Common\lighting_1.wav	身体受击点			玄爆
+185	g01_mj_zdo_yanlongzhan	Skills\Common\fire_explode_1.wav	身体受击点	g01_mj_zdo_yanlongzhan	Skills\Common\fire_explode_1.wav	身体受击点	g01_mj_zdo_yanlongzhan	Skills\Common\fire_explode_1.wav	身体受击点	g01_mj_zdo_yanlongzhan	Skills\Common\fire_explode_1.wav	身体受击点	g01_mj_zdo_yanlongzhan	Skills\Common\fire_explode_1.wav	身体受击点			火爆
+186	npc_all_qunnei_zdo	Skills\Common\explosion_2.wav	身体受击点	npc_all_qunnei_zdo	Skills\Common\explosion_2.wav	身体受击点	npc_all_qunnei_zdo	Skills\Common\explosion_2.wav	身体受击点	npc_all_qunnei_zdo	Skills\Common\explosion_2.wav	身体受击点	npc_all_qunnei_zdo	Skills\Common\explosion_2.wav	身体受击点			群内
+187	g01_sl_zdo_dalijingangzhang	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	g01_sl_zdo_dalijingangzhang	Skills\Weapon\fist_hit_middle_2.wav	身体受击点	g01_sl_zdo_dalijingangzhang	Skills\Weapon\fist_hit_middle_2_late.wav	身体受击点	g01_sl_zdo_dalijingangzhang	Skills\Weapon\fist_hit_middle_2_late.wav	身体受击点	g01_sl_zdo_dalijingangzhang	Skills\Weapon\fist_hit_middle_2.wav	身体受击点			兽群外
+188	npc_all_danbing_zdo	Skills\Common\ice_explode_1.wav	身体受击点	npc_all_danbing_zdo	Skills\Common\ice_explode_1.wav	身体受击点	npc_all_danbing_zdo	Skills\Common\ice_explode_1.wav	身体受击点	npc_all_danbing_zdo	Skills\Common\ice_explode_1.wav	身体受击点	npc_all_danbing_zdo	Skills\Common\ice_explode_1.wav	身体受击点			冰爆
+189	npc_ren_qunwai_zdo	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点	npc_ren_qunwai_zdo	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点	npc_ren_qunwai_zdo	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点	npc_ren_qunwai_zdo	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点	npc_ren_qunwai_zdo	Skills\Wd\Wd_天马飞瀑_击中.wav	身体受击点			人群外
+190	npc_shou_danwai	Skills\Common\scratch_1.wav	身体受击点	npc_shou_danwai	Skills\Common\scratch_1.wav	身体受击点	npc_shou_danwai	Skills\Common\scratch_1.wav	身体受击点	npc_shou_danwai	Skills\Common\scratch_1.wav	身体受击点	npc_shou_danwai	Skills\Common\scratch_1.wav	身体受击点			兽单外
+191	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点	npc_all_lianji_zdo	Skills\Common\explosion_1.wav	身体受击点			单内
+192	npc_all_gongsheng	Skills\Common\whoosh_1.wav	脚下光圈点	npc_all_gongsheng	Skills\Common\whoosh_1.wav	脚下光圈点	npc_all_gongsheng	Skills\Common\whoosh_1.wav	脚下光圈点	npc_all_gongsheng	Skills\Common\whoosh_1.wav	脚下光圈点	npc_all_gongsheng	Skills\Common\whoosh_1.wav	脚下光圈点			共生
+193	npc_all_kongzhi_zdo	Skills\Common\fog.wav	身体受击点	npc_all_kongzhi_zdo	Skills\Common\fog.wav	身体受击点	npc_all_kongzhi_zdo	Skills\Common\fog.wav	身体受击点	npc_all_kongzhi_zdo	Skills\Common\fog.wav	身体受击点	npc_all_kongzhi_zdo	Skills\Common\fog.wav	身体受击点			控制
+194	秘籍_gb_zdo	Skills\Common\explosion_3.wav	身体受击点	秘籍_gb_zdo	Skills\Common\explosion_3.wav	身体受击点	秘籍_gb_zdo	Skills\Common\explosion_3.wav	身体受击点	秘籍_gb_zdo	Skills\Common\explosion_3.wav	身体受击点	秘籍_gb_zdo	Skills\Common\explosion_3.wav	身体受击点			天下无狗
+195	秘籍_dl_zdo	Skills\Common\explosion_3.wav	身体受击点	秘籍_dl_zdo	Skills\Common\explosion_3.wav	身体受击点	秘籍_dl_zdo	Skills\Common\explosion_3.wav	身体受击点	秘籍_dl_zdo	Skills\Common\explosion_3.wav	身体受击点	秘籍_dl_zdo	Skills\Common\explosion_3.wav	身体受击点			少泽剑
+196	g01_sl_zdo_fuhuquan	Skills\Common\explosion_3.wav	身体受击点	g01_sl_zdo_fuhuquan	Skills\Common\explosion_3.wav	身体受击点	g01_sl_zdo_fuhuquan	Skills\Common\explosion_3.wav	身体受击点	g01_sl_zdo_fuhuquan	Skills\Common\explosion_3.wav	身体受击点	g01_sl_zdo_fuhuquan	Skills\Common\explosion_3.wav	身体受击点			宠外
+197	npc_all_danbing_zdo_01	Skills\Common\ice_explode_1.wav	身体受击点	npc_all_danbing_zdo_01	Skills\Common\ice_explode_1.wav	身体受击点	npc_all_danbing_zdo_01	Skills\Common\ice_explode_1.wav	身体受击点	npc_all_danbing_zdo_01	Skills\Common\ice_explode_1.wav	身体受击点	npc_all_danbing_zdo_01	Skills\Common\ice_explode_1.wav	身体受击点			移花接木
+198	yanhuo34	yanhuo02.wav	前置特效点	yanhuo34	yanhuo02.wav	前置特效点	yanhuo34	yanhuo02.wav	前置特效点	yanhuo34	yanhuo02.wav	前置特效点	yanhuo34	yanhuo02.wav	前置特效点			快乐游戏
+199	yanhuo35	yanhuo02.wav	前置特效点	yanhuo35	yanhuo02.wav	前置特效点	yanhuo35	yanhuo02.wav	前置特效点	yanhuo35	yanhuo02.wav	前置特效点	yanhuo35	yanhuo02.wav	前置特效点			经典武侠
+200	yanhuo_庆	yanhuo02.wav	前置特效点	yanhuo_庆	yanhuo02.wav	前置特效点	yanhuo_庆	yanhuo02.wav	前置特效点	yanhuo_庆	yanhuo02.wav	前置特效点	yanhuo_庆	yanhuo02.wav	前置特效点			庆祝公测
+201	yanhuo_乔	yanhuo02.wav	前置特效点	yanhuo_乔	yanhuo02.wav	前置特效点	yanhuo_乔	yanhuo02.wav	前置特效点	yanhuo_乔	yanhuo02.wav	前置特效点	yanhuo_乔	yanhuo02.wav	前置特效点			乔峰归来
+202	g01_em_buff1111	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1111	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1111	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1111	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1111	interface\sound_shengji.wav	脚下光圈点			升级特效蓝绿转红
+203	g01_em_buff1112	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1112	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1112	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1112	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1112	interface\sound_shengji.wav	脚下光圈点			升级特效黄转紫
+204	g01_em_buff1113	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1113	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1113	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1113	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1113	interface\sound_shengji.wav	脚下光圈点			升级特效紫红转蓝绿
+205	g01_em_buff1114	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1114	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1114	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1114	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1114	interface\sound_shengji.wav	脚下光圈点			升级特效黄转绿
+206	g01_em_buff1115	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1115	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1115	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1115	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1115	interface\sound_shengji.wav	脚下光圈点			升级特效紫转黄
+207	g01_em_buff1116	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1116	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1116	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1116	interface\sound_shengji.wav	脚下光圈点	g01_em_buff1116	interface\sound_shengji.wav	脚下光圈点			升级特效蓝转橙
+208																		999朵玫瑰特效
+209	all_bj0004_01	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点	all_bj0004_01	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点	all_bj0004_01	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点	all_bj0004_01	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点	all_bj0004_01	Skills\Weapon\longsword_hit_heavy_1.wav	身体受击点			神器伤害特效
+220	g01_dl_中冲剑_zdo	Skills\Common\explosion_3.wav	身体受击点	g01_dl_中冲剑_zdo	Skills\Common\explosion_3.wav	身体受击点	g01_dl_中冲剑_zdo	Skills\Common\explosion_3.wav	身体受击点	g01_dl_中冲剑_zdo	Skills\Common\explosion_3.wav	身体受击点	g01_dl_中冲剑_zdo	Skills\Common\explosion_3.wav	身体受击点			中冲剑受击
+221	宝箱被打开	interface\sound_shengji.wav	脚下光圈点	宝箱被打开	interface\sound_shengji.wav	脚下光圈点	宝箱被打开	interface\sound_shengji.wav	脚下光圈点	宝箱被打开	interface\sound_shengji.wav	脚下光圈点	宝箱被打开	interface\sound_shengji.wav	脚下光圈点			宝箱被打开
+222	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点	g01_wd_zdo_shenmenshisanjian		身体受击点			落马
+223	npc_雪人变大		身体受击点	npc_雪人变大		身体受击点	npc_雪人变大		身体受击点	npc_雪人变大		身体受击点	npc_雪人变大		身体受击点			雪人放大
+224	g01_暴击获得经验		脚下光圈点	g01_暴击获得经验		脚下光圈点	g01_暴击获得经验		脚下光圈点	g01_暴击获得经验		脚下光圈点	g01_暴击获得经验		脚下光圈点			暴击获得经验
+225	g01_普通挂机获得经验		脚下光圈点	g01_普通挂机获得经验		脚下光圈点	g01_普通挂机获得经验		脚下光圈点	g01_普通挂机获得经验		脚下光圈点	g01_普通挂机获得经验		脚下光圈点			普通挂机获得经验
+226	h_鞭炮_04	ambience\society\bianpao_single.wav	头顶状态点	h_鞭炮_04	ambience\society\bianpao_single.wav	头顶状态点	h_鞭炮_04	ambience\society\bianpao_single.wav	头顶状态点	h_鞭炮_04	ambience\society\bianpao_single.wav	头顶状态点	h_鞭炮_04	ambience\society\bianpao_single.wav	头顶状态点			一枚鞭炮燃放
+227	h_鞭炮_05	ambience\society\bianpao_several.wav	头顶状态点	h_鞭炮_05	ambience\society\bianpao_several.wav	头顶状态点	h_鞭炮_05	ambience\society\bianpao_several.wav	头顶状态点	h_鞭炮_05	ambience\society\bianpao_several.wav	头顶状态点	h_鞭炮_05	ambience\society\bianpao_several.wav	头顶状态点			一串鞭炮燃放
+228	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点	g01_dl_zdo_yiyangzhi		身体受击点			犯兽
+229	m01_gb_神龙闪现_zod		身体受击点	m01_gb_神龙闪现_zod		身体受击点	m01_gb_神龙闪现_zod		身体受击点	m01_gb_神龙闪现_zod		身体受击点	m01_gb_神龙闪现_zod		身体受击点			棒打狗头
+230																		剑舞(紫)
+231																		剑舞(红)
+232																		剑舞(白)
+233																		剑舞(黄)
+234																		剑舞(蓝)
+235																		剑舞(绿)
+236	kvk_zc_青龙战车_buff		脚下光圈点	kvk_zc_青龙战车_buff		脚下光圈点	kvk_zc_青龙战车_buff		脚下光圈点	kvk_zc_青龙战车_buff		脚下光圈点	kvk_zc_青龙战车_buff		脚下光圈点			
+237	kvk_zc_白虎战车_buff		脚下光圈点	kvk_zc_白虎战车_buff		脚下光圈点	kvk_zc_白虎战车_buff		脚下光圈点	kvk_zc_白虎战车_buff		脚下光圈点	kvk_zc_白虎战车_buff		脚下光圈点			
+238	kvk_zc_朱雀战车_buff		脚下光圈点	kvk_zc_朱雀战车_buff		脚下光圈点	kvk_zc_朱雀战车_buff		脚下光圈点	kvk_zc_朱雀战车_buff		脚下光圈点	kvk_zc_朱雀战车_buff		脚下光圈点			
+239	kvk_zc_玄武战车_buff		脚下光圈点	kvk_zc_玄武战车_buff		脚下光圈点	kvk_zc_玄武战车_buff		脚下光圈点	kvk_zc_玄武战车_buff		脚下光圈点	kvk_zc_玄武战车_buff		脚下光圈点			
+240	暗器升级	interface\sound_shengji.wav	脚下光圈点	暗器升级	interface\sound_shengji.wav	脚下光圈点	暗器升级	interface\sound_shengji.wav	脚下光圈点	暗器升级	interface\sound_shengji.wav	脚下光圈点	暗器升级	interface\sound_shengji.wav	脚下光圈点			
+241	g01_xy_定海神针_zdo	Skills\Weapon\sword_hit_light_5.wav	身体受击点	g01_xy_定海神针_zdo	Skills\Weapon\sword_hit_light_5.wav	身体受击点	g01_xy_定海神针_zdo	Skills\Weapon\sword_hit_light_5.wav	身体受击点	g01_xy_定海神针_zdo	Skills\Weapon\sword_hit_light_5.wav	身体受击点	g01_xy_定海神针_zdo	Skills\Weapon\sword_hit_light_5.wav	身体受击点			定海神针击中

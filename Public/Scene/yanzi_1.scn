@@ -1,0 +1,5 @@
+[System]
+navmapname=yanzi_1.nav
+monsterfile=yanzi_1_monster.ini
+patrolpoint=yanzi_1_patrolpoint.ini
+eventfile=yanzi_1_area.ini

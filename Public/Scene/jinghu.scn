@@ -1,0 +1,9 @@
+[System]
+navmapname=jinghu.nav
+monsterfile=jinghu_monster.ini
+patrolpoint=jinghu_patrolpoint.ini
+growpointdata=jinghu_growpoint.txt
+growpointsetup=jinghu_growpointsetup.txt
+eventfile=jinghu_area.ini
+petfile=jinghu_pet.ini
+platformfile=jinghu_platform.ini

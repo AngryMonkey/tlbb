@@ -1,0 +1,2 @@
+INT	INT	STRING	STRING
+Index	同城频道编号	起始IP	结束IP

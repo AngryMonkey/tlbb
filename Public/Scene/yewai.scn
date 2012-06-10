@@ -1,0 +1,8 @@
+[System]
+navmapname=yewai.nav
+monsterfile=yewai_monster.ini
+patrolpoint=yewai_patrolpoint.ini
+growpointdata=yewai_growpoint.txt
+growpointsetup=yewai_growpointsetup.txt
+eventfile=yewai_area.ini
+petfile=yewai_pet.ini

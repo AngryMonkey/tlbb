@@ -1,0 +1,10 @@
+[System]
+navmapname=qiongzhou.nav
+monsterfile=qiongzhou_monster.ini
+portalfile=qiongzhou_portal.ini
+platformfile=qiongzhou_platform.ini
+patrolpoint=qiongzhou_patrolpoint.ini
+growpointdata=qiongzhou_growpoint.txt
+growpointsetup=qiongzhou_growpointsetup.txt
+eventfile=qiongzhou_area.ini
+petfile=qiongzhou_pet.ini

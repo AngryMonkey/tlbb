@@ -1,0 +1,5 @@
+[System]
+navmapname=guangmingdong_1.nav
+monsterfile=guangmingdong_1_monster.ini
+patrolpoint=guangmingdong_1_patrolpoint.ini
+eventfile=guangmingdong_1_area.ini

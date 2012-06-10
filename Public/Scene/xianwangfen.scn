@@ -1,0 +1,5 @@
+[System]
+navmapname=xianwangfen.nav
+monsterfile=xianwangfen_monster.ini
+patrolpoint=xianwangfen_patrolpoint.ini
+eventfile=xianwangfen_area.ini

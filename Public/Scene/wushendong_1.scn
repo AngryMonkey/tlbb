@@ -1,0 +1,5 @@
+[System]
+navmapname=wushendong_1.nav
+monsterfile=wushendong_1_monster.ini
+patrolpoint=wushendong_1_patrolpoint.ini
+eventfile=wushendong_1_area.ini

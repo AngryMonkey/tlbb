@@ -1,0 +1,8 @@
+[System]
+navmapname=jiujiao.nav
+monsterfile=jiujiao_monster.ini
+patrolpoint=jiujiao_patrolpoint.ini
+growpointdata=jiujiao_growpoint.txt
+growpointsetup=jiujiao_growpointsetup.txt
+eventfile=jiujiao_area.ini
+petfile=jiujiao_pet.ini

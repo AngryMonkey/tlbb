@@ -1,0 +1,5 @@
+[System]
+navmapname=jishi.nav
+monsterfile=jishi_monster.ini
+patrolpoint=jishi_patrolpoint.ini
+eventfile=jishi_area.ini

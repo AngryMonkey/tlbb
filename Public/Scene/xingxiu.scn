@@ -1,0 +1,9 @@
+[System]
+navmapname=xingxiu.nav
+monsterfile=xingxiu_monster.ini
+patrolpoint=xingxiu_patrolpoint.ini
+growpointdata=xingxiu_growpoint.txt
+growpointsetup=xingxiu_growpointsetup.txt
+eventfile=xingxiu_area.ini
+petfile=xingxiu_pet.ini
+platformfile=xingxiu_platform.ini

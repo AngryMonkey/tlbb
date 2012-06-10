@@ -1,0 +1,9 @@
+[System]
+navmapname=yuxi.nav
+monsterfile=yuxi_monster.ini
+patrolpoint=yuxi_patrolpoint.ini
+growpointdata=yuxi_growpoint.txt
+growpointsetup=yuxi_growpointsetup.txt
+eventfile=yuxi_area.ini
+petfile=yuxi_pet.ini
+platformfile=yuxi_platform.ini

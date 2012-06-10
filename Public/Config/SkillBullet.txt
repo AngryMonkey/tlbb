@@ -1,0 +1,6 @@
+INT	INT	INT	STRING	STRING	FLOAT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+ID	类型	初始位置类型	子弹飞行特效ID	飞行音效ID	速度(m/s)	子弹爆炸特效ID	爆炸音效ID	击中特效的绑定点	预留1	预留2	预留3	预留4	预留5	描述$1$
+1	0	0	g01_zd_yueluoxishan		1000	g01_zdo_yueluoxishan_01		身体受击点						月落西山
+2	0	0	g01_zd_huanpeiguihun_01		1000	g01_zdo_huanpeiguihun_01		身体受击点						环佩归魂
+3	0	2	g01_tiesuohengjiang_01		10	g01_zdo_tiesuohengjiang_03		身体受击点						铁索横江
+4	0	0	g01_zd_jiuyinbaiguzhao_01		1000	g01_zdo_jiuyinbaiguzhao_01		身体受击点						九阴白骨爪

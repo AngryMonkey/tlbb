@@ -157,7 +157,7 @@ function x891000_OnDefaultEvent( sceneId, selfId, targetId )
       
         -- 3,时间检测，接受报名的时间，8点到8点30分
         local nQuarter = mod(GetQuarterTime(),100);
-        if nQuarter < 79 or nQuarter >= 84  then		--报名时间7:45-8:00
+        --if nQuarter < 79 or nQuarter >= 84  then		--报名时间7:45-8:00
             BeginEvent(sceneId)
                 AddText(sceneId,"#B生死夺宝");
                 AddText(sceneId,"  现在不是参加生死夺宝的进入时间，请在19：45-20：00找我进入。");
@@ -165,7 +165,7 @@ function x891000_OnDefaultEvent( sceneId, selfId, targetId )
             DispatchEventList(sceneId,selfId,targetId)
             
             return
-        end
+        --end
 
         -- 4,人数检测,使用活动数据区的数据来保存这些数据
         local nMenpai = LuaFnGetMenPai(sceneId, selfId)

@@ -1,0 +1,9 @@
+[System]
+navmapname=taihu.nav
+monsterfile=taihu_monster.ini
+patrolpoint=taihu_patrolpoint.ini
+growpointdata=taihu_growpoint.txt
+growpointsetup=taihu_growpointsetup.txt
+eventfile=taihu_area.ini
+petfile=taihu_pet.ini
+platformfile=taihu_platform.ini

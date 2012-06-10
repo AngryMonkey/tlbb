@@ -1,0 +1,5 @@
+[System]
+navmapname=wudang_1.nav
+monsterfile=wudang_1_monster.ini
+patrolpoint=wudang_1_patrolpoint.ini
+eventfile=wudang_1_area.ini

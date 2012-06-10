@@ -143,7 +143,7 @@ function x001100_OnEventRequest( sceneId, selfId, targetId, eventId )
 
 	--大理....
 	if arg == 1005 then
-		CallScriptFunction( (400900), "TransferFunc", sceneId, selfId, 2, 375, 227 )
+		CallScriptFunction( (400900), "TransferFunc", sceneId, selfId, 2, 252, 123 )
 		return
 	end
 	if arg == 1020 then		--潮京城

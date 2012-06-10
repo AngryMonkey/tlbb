@@ -1,0 +1,5 @@
+[System]
+navmapname=cangmang_1.nav
+monsterfile=cangmang_1_monster.ini
+patrolpoint=cangmang_1_patrolpoint.ini
+eventfile=cangmang_1_area.ini

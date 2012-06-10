@@ -1,0 +1,5 @@
+[System]
+navmapname=huanglongdong.nav
+monsterfile=huanglongdong_monster.ini
+patrolpoint=huanglongdong_patrolpoint.ini
+eventfile=huanglongdong_area.ini

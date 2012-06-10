@@ -1,0 +1,5 @@
+[System]
+navmapname=jianzhong.nav
+monsterfile=jianzhong_monster.ini
+patrolpoint=jianzhong_patrolpoint.ini
+eventfile=jianzhong_area.ini

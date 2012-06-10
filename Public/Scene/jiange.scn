@@ -1,0 +1,9 @@
+[System]
+navmapname=jiange.nav
+monsterfile=jiange_monster.ini
+patrolpoint=jiange_patrolpoint.ini
+growpointdata=jiange_growpoint.txt
+growpointsetup=jiange_growpointsetup.txt
+eventfile=jiange_area.ini
+petfile=jiange_pet.ini
+platformfile=jiange_platform.ini

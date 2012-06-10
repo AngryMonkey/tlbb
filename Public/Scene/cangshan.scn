@@ -1,0 +1,9 @@
+[System]
+navmapname=cangshan.nav
+monsterfile=cangshan_monster.ini
+patrolpoint=cangshan_patrolpoint.ini
+growpointdata=cangshan_growpoint.txt
+growpointsetup=cangshan_growpointsetup.txt
+eventfile=cangshan_area.ini
+petfile=cangshan_pet.ini
+platformfile=cangshan_platform.ini

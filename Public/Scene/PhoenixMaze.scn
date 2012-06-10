@@ -1,0 +1,7 @@
+[System]
+navmapname=PhoenixMaze.nav
+monsterfile=PhoenixMaze_monster.ini
+patrolpoint=PhoenixMaze_patrolpoint.ini
+growpointdata=PhoenixMaze_growpoint.txt
+growpointsetup=PhoenixMaze_growpointsetup.txt
+eventfile=PhoenixMaze_area.ini

@@ -1,0 +1,9 @@
+[System]
+navmapname=shaolin.nav
+monsterfile=shaolin_monster.ini
+patrolpoint=shaolin_patrolpoint.ini
+growpointdata=shaolin_growpoint.txt
+growpointsetup=shaolin_growpointsetup.txt
+eventfile=shaolin_area.ini
+petfile=shaolin_pet.ini
+platformfile=shaolin_platform.ini

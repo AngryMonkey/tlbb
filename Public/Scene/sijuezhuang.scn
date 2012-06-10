@@ -1,0 +1,8 @@
+[System]
+navmapname=sijuezhuang.nav
+monsterfile=sijuezhuang_monster.ini
+patrolpoint=sijuezhuang_patrolpoint.ini
+growpointdata=sijuezhuang_growpoint.txt
+growpointsetup=sijuezhuang_growpointsetup.txt
+eventfile=sijuezhuang_area.ini
+platformfile=sijuezhuang_platform.ini

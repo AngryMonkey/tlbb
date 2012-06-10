@@ -1,0 +1,8 @@
+[System]
+navmapname=zhulin.nav
+monsterfile=zhulin_monster.ini
+patrolpoint=zhulin_patrolpoint.ini
+growpointdata=zhulin_growpoint.txt
+growpointsetup=zhulin_growpointsetup.txt
+eventfile=zhulin_area.ini
+petfile=zhulin_pet.ini

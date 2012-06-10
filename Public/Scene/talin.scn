@@ -1,0 +1,8 @@
+[System]
+navmapname=talin.nav
+monsterfile=talin_monster.ini
+patrolpoint=talin_patrolpoint.ini
+growpointdata=talin_growpoint.txt
+growpointsetup=talin_growpointsetup.txt
+eventfile=talin_area.ini
+petfile=talin_pet.ini

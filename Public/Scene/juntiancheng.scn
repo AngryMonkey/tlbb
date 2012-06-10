@@ -1,0 +1,8 @@
+[System]
+navmapname=juntiancheng.nav
+monsterfile=juntiancheng_monster.ini
+patrolpoint=juntiancheng_patrolpoint.ini
+growpointdata=juntiancheng_growpoint.txt
+growpointsetup=juntiancheng_growpointsetup.txt
+eventfile=juntiancheng_area.ini
+platformfile=juntiancheng_platform.ini

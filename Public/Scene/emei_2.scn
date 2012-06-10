@@ -1,0 +1,5 @@
+[System]
+navmapname=emei_2.nav
+monsterfile=emei_2_monster.ini
+patrolpoint=emei_2_patrolpoint.ini
+eventfile=emei_2_area.ini

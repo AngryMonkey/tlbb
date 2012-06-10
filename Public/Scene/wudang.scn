@@ -1,0 +1,9 @@
+[System]
+navmapname=wudang.nav
+monsterfile=wudang_monster.ini
+patrolpoint=wudang_patrolpoint.ini
+growpointdata=wudang_growpoint.txt
+growpointsetup=wudang_growpointsetup.txt
+eventfile=wudang_area.ini
+petfile=wudang_pet.ini
+platformfile=wudang_platform.ini

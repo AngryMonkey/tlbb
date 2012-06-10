@@ -1,0 +1,9 @@
+[System]
+navmapname=emei.nav
+monsterfile=emei_monster.ini
+patrolpoint=emei_patrolpoint.ini
+growpointdata=emei_growpoint.txt
+growpointsetup=emei_growpointsetup.txt
+eventfile=emei_area.ini
+petfile=emei_pet.ini
+platformfile=emei_platform.ini

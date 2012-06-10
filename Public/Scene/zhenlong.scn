@@ -1,0 +1,8 @@
+[System]
+navmapname=zhenlong.nav
+monsterfile=zhenlong_monster.ini
+patrolpoint=zhenlong_patrolpoint.ini
+growpointdata=zhenlong_growpoint.txt
+growpointsetup=zhenlong_growpointsetup.txt
+eventfile=zhenlong_area.ini
+petfile=zhenlong_pet.ini

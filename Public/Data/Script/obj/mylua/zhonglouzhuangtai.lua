@@ -1,3 +1,5 @@
+--重楼状态领取、状态领取都可以用这个模式
+
 x889068_g_ScriptId = 889068
 
 --**********************************
@@ -23,7 +25,7 @@ end
 function x889068_OnDefaultEvent( sceneId, selfId,targetId )
 
 	local key = GetNumText()
-       if key == 100 then
+        if key == 100 then
 	BeginEvent(sceneId)
 		AddText(sceneId,"  #c00ff00请选择你自己佩带的装备的状态！！！")
 		AddNumText( sceneId, x889068_g_ScriptId, "领取:#c00ffff重楼戒#Y〖#G麻痹状态#Y〗",6,1 )

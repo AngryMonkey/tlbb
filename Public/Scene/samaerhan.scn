@@ -1,0 +1,8 @@
+[System]
+navmapname=samaerhan.nav
+monsterfile=samaerhan_monster.ini
+patrolpoint=samaerhan_patrolpoint.ini
+growpointdata=samaerhan_growpoint.txt
+growpointsetup=samaerhan_growpointsetup.txt
+eventfile=samaerhan_area.ini
+platformfile=samaerhan_platform.ini

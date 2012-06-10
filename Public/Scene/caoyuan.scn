@@ -1,0 +1,9 @@
+[System]
+navmapname=caoyuan.nav
+monsterfile=caoyuan_monster.ini
+patrolpoint=caoyuan_patrolpoint.ini
+growpointdata=caoyuan_growpoint.txt
+growpointsetup=caoyuan_growpointsetup.txt
+eventfile=caoyuan_area.ini
+petfile=caoyuan_pet.ini
+platformfile=caoyuan_platform.ini

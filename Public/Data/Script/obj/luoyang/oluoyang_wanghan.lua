@@ -123,7 +123,7 @@ function x000128_OnEventRequest( sceneId, selfId, targetId, eventId )
 		return
 	end
 	if arg == 1002 then		--¥Û¿Ì
-		CallScriptFunction( (400900), "TransferFunc", sceneId, selfId, 2, 241, 141 )
+		CallScriptFunction( (400900), "TransferFunc", sceneId, selfId, 2, 251, 123 )
 		return
 	end
 	if arg == 1006 then		--¬Â—Ù

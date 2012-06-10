@@ -1,0 +1,8 @@
+[System]
+navmapname=leitai_2.nav
+monsterfile=leitai_2_monster.ini
+patrolpoint=leitai_2_patrolpoint.ini
+growpointdata=leitai_2_growpoint.txt
+growpointsetup=leitai_2_growpointsetup.txt
+eventfile=leitai_2_area.ini
+petfile=leitai_2_pet.ini

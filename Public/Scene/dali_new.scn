@@ -1,0 +1,9 @@
+[System]
+navmapname=dali_new.nav
+monsterfile=dali_new_monster.ini
+patrolpoint=dali_new_patrolpoint.ini
+growpointdata=dali_new_growpoint.txt
+growpointsetup=dali_new_growpointsetup.txt
+eventfile=dali_new_area.ini
+platformfile=dali_new_platform.ini
+stallinfodata=dali_new_StallInfo.stall

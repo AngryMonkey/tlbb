@@ -1,0 +1,7 @@
+[System]
+navmapname=kunlunfudi.nav
+monsterfile=kunlunfudi_monster.ini
+patrolpoint=kunlunfudi_patrolpoint.ini
+growpointdata=kunlunfudi_growpoint.txt
+growpointsetup=kunlunfudi_growpointsetup.txt
+eventfile=kunlunfudi_area.ini

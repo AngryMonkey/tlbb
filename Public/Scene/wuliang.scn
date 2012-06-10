@@ -1,0 +1,9 @@
+[System]
+navmapname=wuliang.nav
+monsterfile=wuliang_monster.ini
+patrolpoint=wuliang_patrolpoint.ini
+growpointdata=wuliang_growpoint.txt
+growpointsetup=wuliang_growpointsetup.txt
+eventfile=wuliang_area.ini
+petfile=wuliang_pet.ini
+platformfile=wuliang_platform.ini

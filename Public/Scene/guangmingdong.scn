@@ -1,0 +1,8 @@
+[System]
+navmapname=guangmingdong.nav
+monsterfile=guangmingdong_monster.ini
+patrolpoint=guangmingdong_patrolpoint.ini
+growpointdata=guangmingdong_growpoint.txt
+growpointsetup=guangmingdong_growpointsetup.txt
+eventfile=guangmingdong_area.ini
+petfile=guangmingdong_pet.ini

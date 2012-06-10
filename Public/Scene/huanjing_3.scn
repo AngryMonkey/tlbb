@@ -1,0 +1,5 @@
+[System]
+navmapname=huanjing_3.nav
+monsterfile=huanjing_3_monster.ini
+patrolpoint=huanjing_3_patrolpoint.ini
+eventfile=huanjing_3_area.ini

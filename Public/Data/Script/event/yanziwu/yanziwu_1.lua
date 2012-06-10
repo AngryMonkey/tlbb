@@ -37,7 +37,7 @@ x401040_g_KillMonsCount_Lama		 = 22
 
 x401040_g_SkillSign = 23 	-- 公冶干、邓百川、包不同和风波恶 其中一个人死后，别人狂暴标记
 
--- 王语言开始点名的开关
+-- 王语嫣开始点名的开关
 x401040_g_bWangyuyanSpeak = 24
 x401040_g_bWangyuyanSpeak_T = 27
 
@@ -57,18 +57,18 @@ x401040_g_DuanAndWangFlag = 29
 x401040_g_CopySceneName = "燕子坞"
 x401040_g_CopySceneType = FUBEN_DAZHAN_YZW	--副本类型，定义在ScriptGlobal.lua里面
 x401040_g_CopySceneMap = "yanziwu.nav"
-x401040_g_LimitMembers = 1				--可以进副本的最小队伍人数
-x401040_g_TickTime = 1						--回调脚本的时钟时间（单位：秒/次）
-x401040_g_LimitTotalHoldTime = 360--副本可以存活的时间（单位：次数）,如果此时间到了，则任务将会失败
-x401040_g_LimitTimeSuccess = 500	--副本时间限制（单位：次数），如果此时间到了，任务完成
-x401040_g_CloseTick = 3						--副本关闭前倒计时（单位：次数）
-x401040_g_NoUserTime = 300				--副本中没有人后可以继续保存的时间（单位：秒）
-x401040_g_DeadTrans = 0						--死亡转移模式，0：死亡后还可以继续在副本，1：死亡后被强制移出副本
-x401040_g_Fuben_X = 177						--进入副本的位置X
-x401040_g_Fuben_Z = 234						--进入副本的位置Z
-x401040_g_Back_X = 70							--源场景位置X
-x401040_g_Back_Z = 120						--源场景位置Z
-x401040_g_Back_SceneId = 4				--源场景Id
+x401040_g_LimitMembers = 1			--可以进副本的最小队伍人数
+x401040_g_TickTime = 1				--回调脚本的时钟时间（单位：秒/次）
+x401040_g_LimitTotalHoldTime = 360		--副本可以存活的时间（单位：次数）,如果此时间到了，则任务将会失败
+x401040_g_LimitTimeSuccess = 500		--副本时间限制（单位：次数），如果此时间到了，任务完成
+x401040_g_CloseTick = 3				--副本关闭前倒计时（单位：次数）
+x401040_g_NoUserTime = 300			--副本中没有人后可以继续保存的时间（单位：秒）
+x401040_g_DeadTrans = 0				--死亡转移模式，0：死亡后还可以继续在副本，1：死亡后被强制移出副本
+x401040_g_Fuben_X = 177				--进入副本的位置X
+x401040_g_Fuben_Z = 234				--进入副本的位置Z
+x401040_g_Back_X = 70				--源场景位置X
+x401040_g_Back_Z = 120				--源场景位置Z
+x401040_g_Back_SceneId = 4			--源场景Id
 
 x401040_g_Npc_1 = {	
 -- 宋军士兵
@@ -117,14 +117,14 @@ x401040_g_Npc_1 = {
 
 -- 呼延庆 呼延豹
 x401040_g_Npc_2 = {	{id=9200,x=177,y=232,script=402240,camp=0,ai=3,af=-1},
-									 	{id=9220,x=79, y=202,script=402241,camp=109,ai=21,af=220}
+		 	{id=9220,x=79, y=202,script=402241,camp=109,ai=21,af=220}
 }
 
 -- 呼延庆身后有对话的宋兵
 x401040_g_Npc_2_1={	{id=9210,x=171,y=236,camp=109,ai=21,af=222,script=402262},
-										{id=9210,x=175,y=236,camp=109,ai=21,af=222,script=402262},
-										{id=9210,x=179,y=236,camp=109,ai=21,af=222,script=402262},
-										{id=9210,x=183,y=236,camp=109,ai=21,af=222,script=402262},
+			{id=9210,x=175,y=236,camp=109,ai=21,af=222,script=402262},
+			{id=9210,x=179,y=236,camp=109,ai=21,af=222,script=402262},
+			{id=9210,x=183,y=236,camp=109,ai=21,af=222,script=402262},
 }
 
 -- 岳老三
@@ -133,15 +133,15 @@ x401040_g_Npc_3 = {	{id=9340,	x=81,y=197,	script=402242,camp=110,ai=21,af=227}
 
 -- 岳老三 附带的小怪 (一品堂武士)
 x401040_g_Npc_3_1={	{id=9240,x=79,y=195,camp=110,ai=21,af=226},
-										{id=9240,x=77,y=207,camp=110,ai=21,af=226},
-										{id=9240,x=82,y=195,camp=110,ai=21,af=226},
-										{id=9240,x=86,y=206,camp=110,ai=21,af=226},
+			{id=9240,x=77,y=207,camp=110,ai=21,af=226},
+			{id=9240,x=82,y=195,camp=110,ai=21,af=226},
+			{id=9240,x=86,y=206,camp=110,ai=21,af=226},
 }
 
 -- 叶二娘 云中鹤
 x401040_g_Npc_4 = {	{id=9330,x=77,y=195,script=402244,camp=110,ai=21,af=228},
-										{id=9350,x=83,y=198,script=402243,camp=110,ai=21,af=229},
-}                                                
+			{id=9350,x=83,y=198,script=402243,camp=110,ai=21,af=229},
+}                                         
                                                  
 -- 段延庆
 x401040_g_Npc_5 = {	{id=9320,x=81,y=195,script=402245,camp=110,ai=21,af=230},
@@ -149,67 +149,66 @@ x401040_g_Npc_5 = {	{id=9320,x=81,y=195,script=402245,camp=110,ai=21,af=230},
 
 -- 钱宏宇 华赫艮
 x401040_g_Npc_6 = {	{id=9230,x=217,y=150,script=402246,camp=109,ai=21,af=221},
-										{id=9480,x=179,y=91	,script=402249,camp=0,ai=3,af=-1},
+			{id=9480,x=179,y=91,script=402249,camp=0,ai=3,af=-1},
 }
 
 -- 可以由玩家修理的连弩塔
 x401040_g_Npc_7 = {	{id=9290,x=210,y=155,script=402247, name="前",camp=0,ai=3,af=-1},
-										{id=9290,x=225,y=138,script=402247, name="后",camp=0,ai=3,af=-1},
-										{id=9300,x=225,y=155,script=402247, name="",camp=0,ai=3,af=-1},
-										{id=9310,x=209,y=138,script=402247, name="",camp=0,ai=3,af=-1},
+			{id=9290,x=225,y=138,script=402247, name="后",camp=0,ai=3,af=-1},
+			{id=9300,x=225,y=155,script=402247, name="",camp=0,ai=3,af=-1},
+			{id=9310,x=209,y=138,script=402247, name="",camp=0,ai=3,af=-1},
 }
 
 -- 和 呼延豹 对话后，不断输出的小怪 (一品堂武士)
 x401040_g_Npc_8 = {	{id=9240,x=79,y=195,script=-1,camp=110,ai=21,af=226},
-										{id=9240,x=77,y=207,script=-1,camp=110,ai=21,af=226},
-										{id=9240,x=82,y=195,script=-1,camp=110,ai=21,af=226},
-										{id=9240,x=86,y=206,script=-1,camp=110,ai=21,af=226},
+			{id=9240,x=77,y=207,script=-1,camp=110,ai=21,af=226},
+			{id=9240,x=82,y=195,script=-1,camp=110,ai=21,af=226},
+			{id=9240,x=86,y=206,script=-1,camp=110,ai=21,af=226},
 }
 
 -- 和钱宏宇对话后，不断刷出的小怪
 x401040_g_Npc_9 = {	{id=9250,x=233,y=214,script=402258,pp=0,camp=110,ai=21,af=231},
-										{id=9250,x=236,y=214,script=402258,pp=1,camp=110,ai=21,af=231},
-										{id=9250,x=235,y=217,script=402258,pp=2,camp=110,ai=21,af=231},
-										{id=9250,x=238,y=216,script=402258,pp=3,camp=110,ai=21,af=231},
-										{id=9250,x=237,y=219,script=402258,pp=4,camp=110,ai=21,af=231},
+			{id=9250,x=236,y=214,script=402258,pp=1,camp=110,ai=21,af=231},
+			{id=9250,x=235,y=217,script=402258,pp=2,camp=110,ai=21,af=231},
+			{id=9250,x=238,y=216,script=402258,pp=3,camp=110,ai=21,af=231},
+			{id=9250,x=237,y=219,script=402258,pp=4,camp=110,ai=21,af=231},
 }
 
 -- 木人傀儡在 双数次刷
 x401040_g_Npc_9_1={	{id=9530,x=237,y=219,script=402259,pp=4,camp=110,ai=21,af=233}}
 
 -- 青城派弟子，在50到100刷出
-x401040_g_Npc_9_2 = {	
-										{id=9260,x=233,y=214,script=402257,pp=0,camp=110,ai=21,af=232},
-										{id=9260,x=236,y=214,script=402257,pp=1,camp=110,ai=21,af=232},
-										{id=9260,x=235,y=217,script=402257,pp=2,camp=110,ai=21,af=232},
-										{id=9260,x=238,y=216,script=402257,pp=3,camp=110,ai=21,af=232},
-										{id=9260,x=237,y=219,script=402257,pp=4,camp=110,ai=21,af=232},
+x401040_g_Npc_9_2 = {	{id=9260,x=233,y=214,script=402257,pp=0,camp=110,ai=21,af=232},
+			{id=9260,x=236,y=214,script=402257,pp=1,camp=110,ai=21,af=232},
+			{id=9260,x=235,y=217,script=402257,pp=2,camp=110,ai=21,af=232},
+			{id=9260,x=238,y=216,script=402257,pp=3,camp=110,ai=21,af=232},
+			{id=9260,x=237,y=219,script=402257,pp=4,camp=110,ai=21,af=232},
 }
 
 -- 和钱宏宇对话后，不断刷出的 吐蕃喇嘛
 x401040_g_Npc_10= {	{id=9270,x=233,y=214,script=402260,pp=0,camp=110,ai=21,af=234},
-										{id=9270,x=236,y=214,script=402260,pp=1,camp=110,ai=21,af=234},
-										{id=9270,x=235,y=217,script=402260,pp=2,camp=110,ai=21,af=234},
-										{id=9270,x=238,y=216,script=402260,pp=2,camp=110,ai=21,af=234},
-										{id=9270,x=237,y=219,script=402260,pp=2,camp=110,ai=21,af=234},
+			{id=9270,x=236,y=214,script=402260,pp=1,camp=110,ai=21,af=234},
+			{id=9270,x=235,y=217,script=402260,pp=2,camp=110,ai=21,af=234},
+			{id=9270,x=238,y=216,script=402260,pp=2,camp=110,ai=21,af=234},
+			{id=9270,x=237,y=219,script=402260,pp=2,camp=110,ai=21,af=234},
 }
 
 -- 和钱宏宇对话后，姚伯当,司马林,鸠摩智 （鸠摩智 有脚本）
 x401040_g_Npc_11= {	{id=9360,x=233,y=214,script=402248,pp=0,camp=110,ai=21,af=235},
-										{id=9370,x=233,y=214,script=402248,pp=0,camp=110,ai=21,af=236},
-										{id=9380,x=233,y=214,script=402248,pp=0,camp=110,ai=21,af=237},
+			{id=9370,x=233,y=214,script=402248,pp=0,camp=110,ai=21,af=236},
+			{id=9380,x=233,y=214,script=402248,pp=0,camp=110,ai=21,af=237},
 }
 
 -- 公冶干 邓百川 包不同 风波恶
 --x401040_g_Npc_12= {	{id=9390,x=130,y=112,script=402250,camp=110,ai=21,af=240},
---										{id=9400,x=126,y=109,script=402251,camp=110,ai=21,af=241},
---										{id=9410,x=126,y=112,script=402252,camp=110,ai=21,af=242},
---										{id=9420,x=126,y=115,script=402253,camp=110,ai=21,af=243},
+--			{id=9400,x=126,y=109,script=402251,camp=110,ai=21,af=241},
+--			{id=9410,x=126,y=112,script=402252,camp=110,ai=21,af=242},
+--			{id=9420,x=126,y=115,script=402253,camp=110,ai=21,af=243},
 --}
 x401040_g_Npc_12= {	{id=9390,x=130,y=112,script=402250,camp=110,ai=21,af=241},
-										{id=9400,x=126,y=109,script=402251,camp=110,ai=21,af=241},
-										{id=9410,x=126,y=112,script=402252,camp=110,ai=21,af=241},
-										{id=9420,x=126,y=115,script=402253,camp=110,ai=21,af=241},
+			{id=9400,x=126,y=109,script=402251,camp=110,ai=21,af=241},
+			{id=9410,x=126,y=112,script=402252,camp=110,ai=21,af=241},
+			{id=9420,x=126,y=115,script=402253,camp=110,ai=21,af=241},
 }
 
 -- 慕容复
@@ -218,13 +217,13 @@ x401040_g_Npc_13 ={	{id=9430,x=63,y=67,	script=402254,camp=110,ai=25,af=244},
 
 -- 王姑娘，段誉 等人
 x401040_g_Npc_14= {	{id=9450,x=76,y=67,	script=402255,camp=0,ai=26,af=-1},
-										{id=9440,x=76,y=64,	script=402256,camp=0,ai=27,af=245},
-										{id=9460,x=79,y=70,	script=402249,camp=0,ai=27,af=247},
-										{id=9470,x=79,y=69,	script=402249,camp=0,ai=27,af=248},
-										{id=9490,x=79,y=68,	script=402249,camp=0,ai=27,af=249},
-										{id=9500,x=79,y=67,	script=402249,camp=0,ai=27,af=250},
-										{id=9510,x=79,y=66,	script=402249,camp=0,ai=27,af=251},
-										{id=9520,x=79,y=65,	script=402249,camp=0,ai=27,af=252},
+			{id=9440,x=76,y=64,	script=402256,camp=0,ai=27,af=245},
+			{id=9460,x=79,y=70,	script=402249,camp=0,ai=27,af=247},
+			{id=9470,x=79,y=69,	script=402249,camp=0,ai=27,af=248},
+			{id=9490,x=79,y=68,	script=402249,camp=0,ai=27,af=249},
+			{id=9500,x=79,y=67,	script=402249,camp=0,ai=27,af=250},
+			{id=9510,x=79,y=66,	script=402249,camp=0,ai=27,af=251},
+			{id=9520,x=79,y=65,	script=402249,camp=0,ai=27,af=252},
 }
 
 -- 和慕容复开战后的 燕子坞庄丁 开怪后不断刷出的家丁
@@ -312,8 +311,8 @@ function x401040_OnDefaultEvent( sceneId, selfId, targetId )
 		end
 	end
 
-	-- 每天只能3次
--- MD_YANZIWU_TIMES			=	195  -- 每天进入燕子坞的次数
+-- 每天只能3次
+-- MD_YANZIWU_TIMES		=	195  -- 每天进入燕子坞的次数
 -- MD_PRE_YANZIWU_TIME		=	196  -- 上一次去燕子坞的时间
 
 	local strName = {}

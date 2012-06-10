@@ -1,0 +1,5 @@
+[System]
+navmapname=takelamagan.nav
+monsterfile=takelamagan_monster.ini
+patrolpoint=takelamagan_patrolpoint.ini
+eventfile=takelamagan_area.ini

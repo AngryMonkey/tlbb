@@ -1,0 +1,9 @@
+[System]
+navmapname=xiaoyao.nav
+monsterfile=xiaoyao_monster.ini
+patrolpoint=xiaoyao_patrolpoint.ini
+growpointdata=xiaoyao_growpoint.txt
+growpointsetup=xiaoyao_growpointsetup.txt
+eventfile=xiaoyao_area.ini
+petfile=xiaoyao_pet.ini
+platformfile=xiaoyao_platform.ini

@@ -1,0 +1,5 @@
+[System]
+navmapname=prison.nav
+monsterfile=prison_monster.ini
+patrolpoint=prison_patrolpoint.ini
+eventfile=prison_area.ini

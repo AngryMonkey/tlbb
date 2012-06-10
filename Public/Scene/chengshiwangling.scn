@@ -1,0 +1,8 @@
+[System]
+navmapname=chengshiwangling.nav
+monsterfile=chengshiwangling_monster.ini
+patrolpoint=chengshiwangling_patrolpoint.ini
+growpointdata=chengshiwangling_growpoint.txt
+growpointsetup=chengshiwangling_growpointsetup.txt
+eventfile=chengshiwangling_area.ini
+platformfile=chengshiwangling_platform.ini

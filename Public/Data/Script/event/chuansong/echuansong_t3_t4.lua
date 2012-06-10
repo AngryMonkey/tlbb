@@ -1,6 +1,6 @@
 --玩家进入一个 area 时触发
 function x400308_OnEnterArea( sceneId, selfId )
-	CallScriptFunction((400900), "TransferFunc",sceneId, selfId, 547,258,314)
+	CallScriptFunction((400900), "TransferFunc",sceneId, selfId, 547,258,300)
 end
 
 --玩家在一个 area 呆了一段时间没走则定时触发

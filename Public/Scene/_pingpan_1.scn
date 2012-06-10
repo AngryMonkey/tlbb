@@ -1,0 +1,8 @@
+[System]
+navmapname=_pingpan_1.nav
+monsterfile=_pingpan_1_monster.ini
+patrolpoint=_pingpan_1_patrolpoint.ini
+growpointdata=_pingpan_1_growpoint.txt
+growpointsetup=_pingpan_1_growpointsetup.txt
+eventfile=_pingpan_1_area.ini
+petfile=_pingpan_1_pet.ini

@@ -1,0 +1,5 @@
+[System]
+navmapname=PCity.nav
+monsterfile=PCity_monster_yannanzhengnan.ini
+patrolpoint=PCity_patrolpoint.ini
+eventfile=PCity_area.ini

@@ -11,7 +11,6 @@ x889071_g_scriptId = 889071
 function x889071_UpdateEventList( sceneId, selfId,targetId )
 	BeginEvent(sceneId)
 	AddText( sceneId, "  #e0e8de5#Y一键#W打孔#G(#cFF0000强化#G)#G说明：" )	
-
 	AddText( sceneId, "  #Y将#G打孔#G(#cFF0000强化#G)的装备#G全部放在#cFF0000包裹内" )
 	AddText( sceneId, "  #G然后#W您只需要#G点击#Y打孔#G(#cFF0000强化#G)#cFF0000即可" )
 	AddText( sceneId, "  #Y装备#W打孔#G(#cFF0000强化#G)数，一键即可实现背包全部装备3孔。" )
@@ -54,10 +53,10 @@ function x889071_OnEventRequest( sceneId, selfId, targetId, eventId )
 	elseif GetNumText() == 100 then
 		local	tEquipGemTable	= { 0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 14, 15, 16, 17, 18 }
 
-		local	Bore_Count			= GetBagGemCount( sceneId, selfId, 0 )
-		local nLevel					= GetBagItemLevel( sceneId, selfId, 0 )
+		local Bore_Count			= GetBagGemCount( sceneId, selfId, 0 )
+		local nLevel				= GetBagItemLevel( sceneId, selfId, 0 )
 		local EquipType				= LuaFnGetBagEquipType( sceneId, selfId, 0 )
-		local find						= 0
+		local find				= 0
 			for i, gem in tEquipGemTable do
 				if gem == EquipType then
 					find = 1

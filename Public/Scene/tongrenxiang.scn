@@ -1,0 +1,8 @@
+[System]
+navmapname=tongrenxiang.nav
+monsterfile=tongrenxiang_monster.ini
+patrolpoint=tongrenxiang_patrolpoint.ini
+growpointdata=tongrenxiang_growpoint.txt
+growpointsetup=tongrenxiang_growpointsetup.txt
+eventfile=tongrenxiang_area.ini
+petfile=tongrenxiang_pet.ini

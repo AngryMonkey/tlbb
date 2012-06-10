@@ -1,0 +1,9 @@
+[System]
+navmapname=liaoxi.nav
+monsterfile=liaoxi_monster.ini
+patrolpoint=liaoxi_patrolpoint.ini
+growpointdata=liaoxi_growpoint.txt
+growpointsetup=liaoxi_growpointsetup.txt
+eventfile=liaoxi_area.ini
+petfile=liaoxi_pet.ini
+platformfile=liaoxi_platform.ini

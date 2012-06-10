@@ -1,0 +1,5 @@
+[System]
+navmapname=bianguan_1.nav
+monsterfile=bianguan_1_monster.ini
+patrolpoint=bianguan_1_patrolpoint.ini
+eventfile=bianguan_1_area.ini

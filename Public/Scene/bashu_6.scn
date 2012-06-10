@@ -1,0 +1,7 @@
+[System]
+navmapname=bashu_6.nav
+monsterfile=bashu_6_monster.ini
+patrolpoint=bashu_6_patrolpoint.ini
+growpointdata=bashu_6_growpoint.txt
+growpointsetup=bashu_6_growpointsetup.txt
+eventfile=bashu_6_area.ini

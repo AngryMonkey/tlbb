@@ -1,0 +1,8 @@
+[System]
+navmapname=lingxingfeng.nav
+monsterfile=lingxingfeng_monster.ini
+patrolpoint=lingxingfeng_patrolpoint.ini
+growpointdata=lingxingfeng_growpoint.txt
+growpointsetup=lingxingfeng_growpointsetup.txt
+eventfile=lingxingfeng_area.ini
+petfile=lingxingfeng_pet.ini

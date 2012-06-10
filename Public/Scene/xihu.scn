@@ -1,0 +1,10 @@
+[System]
+navmapname=xihu.nav
+monsterfile=xihu_monster.ini
+portalfile=xihu_portal.ini
+platformfile=xihu_platform.ini
+patrolpoint=xihu_patrolpoint.ini
+growpointdata=xihu_growpoint.txt
+growpointsetup=xihu_growpointsetup.txt
+eventfile=xihu_area.ini
+petfile=xihu_pet.ini

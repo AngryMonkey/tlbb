@@ -1,0 +1,8 @@
+[System]
+navmapname=zhenshoulan.nav
+monsterfile=zhenshoulan_monster.ini
+patrolpoint=zhenshoulan_patrolpoint.ini
+growpointdata=zhenshoulan_growpoint.txt
+growpointsetup=zhenshoulan_growpointsetup.txt
+eventfile=zhenshoulan_area.ini
+petfile=zhenshoulan_pet.ini

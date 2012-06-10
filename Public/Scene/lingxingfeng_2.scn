@@ -1,0 +1,5 @@
+[System]
+navmapname=lingxingfeng_2.nav
+monsterfile=lingxingfeng_2_monster.ini
+patrolpoint=lingxingfeng_2_patrolpoint.ini
+eventfile=lingxingfeng_2_area.ini

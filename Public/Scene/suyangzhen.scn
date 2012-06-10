@@ -1,0 +1,8 @@
+[System]
+navmapname=suyangzhen.nav
+monsterfile=suyangzhen_monster.ini
+patrolpoint=suyangzhen_patrolpoint.ini
+growpointdata=suyangzhen_growpoint.txt
+growpointsetup=suyangzhen_growpointsetup.txt
+eventfile=suyangzhen_area.ini
+platformfile=suyangzhen_platform.ini

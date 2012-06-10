@@ -1,0 +1,8 @@
+[System]
+navmapname=BattleField.nav
+monsterfile=BattleField_monster.ini
+patrolpoint=BattleField_patrolpoint.ini
+growpointdata=BattleField_growpoint.txt
+growpointsetup=BattleField_growpointsetup.txt
+eventfile=BattleField_area.ini
+platformfile=BattleField_platform.ini

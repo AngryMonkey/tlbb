@@ -1,0 +1,8 @@
+[System]
+navmapname=muxue.nav
+monsterfile=muxue_monster.ini
+patrolpoint=muxue_patrolpoint.ini
+growpointdata=muxue_growpoint.txt
+growpointsetup=muxue_growpointsetup.txt
+eventfile=muxue_area.ini
+petfile=muxue_pet.ini

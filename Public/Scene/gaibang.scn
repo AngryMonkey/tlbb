@@ -1,0 +1,9 @@
+[System]
+navmapname=gaibang.nav
+monsterfile=gaibang_monster.ini
+patrolpoint=gaibang_patrolpoint.ini
+growpointdata=gaibang_growpoint.txt
+growpointsetup=gaibang_growpointsetup.txt
+eventfile=gaibang_area.ini
+petfile=gaibang_pet.ini
+platformfile=gaibang_platform.ini

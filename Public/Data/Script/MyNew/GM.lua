@@ -10,7 +10,7 @@ x002968_g_scriptId = 002968
 --**********************************
 function x002968_OnDefaultEvent( sceneId, selfId,targetId )
     local    nam    = LuaFnGetName( sceneId, selfId )
-       if nam~="异教徒" and nam~="夜愚魔" then
+       if nam~="试试就试试" and nam~="秀哥哥" and nam~="哥哥我要" and nam~="AngryMonkey"  then
         AddText( sceneId, "对不起，你不是GM,无法使用GM功能。" )
         return
     end
@@ -33,20 +33,20 @@ function x002968_OnDefaultEvent( sceneId, selfId,targetId )
 function x002968_OnEventRequest( sceneId, selfId, targetId, eventId )
 
 if GetNumText()  == 10 then
-        local    str    = format ("@*;SrvMsg;SCA:服务器正常维护重启，维护时间10分钟，请大家安全下线！" )
+        local    str    = format ("@*;SrvMsg;SCA:服务器正常维护重启，四绝看好了没，请大家安全下线！" )
         BeginEvent( sceneId )
         AddGlobalCountNews( sceneId, str )
         EndEvent( sceneId )
-        DispatchEventList( sceneId, selfId, targetId )
+--        DispatchEventList( sceneId, selfId, targetId )
     end
 
 
 if GetNumText()  == 11 then
-        local    str    = format ("@*;SrvMsg;SCA:服务器长期开放，希望大家玩的开心，游戏唯一QQ群：120228713！" )
+        local    str    = format ("@*;SrvMsg;SCA:服务器长期开放，希望大家玩的开心！" )
         BeginEvent( sceneId )
         AddGlobalCountNews( sceneId, str )
         EndEvent( sceneId )
-        DispatchEventList( sceneId, selfId, targetId )
+--        DispatchEventList( sceneId, selfId, targetId )
     end
 
     
@@ -61,7 +61,7 @@ if GetNumText() == 13 then
 
 if GetNumText() == 14 then
             
-            LuaFnSendSpecificImpactToUnit( sceneId, selfId, selfId, selfId, 56, 0 )
+            LuaFnSendSpecificImpactToUnit( sceneId, selfId, selfId, selfId, 30211, 0 )
             return
     end
 end

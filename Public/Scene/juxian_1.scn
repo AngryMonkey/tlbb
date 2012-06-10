@@ -1,0 +1,5 @@
+[System]
+navmapname=juxian_1.nav
+monsterfile=juxian_1_monster.ini
+patrolpoint=juxian_1_patrolpoint.ini
+eventfile=juxian_1_area.ini

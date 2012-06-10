@@ -1,0 +1,8 @@
+[System]
+navmapname=tadi.nav
+monsterfile=tadi_monster.ini
+patrolpoint=tadi_patrolpoint.ini
+growpointdata=tadi_growpoint.txt
+growpointsetup=tadi_growpointsetup.txt
+eventfile=tadi_area.ini
+petfile=tadi_pet.ini

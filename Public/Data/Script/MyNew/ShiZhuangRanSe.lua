@@ -40,12 +40,12 @@ function x830001_OnDressPaint( sceneId, selfId,pos)
 			x830001_NotifyTip( sceneId, selfId, "金钱不足" )
 			return
 		end
-		--if LuaFnGetAvailableItemCount(sceneId, selfId, 30503140) < 1 then
-			--x830001_NotifyTip( sceneId, selfId, "缺少材料：虹耀石" )
-			--return
-		--end
+		if LuaFnGetAvailableItemCount(sceneId, selfId, 30503140) < 1 then
+			x830001_NotifyTip( sceneId, selfId, "缺少材料：虹耀石" )
+			return
+		end
 		local i=random(1,8)
-		--LuaFnDelAvailableItem(sceneId,selfId,30503140,1)
+		LuaFnDelAvailableItem(sceneId,selfId,30503140,1)
 		LuaFnDelAvailableItem(sceneId,selfId,nItemId,1)
 		BeginAddItem(sceneId)
 			AddItem( sceneId, myShiZhuang[i], 1 )

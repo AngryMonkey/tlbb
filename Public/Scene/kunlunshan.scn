@@ -1,0 +1,7 @@
+[System]
+navmapname=kunlunshan.nav
+monsterfile=kunlunshan_monster.ini
+patrolpoint=kunlunshan_patrolpoint.ini
+growpointdata=kunlunshan_growpoint.txt
+growpointsetup=kunlunshan_growpointsetup.txt
+eventfile=kunlunshan_area.ini

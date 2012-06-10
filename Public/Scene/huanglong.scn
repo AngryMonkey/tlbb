@@ -1,0 +1,9 @@
+[System]
+navmapname=huanglong.nav
+monsterfile=huanglong_monster.ini
+patrolpoint=huanglong_patrolpoint.ini
+growpointdata=huanglong_growpoint.txt
+growpointsetup=huanglong_growpointsetup.txt
+eventfile=huanglong_area.ini
+petfile=huanglong_pet.ini
+platformfile=huanglong_platform.ini

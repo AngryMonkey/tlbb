@@ -1,0 +1,8 @@
+[System]
+navmapname=piaomiao.nav
+monsterfile=piaomiao_monster.ini
+patrolpoint=piaomiao_patrolpoint.ini
+growpointdata=piaomiao_growpoint.txt
+growpointsetup=piaomiao_growpointsetup.txt
+eventfile=piaomiao_area.ini
+petfile=piaomiao_pet.ini
